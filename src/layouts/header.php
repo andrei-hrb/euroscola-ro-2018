@@ -1,7 +1,13 @@
 <?php
 
 echo '
-<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-5">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+<div class="container"> 
+ <a class="navbar-brand order-1 mr-0" href=><img src="my-icons-collection/png/003-united-kingdom.png"</a> 
+ <a class="navbar-brand order-1 mr-0 mx-1" href=>EN</a>
+<a class="navbar-brand order-1 mr-0 mx-1" href=><img src="my-icons-collection/png/001-flag.png"</a>
+ <a class="navbar-brand order-1 mr-0" href=>FR</a>
+
 <a class="navbar-brand" href="#">Project</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04"
 	 aria-expanded="false" aria-label="Toggle navigation">
