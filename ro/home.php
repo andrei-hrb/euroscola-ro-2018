@@ -1,4 +1,4 @@
-<html lang="ro">
+<html lang='ro'>
 <head>
 	<?php include('../src/layouts/head.php');?>
 	<title>Romania</title>

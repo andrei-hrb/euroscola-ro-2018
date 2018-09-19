@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang='en'>
 <head>
 	<?php include('../src/layouts/head.php');?>
 	<title>English</title>

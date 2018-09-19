@@ -1,4 +1,4 @@
-<html lang="fr">
+<html lang='fr'>
 <head>
 	<?php include('../src/layouts/head.php');?>
 	<title>France</title>
