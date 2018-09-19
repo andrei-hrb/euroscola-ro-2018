@@ -22,7 +22,7 @@ img.selected {
 	border-radius: 100%;
 }
 
-a {
+a.flag {
 	color: transparent !important;
 }
 
