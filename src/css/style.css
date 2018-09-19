@@ -25,3 +25,8 @@ img.selected {
 a {
 	color: transparent !important;
 }
+
+img.logo {
+	width:112.5px;
+	height:43px;
+}

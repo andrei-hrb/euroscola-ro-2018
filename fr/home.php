@@ -4,8 +4,8 @@
 	<title>France</title>
 </head>
 <body>
-	<?php include('layouts/header.php');?>
-	<?php include('layouts/footer.php');?>
+	<?php include('layouts/header_fr.php');?>
+	<?php include('layouts/footer_fr.php');?>
 
 	<?php include('../src/layouts/scripts.php');?>
 </body>
