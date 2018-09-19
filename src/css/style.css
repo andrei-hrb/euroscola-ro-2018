@@ -21,3 +21,7 @@ img.selected {
 	border-color: greenyellow;
 	border-radius: 100%;
 }
+
+a {
+	color: transparent !important;
+}
