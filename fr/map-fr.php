@@ -41,7 +41,7 @@
 					for (let i = 0; i < markerPos.length; i++) {
 						markers[i] =  L.marker([markerPos[i].x, markerPos[i].y]).addTo(mymap);
 						markers[i].on('click', () => {
-							window.location.href="map-ro.php?index=" + i
+							window.location.href="map-fr.php?index=" + i
 						});
 					}
 					
