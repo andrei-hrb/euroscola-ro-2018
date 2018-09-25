@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-5">
 	<a class="navbar-brand" href="#"><img src="../assets/img/logo.png" class="logo"></a>
 
-	<a href="map-en.php?index=0"> map </a>
+	
 
 	<div class="ml-auto">
 	<a class="flag" href="../fr/home-fr.php">
