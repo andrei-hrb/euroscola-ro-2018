@@ -4,7 +4,7 @@ img.flag {
 	margin:0.5rem;
 }
 
-img.resize2 {
+img.resize {
 	height: 30rem;
 	width: 100rem;
 }
@@ -27,7 +27,7 @@ img.selected {
 	border-radius: 100%;
 }
 
-a.flag {
+a.flagLink {
 	color: transparent !important;
 }
 
