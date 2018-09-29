@@ -1,12 +1,12 @@
-img.resize {
-	width:20px;
-	height:20px;
-	margin:10px;
+img.flag {
+	width:1.38rem;
+	height:1.38rem;
+	margin:0.5rem;
 }
 
 img.resize2 {
-	height: 400px;
-	width: 1500px;
+	height: 30rem;
+	width: 100rem;
 }
 
 img.flag:hover {
