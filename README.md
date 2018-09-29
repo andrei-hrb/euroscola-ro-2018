@@ -7,5 +7,6 @@ how to run this project:
   4. go to your browser and type 'localhost:8000' in the searching box
 
 ## features:
- 1. multilang
- 2. maps and stuff - try it
+ 1. somehow cleaver, somehow shitty php methods for multilang
+ 2. maps and stuff - leafet
+ 3. hating the facebook plugin for being so inestetic
