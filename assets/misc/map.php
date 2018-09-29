@@ -25,7 +25,7 @@
     					accessToken: 'pk.eyJ1IjoiZXRoYW53ZXN0aWNrIiwiYSI6ImNqbWM5dnVzMzFyNWwzcGxrcWM4dDJqYXMifQ.PW-7Jf_2icBH59RJ1js7UQ'
 					}).addTo(mymap);
  		 			L.marker([46.25321, 26.77684]).addTo(mymap)
-    	 			.bindPopup('Colegiul National "Dimitre Cantemir"')
+    	 			.bindPopup('Colegiul Național "Dimitrie Cantemir"')
     	 			.openPopup();
 					
 					

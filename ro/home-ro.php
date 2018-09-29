@@ -5,6 +5,7 @@
 </head>
 <body>
 	<?php include("layouts/header-ro.php");?>
+	<?php include("../assets/misc/carousel.php");?>
 	<?php include("layouts/footer-ro.php");?>
 
 	<?php include("../assets/misc/scripts.php");?>

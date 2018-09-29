@@ -4,7 +4,12 @@ img.resize {
 	margin:10px;
 }
 
-img:hover {
+img.resize2 {
+	height: 400px;
+	width: 1500px;
+}
+
+img.flag:hover {
 	width:30px;
 	height:30px;
 	-o-transition:.5s;
@@ -27,10 +32,11 @@ a.flag {
 }
 
 img.logo {
-	width:112.5px;
-	height:43px;
+	width:200px;
+	height:50px;
 }
 
 #mapid { 
-	height: 500px;
+	height: 250px;
+	width: 500px;
 }

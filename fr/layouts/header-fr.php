@@ -1,8 +1,6 @@
 <?php echo '
-<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-5">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
 	<a class="navbar-brand" href="#"><img src="../assets/img/logo.png" class="logo"></a>
-
-
 
 	<div class="ml-auto">
 	<a class="flag selectedFr" href="#">
