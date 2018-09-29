@@ -5,6 +5,8 @@ how to run this project:
   2. open terminal and cd to the project folder
   3. run 'php -S localhost:8000'
   4. go to your browser and type 'localhost:8000' in the searching box
+  
+or be lazy and just press the heroku link from above
 
 ## features:
  1. somehow cleaver, somehow shitty php methods for multilang
