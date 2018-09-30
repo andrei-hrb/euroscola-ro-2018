@@ -2,15 +2,24 @@
 <html>
 <head>
 	<?php include ("assets/misc/html/head.php"); ?>
-	<title> <?= $home . ' ' . $title ?></title>
+	<title> <?= $title ?></title>
 </head>
 <body>
 	<?php include ("assets/misc/navbar/navbar.php"); ?>
-
-	<?php include ("posts/carousel.php"); ?>
-
-	<a href="../template-for-post.php/?lang=<?=$lang?>">Link to a nice post</a>
 	
+
+	<div class="container my-5">
+		<div class="row">
+			<div class="col-8">
+				<h2><?$title?></h2>
+				<hr>
+
+			</div>
+			<div class="col-4">
+				
+			</div>
+		</div>
+	</div>
 
 	<?php include ("assets/misc/footer/footer.php"); ?>
 	<?php include ("assets/misc/html/scripts.php"); ?>

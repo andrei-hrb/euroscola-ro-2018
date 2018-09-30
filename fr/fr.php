@@ -14,10 +14,10 @@ $title = "- Explore with us";
 //Navbar
 
 //Navbar -> links
-$home = "Housé";
-$about = "Abouté";
-$cantemir = "D. Cantemiré";
-$team = "Teamè";
+$home = "Maison";
+$about = "À propos de nous";
+$cantemir = "Notre collège";
+$team = "Équipe";
 
 //Navbar -> flags -> dnt
 $frFlag = "selected";
