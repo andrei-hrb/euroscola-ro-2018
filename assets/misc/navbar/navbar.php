@@ -2,7 +2,7 @@
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
 	<!-- logo -->
-	<a class="navbar-brand" href="#"><img src="../assets/img/logo.png" class="logo"></a>
+	<a class="navbar-brand" href="#"><img src="../assets/img/ui stuff/logo.png" class="logo"></a>
 	
 	<!-- text links -->
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
