@@ -8,10 +8,10 @@
  * 
 ***********************/
 
-//Title
-$title = "Francais";
+//Title -> dnt 
+$title = "- Explore with us";
 
-// Navbar
+//Navbar
 
 //Navbar -> links
 $home = "Housé";
@@ -19,7 +19,7 @@ $about = "Abouté";
 $cantemir = "D. Cantemiré";
 $team = "Teamè";
 
-
+//Navbar -> flags -> dnt
 $frFlag = "selected";
 $enFlag = "";
 $roFlag = "";

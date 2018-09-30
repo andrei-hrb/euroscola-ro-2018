@@ -7,10 +7,10 @@
  * 
 *************************/
 
-//Title
-$title = "Romana";
+//Title -> dnt
+$title = "- Explore with us";
 
-// Navbar
+//Navbar
 
 //Navbar -> links
 $home = "Acasa";

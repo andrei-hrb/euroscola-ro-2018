@@ -8,10 +8,10 @@
  * 
 ************************/
 
-// Tile
-$title = "English";
+//Title -> dnt
+$title = "- Explore with us";
 
-// Navbar
+//Navbar
 
 //Navbar -> links
 $home = "Home";
