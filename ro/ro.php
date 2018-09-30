@@ -13,9 +13,9 @@ $title = "- Explore with us";
 //Navbar
 
 //Navbar -> links
-$home = "Acasa";
-$about = "Despre";
-$cantemir = "D. Cantemir";
+$home = "Acasă";
+$about = "Despre campanie";
+$cantemir = "Liceul nostru";
 $team = "Echipa";
 
 //Navbar -> flags -> dnt

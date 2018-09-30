@@ -15,8 +15,8 @@ $title = "- Explore with us";
 
 //Navbar -> links
 $home = "Home";
-$about = "About";
-$cantemir = "D. Cantemir";
+$about = "About campaign";
+$cantemir = "Our college";
 $team = "Team";
 
 //Navbar -> flags -> dnt

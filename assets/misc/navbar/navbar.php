@@ -7,17 +7,17 @@
 	<!-- text links -->
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link nav-elm" href="#"><?=$home?><span class="sr-only"></span></a>
+      <li class="nav-item ">
+        <a class="nav-link nav-elm" href="../home.php"><?=$home?><span class="sr-only"></span></a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link nav-elm" href="#"><?=$about?><span class="sr-only"></span></a>
+      <li class="nav-item">
+        <a class="nav-link nav-elm" href="../about.php"><?=$about?><span class="sr-only"></span></a>
       </li>
-	  <li class="nav-item active">
-        <a class="nav-link nav-elm" href="#"><?=$cantemir?><span class="sr-only"></span></a>
+	  <li class="nav-item ">
+        <a class="nav-link nav-elm" href="../cantemir.php"><?=$cantemir?><span class="sr-only"></span></a>
       </li>
-	  <li class="nav-item active">
-        <a class="nav-link nav-elm" href="#"><?=$team?><span class="sr-only"></span></a>
+	  <li class="nav-item ">
+        <a class="nav-link nav-elm" href="../team.php"><?=$team?><span class="sr-only"></span></a>
       </li>
     </ul>
 
