@@ -1,3 +1,4 @@
+<!-- Footer -->
 <hr>
 <div class="mt-5 bg-dark">
 	<div class="container">

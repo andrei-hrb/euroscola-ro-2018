@@ -5,11 +5,11 @@
 	<title> <?= $title ?></title>
 </head>
 <body>
-	<?php include ("assets/misc/nav-footer/navbar.php"); ?>
+	<?php include ("assets/misc/navbar/navbar.php"); ?>
 
 	<?php include ("assets/misc/posts/carousel.php"); ?>
 
-	<?php include ("assets/misc/nav-footer/footer.php"); ?>
+	<?php include ("assets/misc/footer/footer.php"); ?>
 	<?php include ("assets/misc/html/scripts.php"); ?>
 </body>
 </html>

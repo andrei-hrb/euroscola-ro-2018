@@ -1,4 +1,13 @@
 <?php
+
+/***********************
+ * 
+ * French language file
+ *
+ * dnt = do not touch
+ * 
+***********************/
+
 //Title
 $title = "Francais";
 
@@ -10,7 +19,7 @@ $about = "Abouté";
 $cantemir = "D. Cantemiré";
 $team = "Teamè";
 
-//Navbar -> flags
+
 $frFlag = "selected";
 $enFlag = "";
 $roFlag = "";

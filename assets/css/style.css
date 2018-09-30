@@ -1,3 +1,5 @@
+/* navbar */
+
 img.logo {
 	width:15rem;
 	height:4rem;
@@ -35,6 +37,8 @@ img.selected {
 	border-color: greenyellow;
 	border-radius: 100%;
 }
+
+/* */
 
 img.resize {
 	height: 30rem;

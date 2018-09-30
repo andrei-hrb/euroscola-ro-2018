@@ -1,6 +1,10 @@
+<!-- Navbar -->
+
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+	<!-- logo -->
 	<a class="navbar-brand" href="#"><img src="../assets/img/logo.png" class="logo"></a>
 	
+	<!-- text links -->
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
@@ -17,6 +21,7 @@
       </li>
     </ul>
 
+	<!-- language selector -->
 	<div class="ml-auto">
 		<a class="flagLink" href="<?=$frLink?>">
 			<img class="mx-1 flag <?=$frFlag?>" id="fr" src="../assets/img/flags/fr.png">

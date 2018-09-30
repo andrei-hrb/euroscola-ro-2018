@@ -1,4 +1,13 @@
 <?php
+
+/************************
+ * 
+ * English language file
+ * 
+ * dnt = do not touch
+ * 
+************************/
+
 // Tile
 $title = "English";
 
@@ -10,7 +19,7 @@ $about = "About";
 $cantemir = "D. Cantemir";
 $team = "Team";
 
-//Navbar -> flags
+//Navbar -> flags -> dnt
 $frFlag = "";
 $enFlag = "selected";
 $roFlag = "";
