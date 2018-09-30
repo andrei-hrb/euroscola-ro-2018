@@ -1,5 +1,21 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
 	<a class="navbar-brand" href="#"><img src="../assets/img/logo.png" class="logo"></a>
+	
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link nav-elm" href="#"><?=$home?><span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link nav-elm" href="#"><?=$about?><span class="sr-only"></span></a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link nav-elm" href="#"><?=$cantemir?><span class="sr-only"></span></a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link nav-elm" href="#"><?=$team?><span class="sr-only"></span></a>
+      </li>
+    </ul>
 
 	<div class="ml-auto">
 		<a class="flagLink" href="<?=$frLink?>">
@@ -13,5 +29,6 @@
 		<a class="flagLink" href="<?=$roLink?>">
 			<img class="mx-1 flag <?=$roFlag?>" id="ro" src="../assets/img/flags/ro.png">
 		</a>
+	</div>
 	</div>
 </nav>
