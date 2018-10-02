@@ -2,7 +2,7 @@
 <html>
 <head>
 	<?php include ("assets/misc/html/head.php"); ?>
-	<title> <?= $title ?></title>
+	<title> <?= $team . ' ' .$title ?></title>
 </head>
 <body>
 	<?php include ("assets/misc/navbar/navbar.php"); ?>

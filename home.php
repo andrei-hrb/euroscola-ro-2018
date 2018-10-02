@@ -9,9 +9,6 @@
 
 	<?php include ("posts/carousel.php"); ?>
 
-	<a href="../template-for-post.php/?lang=<?=$lang?>">Link to a nice post</a>
-	
-
 	<?php include ("assets/misc/footer/footer.php"); ?>
 	<?php include ("assets/misc/html/scripts.php"); ?>
 </body>

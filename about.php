@@ -2,12 +2,11 @@
 <html>
 <head>
 	<?php include ("assets/misc/html/head.php"); ?>
-	<title> <?= $title ?></title>
+	<title> <?= $about . ' ' . $title ?></title>
 </head>
 <body>
 	<?php include ("assets/misc/navbar/navbar.php"); ?>
 	
-
 	<div class="container my-5">
 		<div class="row">
 			<div class="col-8">

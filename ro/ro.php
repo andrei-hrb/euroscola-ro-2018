@@ -25,3 +25,6 @@ $roFlag = "selected";
 $frLink = "?lang=fr";
 $enLink = "?lang=en";
 $roLink = "#";
+
+//about cante
+$titleCante = "Despe cand";

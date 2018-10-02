@@ -26,3 +26,5 @@ $roFlag = "";
 $frLink = "#";
 $enLink = "?lang=en";
 $roLink = "?lang=ro";
+
+$titleCante = "aboyte cante";
