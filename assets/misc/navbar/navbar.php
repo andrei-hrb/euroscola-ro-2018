@@ -1,23 +1,20 @@
 <!-- Navbar -->
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
 	<!-- logo -->
-	<a class="navbar-brand" href="#"><img src="../assets/img/ui stuff/logo.png" class="logo"></a>
+	<a class="navbar-brand" href="#"><img class="logo" src="../assets/img/ui stuff/logo.png"></a>
 	
 	<!-- text links -->
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item ">
-        <a class="nav-link nav-elm" href="../home.php/?lang=<?=$lang?>"><?=$home?><span class="sr-only"></span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link nav-elm" href="../about.php/?lang=<?=$lang?>"><?=$about?><span class="sr-only"></span></a>
+        <a class="nav-link nav-elm <?=$srHome?>" href="../home.php/?lang=<?=$lang?>"><?=$home?><span class="sr-only"></span></a>
       </li>
 	  <li class="nav-item ">
-        <a class="nav-link nav-elm" href="../cantemir.php/?lang=<?=$lang?>"><?=$cantemir?><span class="sr-only"></span></a>
+        <a class="nav-link nav-elm <?=$srCantemir?>" href="../cantemir.php/?lang=<?=$lang?>"><?=$cantemir?><span class="sr-only"></span></a>
       </li>
 	  <li class="nav-item ">
-        <a class="nav-link nav-elm" href="../team.php/?lang=<?=$lang?>"><?=$team?><span class="sr-only"></span></a>
+        <a class="nav-link nav-elm <?=$srTeam?>" href="../team.php/?lang=<?=$lang?>"><?=$team?><span class="sr-only"></span></a>
       </li>
     </ul>
 

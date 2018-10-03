@@ -26,5 +26,7 @@ $frLink = "?lang=fr";
 $enLink = "?lang=en";
 $roLink = "#";
 
+//footer
+$footerText = "Site creat pentru Concursul național EUROSCOLA, ediția a XI-a (2018-2019) ca parte din materialul de promovare al Erasmus+.";
 //about cante
 $titleCante = "Despe cand";

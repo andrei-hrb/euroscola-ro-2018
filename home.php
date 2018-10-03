@@ -1,4 +1,8 @@
-<?php $lang = $_GET["lang"]; include ("$lang/$lang.php"); ?>
+<?php $lang = $_GET["lang"]; include ("$lang/$lang.php");
+$srHome = "active";
+$srCantemir = "";
+$srTeam = "";
+?>
 <html>
 <head>
 	<?php include ("assets/misc/html/head.php"); ?>
