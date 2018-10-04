@@ -8,13 +8,13 @@
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item ">
-        <a class="nav-link nav-elm <?=$srHome?>" href="../home.php/?lang=<?=$lang?>"><?=$home?><span class="sr-only"></span></a>
+        <a class="nav-link nav-elm <?=$srHome?>" href="../home.php/?lang=<?=$lang?>"><?=$home?></a>
       </li>
 	  <li class="nav-item ">
-        <a class="nav-link nav-elm <?=$srCantemir?>" href="../cantemir.php/?lang=<?=$lang?>"><?=$cantemir?><span class="sr-only"></span></a>
+        <a class="nav-link nav-elm <?=$srCantemir?>" href="../cantemir.php/?lang=<?=$lang?>"><?=$cantemir?></a>
       </li>
 	  <li class="nav-item ">
-        <a class="nav-link nav-elm <?=$srTeam?>" href="../team.php/?lang=<?=$lang?>"><?=$team?><span class="sr-only"></span></a>
+        <a class="nav-link nav-elm <?=$srTeam?>" href="../team.php/?lang=<?=$lang?>"><?=$team?></a>
       </li>
     </ul>
 

@@ -1,51 +1,81 @@
 /* navbar */
 
 img.logo {
-	width:15rem;
-	height:4rem;
+    width: 15rem;
+    height: 4rem;
 }
 
 a.nav-elm {
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	font-size: 1.52rem !important;
+    font-family: Karla, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.52rem !important;
 }
 
 img.flag {
-	width:1.38rem;
-	height:1.38rem;
-	margin:0.5rem;
+    width: 1.38rem;
+    height: 1.38rem;
+    margin: 0.5rem;
 }
 
 img.flag:hover {
-	width:2rem;
-	height:2rem;
-	-o-transition:.5s;
- 	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-	transition:.5s;
-	margin:0rem;
+    width: 2rem;
+    height: 2rem;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    margin: 0rem;
 }
 
 a.flagLink {
-	color: transparent !important;
+    color: transparent !important;
 }
 
 img.selected {
-	border-style: solid;
-	border-width: 0.14rem;
-	border-color: greenyellow;
-	border-radius: 100%;
+    border-style: solid;
+    border-width: 0.14rem;
+    border-color: greenyellow;
+    border-radius: 100%;
 }
 
 /* */
 
 img.resize {
-	height: 30rem;
-	width: 120rem;
+    height: 30rem;
+    width: 120rem;
 }
 
-#mapid { 
-	height: 16.5rem;
-	width: 31rem;
+/* team */
+
+.team-text {
+    font-family: Open Sans, sans-serif, serif;
+}
+
+.people .col-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.people h2 {
+    font-weight: 400;
+}
+.people .col-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+
+/* footer */
+
+.foot {
+    font-family: Open Sans, sans-serif, serif;
+}
+
+a.foot:visited {
+    color: #999999;
+}
+
+
+#mapid {
+    height: 16.5rem;
+    width: 31rem;
 }
