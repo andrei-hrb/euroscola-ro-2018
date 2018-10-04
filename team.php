@@ -102,7 +102,7 @@ $journal
         <?php newPerson('Pricopi Andrei', '../assets/img/team/pricopi.jpg', $articles); ?>
     </div>
 
-    <div class="row">
+        <div class="row">
         <?php newPerson('Suditu Mara-Ioana', '../assets/img/team/suditu.jpg', $events); ?>
         <?php newPerson('Zotica Ștefan-Lucian', '../assets/img/team/zotica.jpg', $interview); ?>
     </div>
