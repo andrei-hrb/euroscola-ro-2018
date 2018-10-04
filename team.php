@@ -63,7 +63,7 @@ $journal
         <?php newPerson('Termin', 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', $fb);?>
     </div>
     <div class="row">
-        <?php newPerson('Andrei', 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', $posters);?>
+        <?php newPerson('Andrei', 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', ($posters . ' ' . $web));?>
         <?php newPerson('Diana', 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', $interview);?>
         <?php newPerson('Marian', 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', $journal);?>
     </div>
