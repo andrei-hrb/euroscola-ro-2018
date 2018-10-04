@@ -12,3 +12,5 @@ or be lazy and just press the heroku link from above
  1. somehow cleaver, somehow shitty php methods for multilang
  2. maps and stuff - leafet
  3. hating the facebook plugin for being so inestetic
+ 4. "boostrap"
+ 5. server side, no js, 'cuz why now?
