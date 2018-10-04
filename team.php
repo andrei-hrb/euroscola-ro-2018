@@ -53,7 +53,7 @@ $journal
 
 <div class="container people">
     <div class="row">
-       <?php newPerson('Filip Felicia', 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', substr($profs, 0, -1));?>
+       <?php newPerson('Filip Felicia', '../assets/img/Echipa/felicia.jpg', substr($profs, 0, -1));?>
        <?php newPerson('Basoc Lenuța', '../assets/img/Echipa/basoc.jpg', substr($profs, 0, -1));?>
     </div>
     <hr>
@@ -92,14 +92,13 @@ $journal
 </div><div class="row">
         <?php newPerson('Suditu Mara-Ioana', '../assets/img/Echipa/suditu.jpg', $events);?>
         <?php newPerson('Zotica Ștefan-Lucian', '../assets/img/Echipa/zotica.png', $interview);?>
-       
+       <?php newPerson('Ciobanu Francesco', '../assets/img/Echipa/ciobanu.jpg', $posters);?>
     
 </div>
-<hr>
 <div class="row">
-        <?php newPerson('Ciobanu Francesco', '../assets/img/Echipa/ciobanu.jpg', ($posters. ' $ ' . $reserve));?>
-        <?php newPerson('Guramba Robert-Petru', '../assets/img/Echipa/guramba.jpg', ($posters. ' $ ' . $reserve));?>
-        <?php newPerson('Palaghiță Mara-Andreea', '../assets/img/Echipa/palaghita.jpg', ($fb . ' $ ' . $reserve));?>
+        
+        <?php newPerson('Guramba Robert-Petru', '../assets/img/Echipa/guramba.jpg', $posters);?>
+        <?php newPerson('Palaghiță Mara-Andreea', '../assets/img/Echipa/palaghita.jpg', $fb );?>
     
 </div>
 

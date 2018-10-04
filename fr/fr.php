@@ -42,4 +42,4 @@ $interview = "Interviu";
 $articles = "Articles";
 $events = "Événement";
 $journal = "Journal";
-$reserve ="Réserve";
+
