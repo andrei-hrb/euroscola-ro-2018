@@ -70,7 +70,7 @@ $journal
 
 <div class="row">
         <?php newPerson('Cercel Cosmin', '../assets/img/Echipa/cercel.jpg', $articles);?>
-        <?php newPerson('Enea Flavia', '../assets/img/Echipa/ciobanu.jpg', $posters);?>
+        <?php newPerson('Enea Flavia', '../assets/img/Echipa/enea.jpg', $posters);?>
         <?php newPerson('Filip Bianca-Maria', '../assets/img/Echipa/filip.jpg', $posters);?>
     </div>
 
