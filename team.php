@@ -15,15 +15,15 @@ $srTeam = "active"; ?>
     <div class="text-center">
         <img src="/assets/img/team.png" class="rounded">
         <div class="m-3"
-            <div class="container">
-                <div class="row">
-                    <div class="col-9 mx-auto">
-                        <h5 class="team-text"><?= $teamText ?></h5>
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-9 mx-auto">
+                    <h5 class="team-text"><?= $teamText ?></h5>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 
 <?php
@@ -53,59 +53,64 @@ $journal
 
 <div class="container people">
     <div class="row">
-       <?php newPerson('Filip Felicia', '../assets/img/Echipa/felicia.jpg', substr($profs, 0, -1));?>
-       <?php newPerson('Basoc Lenuța', '../assets/img/Echipa/basoc.jpg', substr($profs, 0, -1));?>
+        <?php newPerson('Filip Felicia', '../assets/img/team/felicia.jpg', substr($profs, 0, -1)); ?>
+        <?php newPerson('Basoc Lenuța', '../assets/img/team/basoc.jpg', substr($profs, 0, -1)); ?>
     </div>
-    
+
     <hr>
 
     <div class="row">
-        <?php newPerson('Alexe Vlad-Andrei', '../assets/img/Echipa/alexe.jpg', $web);?>
-        <?php newPerson('Balint Robert', '../assets/img/Echipa/balint.jpg', $interview);?>
-        <?php newPerson('Birtea Bogdan-Octavian', '../assets/img/Echipa/birtea.jpg', $posters);?>
+        <?php newPerson('Alexe Vlad-Andrei', '../assets/img/team/alexe.jpg', $web); ?>
+        <?php newPerson('Balint Robert', '../assets/img/team/balint.jpg', $interview); ?>
+        <?php newPerson('Birtea Bogdan-Octavian', '../assets/img/team/birtea.jpg', $posters); ?>
     </div>
 
     <div class="row">
-        <?php newPerson('Calfa Mihai', '../assets/img/Echipa/calfa.jpg', $posters);?>
-        <?php newPerson('Cărăușu Maria', '../assets/img/Echipa/carausu.jpg', $interview);?>
-        <?php newPerson('Cătea Francesca-Rita', '../assets/img/Echipa/catea.jpg', $journal);?>
+        <?php newPerson('Calfa Mihai', '../assets/img/team/calfa.jpg', $posters); ?>
+        <?php newPerson('Cărăușu Maria', '../assets/img/team/carausu.jpg', $interview); ?>
+        <?php newPerson('Cătea Francesca-Rita', '../assets/img/team/catea.jpg', $journal); ?>
     </div>
 
-<div class="row">
-        <?php newPerson('Cercel Cosmin', '../assets/img/Echipa/cercel.jpg', $articles);?>
-        <?php newPerson('Enea Flavia', '../assets/img/Echipa/ciobanu.jpg', $posters);?>
-        <?php newPerson('Filip Bianca-Maria', '../assets/img/Echipa/filip.jpg', $posters);?>
+    <div class="row">
+        <?php newPerson('Cercel Cosmin', '../assets/img/team/cercel.jpg', $articles); ?>
+        <?php newPerson('Ciobanu Francesco', '../assets/img/team/ciobanu.jpg', $posters); ?>
+        <?php newPerson('Enea Flavia', '../assets/img/team/enea.jpg', $posters); ?>
     </div>
 
-<div class="row">
-        <?php newPerson('Ghineț Iustin-Gabriel', '../assets/img/Echipa/ghinet.jpg', $posters);?>
-        <?php newPerson('Gotschik Clara-Maria', '../assets/img/Echipa/gotschik.jpg', $journal);?>
-        <?php newPerson('Hanganu Sonia-Serena', '../assets/img/Echipa/hanganu.jpg', $articles);?>
+    <div class="row">
+        <?php newPerson('Filip Bianca-Maria', '../assets/img/team/filip.jpg', $posters); ?>
+        <?php newPerson('Ghineț Iustin-Gabriel', '../assets/img/team/ghinet.jpg', $posters); ?>
+        <?php newPerson('Guramba Robert-Petru', '../assets/img/team/guramba.jpg', $posters); ?>
     </div>
-<div class="row">
-        <?php newPerson('Hîrbu Andrei', '../assets/img/Echipa/hirbu.jpg', $web);?>
-        <?php newPerson('Lupu Răzvan-Ioan', '../assets/img/Echipa/lupu.jpg', $interview);?>
-        <?php newPerson('Neculăiță-Mocanu Mălina-Andreea', '../assets/img/Echipa/mocanu.jpg', $journal);?>
-    </div>
-<div class="row">
-        <?php newPerson('Popa Tudor-Valentin', '../assets/img/Echipa/popa.jpg', $articles);?>
-        <?php newPerson('Pricopi Andrei', '../assets/img/Echipa/pricopi.jpg', $articles);?>
-        <?php newPerson('Stancu Diana-Elena', '../assets/img/Echipa/stancu.jpg', $web);?>
-    
-</div><div class="row">
-        <?php newPerson('Suditu Mara-Ioana', '../assets/img/Echipa/suditu.jpg', $events);?>
-        <?php newPerson('Zotica Ștefan-Lucian', '../assets/img/Echipa/zotica.png', $interview);?>
-       <?php newPerson('Ciobanu Francesco', '../assets/img/Echipa/ciobanu.jpg', $posters);?>
-    
-</div>
-<div class="row">
-        <?php newPerson('Ciobanu Francesco', '../assets/img/Echipa/ciobanu.jpg', ($posters. ' & ' . $reserve));?>
-        <?php newPerson('Guramba Robert-Petru', '../assets/img/Echipa/guramba.jpg', ($posters. ' & ' . $reserve));?>
-        <?php newPerson('Palaghiță Mara-Andreea', '../assets/img/Echipa/palaghita.jpg', ($fb . ' & ' . $reserve));?>
-    
-</div>
 
-<?php include("assets/misc/footer/footer.php"); ?>
-<?php include("assets/misc/html/scripts.php"); ?>
+    <div class="row">
+        <?php newPerson('Gotschik Clara-Maria', '../assets/img/team/gotschik.jpg', $journal); ?>
+        <?php newPerson('Hanganu Sonia-Serena', '../assets/img/team/hanganu.jpg', $articles); ?>
+        <?php newPerson('Hîrbu Andrei', '../assets/img/team/hirbu.jpg', $web); ?>
+    </div>
+
+    <div class="row">
+        <?php newPerson('Lupu Răzvan-Ioan', '../assets/img/team/lupu.jpg', $interview); ?>
+        <?php newPerson('Neculăiță-Mocanu Mălina-Andreea', '../assets/img/team/mocanu.jpg', $journal); ?>
+        <?php newPerson('Palaghiță Mara-Andreea', '../assets/img/team/palaghita.jpg', $fb); ?>
+    </div>
+
+    <div class="row">
+        <?php newPerson('Popa Tudor-Valentin', '../assets/img/team/popa.jpg', $articles); ?>
+        <?php newPerson('Stancu Diana-Elena', '../assets/img/team/stancu.jpg', $web); ?>
+        <?php newPerson('Pricopi Andrei', '../assets/img/team/pricopi.jpg', $articles); ?>
+    </div>
+
+    <div class="row">
+        <?php newPerson('Suditu Mara-Ioana', '../assets/img/team/suditu.jpg', $events); ?>
+        <?php newPerson('Zotica Ștefan-Lucian', '../assets/img/team/zotica.jpg', $interview); ?>
+    </div>
+    <div class="row">
+
+
+    </div>
+
+    <?php include("assets/misc/footer/footer.php"); ?>
+    <?php include("assets/misc/html/scripts.php"); ?>
 </body>
 </html>
