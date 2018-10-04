@@ -53,20 +53,57 @@ $journal
 
 <div class="container people">
     <div class="row">
-       <?php newPerson('Filip', 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', substr($profs, 0, -1));?>
-       <?php newPerson('Basoc', 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', substr($profs, 0, -1));?>
+       <?php newPerson('Filip Felicia', 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', substr($profs, 0, -1));?>
+       <?php newPerson('Basoc Lenuța', '../assets/img/Echipa/basoc.jpg', substr($profs, 0, -1));?>
     </div>
+    
     <hr>
+
     <div class="row">
-        <?php newPerson('Popa', 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', $web);?>
-        <?php newPerson('Amariutei', 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', $articles);?>
-        <?php newPerson('Termin', 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', $fb);?>
+        <?php newPerson('Alexe Vlad-Andrei', '../assets/img/Echipa/alexe.jpg', $web);?>
+        <?php newPerson('Balint Robert', '../assets/img/Echipa/balint.jpg', $interview);?>
+        <?php newPerson('Birtea Bogdan-Octavian', '../assets/img/Echipa/birtea.jpg', $posters);?>
     </div>
+
     <div class="row">
-        <?php newPerson('Andrei', 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', ($posters . ' ' . $web));?>
-        <?php newPerson('Diana', 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', $interview);?>
-        <?php newPerson('Marian', 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', $journal);?>
+        <?php newPerson('Calfa Mihai', '../assets/img/Echipa/calfa.jpg', $posters);?>
+        <?php newPerson('Cărăușu Maria', '../assets/img/Echipa/carausu.jpg', $interview);?>
+        <?php newPerson('Cătea Francesca-Rita', '../assets/img/Echipa/catea.jpg', $journal);?>
     </div>
+
+<div class="row">
+        <?php newPerson('Cercel Cosmin', '../assets/img/Echipa/cercel.jpg', $articles);?>
+        <?php newPerson('Enea Flavia', '../assets/img/Echipa/ciobanu.jpg', $posters);?>
+        <?php newPerson('Filip Bianca-Maria', '../assets/img/Echipa/filip.jpg', $posters);?>
+    </div>
+
+<div class="row">
+        <?php newPerson('Ghineț Iustin-Gabriel', '../assets/img/Echipa/ghinet.jpg', $posters);?>
+        <?php newPerson('Gotschik Clara-Maria', '../assets/img/Echipa/gotschik.jpg', $journal);?>
+        <?php newPerson('Hanganu Sonia-Serena', '../assets/img/Echipa/hanganu.jpg', $articles);?>
+    </div>
+<div class="row">
+        <?php newPerson('Hîrbu Andrei', '../assets/img/Echipa/hirbu.jpg', $web);?>
+        <?php newPerson('Lupu Răzvan-Ioan', '../assets/img/Echipa/lupu.jpg', $interview);?>
+        <?php newPerson('Neculăiță-Mocanu Mălina-Andreea', '../assets/img/Echipa/mocanu.jpg', $journal);?>
+    </div>
+<div class="row">
+        <?php newPerson('Popa Tudor-Valentin', '../assets/img/Echipa/popa.jpg', $articles);?>
+        <?php newPerson('Pricopi Andrei', '../assets/img/Echipa/pricopi.jpg', $articles);?>
+        <?php newPerson('Stancu Diana-Elena', '../assets/img/Echipa/stancu.jpg', $web);?>
+    
+</div><div class="row">
+        <?php newPerson('Suditu Mara-Ioana', '../assets/img/Echipa/suditu.jpg', $events);?>
+        <?php newPerson('Zotica Ștefan-Lucian', '../assets/img/Echipa/zotica.png', $interview);?>
+       
+    
+</div>
+<hr>
+<div class="row">
+        <?php newPerson('Ciobanu Francesco', '../assets/img/Echipa/ciobanu.jpg', ($posters. ' & ' . $reserve));?>
+        <?php newPerson('Guramba Robert-Petru', '../assets/img/Echipa/guramba.jpg', ($posters. ' & ' . $reserve));?>
+        <?php newPerson('Palaghiță Mara-Andreea', '../assets/img/Echipa/palaghita.jpg', ($fb . ' & ' . $reserve));?>
+    
 </div>
 
 <?php include("assets/misc/footer/footer.php"); ?>
