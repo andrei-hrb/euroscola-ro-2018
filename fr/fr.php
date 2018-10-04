@@ -34,11 +34,12 @@ $footerSite = "Site-ul colegiului nostru";
 //Team
 
 $teamText = "(inspirational)Cras fringilla id ante id ullamcorper. Etiam non fermentum elit. Donec nec ex odio. Duis vel finibus lorem. Integer pharetra lacinia volutpat. Cras sodales tortor laoreet enim tempus lacinia. Sed dictum cursus sagittis. Donec non malesuada elit. Aenean elementum suscipit tempor. Aenean ac nisl tellus. Sed sit amet quam quis.";
-$profs = "Profesori";
+$profs = "Professeurs";
 $web = "Web";
 $fb = "Facebook";
-$posters = "Postere/Afise";
+$posters = "Affiches / Posters";
 $interview = "Interviu";
-$articles = "Articole";
-$event = "Eveniment";
-$journal = "Jurnal";
+$articles = "Articles";
+$events = "Événement";
+$journal = "Journal";
+$reserve ="Réserve";
