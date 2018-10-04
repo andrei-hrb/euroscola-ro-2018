@@ -14,7 +14,7 @@ $title = "- Explore with us";
 //Navbar
 
 //Navbar -> links
-$home = "Maison";
+$home = "Accueil";
 $about = "À propos de nous";
 $cantemir = "Notre collège";
 $team = "Équipe";

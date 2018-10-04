@@ -2,7 +2,7 @@
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
 	<!-- logo -->
-	<a class="navbar-brand" href="#"><img class="logo" src="../assets/img/ui stuff/logo.png"></a>
+	<a class="navbar-brand" href="../home.php/?lang=<?=$lang?>"><img class="logo" src="../assets/img/ui stuff/logo.png"></a>
 	
 	<!-- text links -->
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">

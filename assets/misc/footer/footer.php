@@ -3,7 +3,7 @@
 <footer class="footer mt-5 bg-dark">
     <div class="container">
         <div class="row">
-            <div class="col-5 mx-3 mt-3">
+            <div class="col-5 mx-3 mt-3 mr-auto">
                 <div>
                 <img class="logo" src="/assets/img/ui stuff/logo.png">
                 </div>
@@ -18,6 +18,6 @@
         </div>
 
         <p class="text-center text-light mt-5 foot" style="font-size: small;">Build with ❤️ by <a href="https://github.com/andrei-hrb" class="foot"><strong>Hîrbu Andrei</strong></a> and <a href="https://github.com/DianaElenaStancu" style="text-decoration: none;" class="foot"><strong>Diana-Elena Stancu</strong></a>. Check this project on <a href="https://github.com/andrei-hrb/EuroscolaRO2018" class="foot">GitHub</a>.</p>
-        <p class="text-center text-light foot" style="font-size: small; margin-bottom: 0;">#EuroscolaRO2018</p>
+        <p class="text-center text-light foot" style="font-size: small; margin-bottom: 0; padding = 0;">#EuroscolaRO2018</p>
     </div>
 </footer>
