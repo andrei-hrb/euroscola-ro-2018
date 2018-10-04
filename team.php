@@ -31,8 +31,8 @@ function newPerson($name, $img, $post)
 {
     echo '<div class="col-4">
             <img class="rounded" src="' . $img . '" width="140" height="140">
-            <h2>' . $name . '</h2>
-            <p>' . $post . '</p>
+            <h4 class="mt-1">' . $name . '</h4>
+            <p class="mb-3">' . $post . '</p>
         </div>';
 }
 
@@ -52,6 +52,7 @@ $journal
 -->
 
 <div class="container people">
+    
     <div class="row">
         <?php newPerson('Filip Felicia', '../assets/img/team/felicia.jpg', substr($profs, 0, -1)); ?>
         <?php newPerson('Basoc Lenuța', '../assets/img/team/basoc.jpg', substr($profs, 0, -1)); ?>
@@ -105,10 +106,8 @@ $journal
         <?php newPerson('Suditu Mara-Ioana', '../assets/img/team/suditu.jpg', $events); ?>
         <?php newPerson('Zotica Ștefan-Lucian', '../assets/img/team/zotica.jpg', $interview); ?>
     </div>
-    <div class="row">
 
-
-    </div>
+</div>
 
     <?php include("assets/misc/footer/footer.php"); ?>
     <?php include("assets/misc/html/scripts.php"); ?>
