@@ -30,13 +30,26 @@ $srTeam = "active"; ?>
 function newPerson($name, $img, $post)
 {
     echo '<div class="col-4">
-            <img class="rounded-circle" src="' . $img . '" width="140" height="140">
+            <img class="rounded" src="' . $img . '" width="140" height="140">
             <h2>' . $name . '</h2>
             <p>' . $post . '</p>
         </div>';
 }
 
 ?>
+
+<!--
+vars at your disposal:
+
+$profs
+$web
+$fb
+$posters
+$interview
+$articles
+$event
+$journal
+-->
 
 <div class="container people">
     <div class="row">

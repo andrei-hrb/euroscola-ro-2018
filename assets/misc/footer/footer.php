@@ -17,7 +17,7 @@
             </div>
         </div>
 
-        <p class="text-center text-light mt-5 foot" style="font-size: small;">Build with ❤️ by <a href="https://github.com/andrei-hrb" class="foot"><strong>Hîrbu Andrei</strong></a> and <a href="https://github.com/DianaElenaStancu" style="text-decoration: none;" class="foot"><strong>Diana-Elena Stancu</strong></a></p>
-        <p class="text-center text-light m-3 foot" style="font-size: small;">#EuroscolaRO2018</p>
+        <p class="text-center text-light mt-5 foot" style="font-size: small;">Build with ❤️ by <a href="https://github.com/andrei-hrb" class="foot"><strong>Hîrbu Andrei</strong></a> and <a href="https://github.com/DianaElenaStancu" style="text-decoration: none;" class="foot"><strong>Diana-Elena Stancu</strong></a>. Check this project on <a href="https://github.com/andrei-hrb/EuroscolaRO2018">GitHub</a>.</p>
+        <p class="text-center text-light foot" style="font-size: small; margin-bottom: 0;">#EuroscolaRO2018</p>
     </div>
 </footer>

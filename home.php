@@ -14,6 +14,6 @@ $srTeam = "";
 	<?php include ("posts/carousel.php"); ?>
 
 	<?php include ("assets/misc/footer/footer.php"); ?>
-	<?php include ("assets/misc/html/scripts.php"); ?>
+    <?php include ("assets/misc/html/scripts.php"); ?>
 </body>
 </html>
