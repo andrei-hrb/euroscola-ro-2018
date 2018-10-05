@@ -11,6 +11,7 @@ $srTeam = "";
     <title> <?= $cantemir . ' ' . $title ?></title>
 </head>
 <body>
+<?php include("assets/misc/utils/mobile.php"); ?>
 <?php include("assets/misc/navbar/navbar.php"); ?>
 <hr class="featurette-divider">
 
