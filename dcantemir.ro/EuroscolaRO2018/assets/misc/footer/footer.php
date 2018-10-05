@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-5 mx-3 mt-3 mr-auto">
                 <div>
-                    <img class="logo" src="/assets/img/ui stuff/logo.png">
+                    <img class="logo" src="../assets/img/ui stuff/logo.png">
                 </div>
                 <div class="mt-3">
                     <p class="text-white foot"><?= $footerText ?> </p>
