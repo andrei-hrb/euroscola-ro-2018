@@ -1,6 +1,7 @@
 <!-- Navbar -->
-
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+ crossorigin="" />
+<nav id="nav"class="navbar navbar-expand-md navbar-dark ">
 	<!-- logo -->
 	<a class="navbar-brand" href="../home.php/?lang=<?=$lang?>"><img class="logo" src="../assets/img/ui stuff/logo.png"></a>
 	

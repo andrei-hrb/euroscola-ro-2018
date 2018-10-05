@@ -40,7 +40,6 @@ function newPerson($name, $img, $post)
 
 <!--
 vars at your disposal:
-
 $profs
 $web
 $fb

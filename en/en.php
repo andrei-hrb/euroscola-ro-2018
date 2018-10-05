@@ -42,3 +42,21 @@ $interview = "Interview";
 $articles = "Articles";
 $events = "Event";
 $journal = "Journal";
+
+//CANTEMIR
+$cndc="Colegiul National Dimitrie Cantemir";
+$cndctext="acest liceul este minunat.";
+
+//Home
+
+//introduction
+$introduction="Introduction";
+$introductiontext="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
+
+//erasmus
+$erasmus="Ce este Erasmus?";
+$erasmustext="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
+
+//euroscola
+$euroscola="Ce este Euroscola?";
+$euroscolatext="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
