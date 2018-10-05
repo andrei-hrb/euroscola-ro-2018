@@ -5,11 +5,11 @@
         <div class="row">
             <div class="col-5 mx-3 mt-3 mr-auto">
                 <div>
-                <img class="logo" src="/assets/img/ui stuff/logo.png">
+                    <img class="logo" src="/assets/img/ui stuff/logo.png">
                 </div>
                 <div class="mt-3">
                     <p class="text-white foot"><?= $footerText ?> </p>
-                    <a href="http://www.dcantemir.ro" class="foot"><?=$footerSite?></a>
+                    <a href="http://www.dcantemir.ro" class="foot"><?= $footerSite ?></a>
                 </div>
             </div>
             <div class="col-5 mx-3 mt-3 ml-auto">

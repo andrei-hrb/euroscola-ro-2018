@@ -13,7 +13,7 @@ $srTeam = "active"; ?>
 
 <div class="container my-5">
     <div class="text-center">
-        <img src="/assets/img/team.png" class="rounded">
+        <img src="/assets/img/team/team.png" class="rounded">
         <div class="m-3"
         <div class="container">
             <div class="row">
