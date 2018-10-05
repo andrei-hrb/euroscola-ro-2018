@@ -10,6 +10,7 @@ $srTeam = "active";
     <title> <?= $team . ' ' . $title ?></title>
 </head>
 <body>
+<?php include("assets/misc/utils/mobile.php"); ?>
 <?php include("assets/misc/navbar/navbar.php"); ?>
 
 <!-- Group photo plus text -->
