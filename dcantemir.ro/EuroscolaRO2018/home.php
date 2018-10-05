@@ -43,7 +43,7 @@ if( $mobile )
 5) Campania noastra de promovare
 6) Impact
 7) Sponsori / Parteneri
-8) Pagina / Grup de Facebook
+8) Pagina / Grup de Facebook-->
 
 <!--Introduction-->
 <hr class="featurette-divider">
