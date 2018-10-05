@@ -1,8 +1,10 @@
-<?php $lang = $_GET["lang"]; include("$lang/$lang.php");
+<?php $lang = $_GET["lang"];
+include("$lang/$lang.php");
 $srHome = "";
 $srCantemir = "active";
 $srTeam = "";
 ?>
+
 <html>
 <head>
     <?php include("assets/misc/html/head.php"); ?>
@@ -13,13 +15,13 @@ $srTeam = "";
 <hr class="featurette-divider">
 
 <div class="row featurette">
-  <div class="col-md-7">
-    <h2 class="featurette-heading"><?=$cndc?></h2>
-    <p class="lead"><?=$cndctext?></p>
-  </div>
-  <div class="col-md-5">
-    <?php include ("assets/misc/footer/map.php");?>
-  </div>
+    <div class="col-md-7">
+        <h2 class="featurette-heading"><?= $cndc ?></h2>
+        <p class="lead"><?= $cndctext ?></p>
+    </div>
+    <div class="col-md-5">
+        <?php include("assets/misc/footer/map.php"); ?>
+    </div>
 </div>
 
 <hr class="featurette-divider">

@@ -2,7 +2,8 @@
 include("$lang/$lang.php");
 $srHome = "";
 $srCantemir = "";
-$srTeam = "active"; ?>
+$srTeam = "active";
+?>
 <html>
 <head>
     <?php include("assets/misc/html/head.php"); ?>
@@ -10,6 +11,8 @@ $srTeam = "active"; ?>
 </head>
 <body>
 <?php include("assets/misc/navbar/navbar.php"); ?>
+
+<!-- Group photo plus text -->
 
 <div class="container my-5">
     <div class="text-center">
@@ -24,7 +27,8 @@ $srTeam = "active"; ?>
         </div>
     </div>
 </div>
-</div>
+
+<!-- Each person's photo, name and role in this project -->
 
 <?php
 function newPerson($name, $img, $post)
@@ -39,7 +43,7 @@ function newPerson($name, $img, $post)
 ?>
 
 <!--
-vars at your disposal:
+vars at your disposal: (for production)
 $profs
 $web
 $fb
@@ -51,7 +55,7 @@ $journal
 -->
 
 <div class="container people">
-    
+
     <div class="row">
         <?php newPerson('Filip Felicia', '../assets/img/team/felicia.jpg', substr($profs, 0, -1)); ?>
         <?php newPerson('Basoc Lenuța', '../assets/img/team/basoc.jpg', substr($profs, 0, -1)); ?>
@@ -101,14 +105,14 @@ $journal
         <?php newPerson('Pricopi Andrei', '../assets/img/team/pricopi.jpg', $articles); ?>
     </div>
 
-        <div class="row">
+    <div class="row">
         <?php newPerson('Suditu Mara-Ioana', '../assets/img/team/suditu.jpg', $events); ?>
         <?php newPerson('Zotica Ștefan-Lucian', '../assets/img/team/zotica.jpg', $interview); ?>
     </div>
 
 </div>
 
-    <?php include("assets/misc/footer/footer.php"); ?>
-    <?php include("assets/misc/html/scripts.php"); ?>
+<?php include("assets/misc/footer/footer.php"); ?>
+<?php include("assets/misc/html/scripts.php"); ?>
 </body>
 </html>
