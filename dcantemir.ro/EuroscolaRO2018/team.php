@@ -1,5 +1,7 @@
-<?php $lang = $_GET["lang"];
+<?php
+$lang = $_GET["lang"];
 include("$lang/$lang.php");
+
 $srHome = "";
 $srCantemir = "";
 $srTeam = "active";
@@ -9,6 +11,7 @@ $srTeam = "active";
     <?php include("assets/misc/html/head.php"); ?>
     <title> <?= $team . ' ' . $title ?></title>
 </head>
+
 <body>
 <?php include("assets/misc/utils/mobile.php"); ?>
 <?php include("assets/misc/navbar/navbar.php"); ?>
@@ -18,11 +21,12 @@ $srTeam = "active";
 <div class="container my-5">
     <div class="text-center">
         <img src="../assets/img/team/team.png" class="rounded">
-        <div class="m-3"
-        <div class="container">
-            <div class="row">
-                <div class="col-9 mx-auto">
-                    <h5 class="team-text"><?= $teamText ?></h5>
+        <div class="m-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 mx-auto">
+                        <h5 class="team-text"><?= $teamText ?></h5>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,5 +1,7 @@
-<?php $lang = $_GET["lang"];
+<?php
+$lang = $_GET["lang"];
 include("$lang/$lang.php");
+
 $srHome = "active";
 $srCantemir = "";
 $srTeam = "";
@@ -9,6 +11,7 @@ $srTeam = "";
     <?php include("assets/misc/html/head.php"); ?>
     <title> <?= $home . ' ' . $title ?> </title>
 </head>
+
 <body>
 <?php include("assets/misc/utils/mobile.php"); ?>
 <?php include("assets/misc/navbar/navbar.php"); ?>
