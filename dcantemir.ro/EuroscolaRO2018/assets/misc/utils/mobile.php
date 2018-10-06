@@ -1,5 +1,5 @@
 <?php
-
+/* 
 $useragent = $_SERVER['HTTP_USER_AGENT'];
 //$useragent = 'blackberry'; // for mobile testing, if you can't access localhost for some reason
 
