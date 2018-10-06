@@ -80,6 +80,10 @@ a.foot:visited {
 #mapid {
     height: 16.5rem;
     width: 31rem;
+    margin-top:6rem;
+}
+#titlu{
+    margin-left:2rem;
 }
 
 .featurette-divider {
@@ -88,9 +92,12 @@ a.foot:visited {
   
   /* Thin out the marketing headings */
   .featurette-heading {
-    font-weight: 300;
-    line-height: 1;
+    font-weight: 100;
     letter-spacing: -.05rem;
+    margin-left:1rem;
+   
+    
+
   }
   
   
@@ -112,6 +119,6 @@ a.foot:visited {
   
   @media (min-width: 62em) {
     .featurette-heading {
-      margin-top: 7rem;
+      margin-top: 1rem;
     }
   }

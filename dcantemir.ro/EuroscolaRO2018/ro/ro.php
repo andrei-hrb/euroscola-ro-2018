@@ -49,11 +49,15 @@ $threeTitle="Ce este Erasmus?";
 $threeText="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
 
 //Cantemir
-$cndc="Colegiul National Dimitrie Cantemir";
-$cndctext="acest liceul este minunat.";
+$cndc="Colegiul Național \"Dimitrie Cantemir\" ";
+$cndctext="VIZIUNEA ";
+$cndctext1="Colegiul Național \"Dimitrie Cantemir\" urmărește facilitarea integrării absolvenților în societatea contemporană prin valorificarea potențialului individual și instituțional, asigurarea unui climat de formare și informare sigur, stimulativ și participativ, formarea cetățeniei europene a elevilor și a personalului.";
+$cndctext2="MISIUNEA ";
+$cndctext3="Colegiul Național \"Dimitrie Cantemir\" cultivă excelența, valorifică tradiția și promovează inovarea. Împreună, parcurgem pașii spre noi înșine înșine și ne găsim locul într-o lume în continuă schimbare, învățând să devenim oameni care știu să împărtășească succesul cu alți oameni.";
+
 
 //Team
-$teamText = "(inspirational)Cras fringilla id ante id ullamcorper. Etiam non fermentum elit. Donec nec ex odio. Duis vel finibus lorem. Integer pharetra lacinia volutpat. Cras sodales tortor laoreet enim tempus lacinia. Sed dictum cursus sagittis. Donec non malesuada elit. Aenean elementum suscipit tempor. Aenean ac nisl tellus. Sed sit amet quam quis.";
+$teamText = "Clasa a 10-a E, profil matematică-informatică cu intensiv engleză";
 $profs = "Profesori";
 $web = "Web";
 $fb = "Facebook";
