@@ -20,7 +20,7 @@ $srTeam = "";
 
 <div class="row featurette">
     <div class="col-md-7 order-0">
-        <h1 class="featurette-heading text-center my-3"><?= $cndc ?></h1>
+        <h1 class="featurette-heading text-center"id="spacingtop"><?= $cndc ?></h1>
         <h2 class="mx-4"><?= $cndctext ?></h2>
         <p class="lead mx-3"><?=$cndctext1?></p>
         <h2 class="mx-4"><?= $cndctext2 ?></h2>

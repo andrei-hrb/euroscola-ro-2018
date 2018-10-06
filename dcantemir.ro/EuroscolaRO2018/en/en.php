@@ -20,7 +20,7 @@ $mobileText = "We recommend accessing this website on a desktop machine. We apol
 //Navbar -> links
 $home = "Home";
 $about = "About campaign";
-$cantemir = "Our college";
+$cantemir = "Our school";
 $team = "Team";
 
 //Navbar -> flags -> dnt
@@ -32,21 +32,21 @@ $enLink = "#";
 $roLink = "?lang=ro";
 
 //footer
-$footerText = "Site creat pentru Concursul național EUROSCOLA, ediția a XI-a (2018-2019) ca parte din materialul de promovare al Erasmus+.";
-$footerSite = "Site-ul colegiului nostru";
+$footerText = "Site created for the Euroscola National Contest, 11th edition (2018-2019), as a part of the advertising material of the Erasmus+ project";
+$footerSite = "The site of our school";
 
 //Home
 
 //Home -> introduction
-$oneTitle="Introducere";
+$oneTitle="Introduction";
 $oneText="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
 
 //Home -> Ce este Euroscola?
-$twoTitle="Ce este Euroscola?";
+$twoTitle="What is Euroscola?";
 $twoText="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
 
 //Home -> ce este Erasmus?
-$threeTitle="Ce este Erasmus?";
+$threeTitle="What is Erasmus?";
 $threeText="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
 
 //Cantemir

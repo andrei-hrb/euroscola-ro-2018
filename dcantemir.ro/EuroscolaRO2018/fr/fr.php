@@ -20,7 +20,7 @@ $mobileText = "Wè rècommènd accèssing this wèbsitè on a dèsktop machinè.
 //Navbar -> links
 $home = "Accueil";
 $about = "À propos de nous";
-$cantemir = "Notre collège";
+$cantemir = "Notre lycée";
 $team = "Équipe";
 
 //Navbar -> flags -> dnt
@@ -32,21 +32,22 @@ $enLink = "?lang=en";
 $roLink = "?lang=ro";
 
 //footer
-$footerText = "Site creat pentru Concursul național EUROSCOLA, ediția a XI-a (2018-2019) ca parte din materialul de promovare al Erasmus+.";
-$footerSite = "Site-ul colegiului nostru";
+$footerText = "Site créé pour le Concours national EUROSCOLA, la neuvième édition (2018-2019) dans le cadre
+du matériel de promotion d'Erasmus+";
+$footerSite = "Le site du notre collège";
 
 //Home
 
 //Home -> introduction
-$oneTitle="Introducere";
+$oneTitle="Introduction";
 $oneText="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
 
 //Home -> Ce este Euroscola?
-$twoTitle="Ce este Euroscola?";
+$twoTitle="Qu'est ce que le programme Erasmus?";
 $twoText="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
 
 //Home -> ce este Erasmus?
-$threeTitle="Ce este Erasmus?";
+$threeTitle="Qu'est ce que le concours Euroscola?";
 $threeText="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
 
 //Cantemir
@@ -57,7 +58,7 @@ $cndctext2="MISIUNEA ";
 $cndctext3="Colegiul Național \"Dimitrie Cantemir\" cultivă excelența, valorifică tradiția și promovează inovarea. Împreună, parcurgem pașii spre noi înșine înșine și ne găsim locul într-o lume în continuă schimbare, învățând să devenim oameni care știu să împărtășească succesul cu alți oameni.";
 
 //Team
-$teamText = "Clasa a 10-a E, profil matematică-informatică cu intensiv engleză";
+$teamText = "Seconde E, specialisation: math-info anglais renforcé";
 $profs = "Professeurs";
 $web = "Web";
 $fb = "Facebook";

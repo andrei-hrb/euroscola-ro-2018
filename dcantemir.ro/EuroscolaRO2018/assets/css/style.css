@@ -71,9 +71,9 @@ img.resize {
 
 @media screen and (min-width: 722px) {
     #mapid {
-        height: 16.5rem;
-        width: 31rem;
-        margin-top: 6rem;
+        height: 20rem;
+        width: 40rem;
+        margin-top: 8rem;
     }
 
     .team-text {
@@ -144,6 +144,9 @@ a.foot:visited {
     }
 }
 /*font si asezare*/
+#spacingtop{
+    margin-top:7rem; /*fixed spacing doesn't see $cndc on the page due the fixed navbar*/
+}
  .featurette-divider {
     margin: 2rem ; } 
 .featurette-heading {
