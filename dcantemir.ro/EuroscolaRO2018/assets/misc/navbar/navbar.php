@@ -22,18 +22,20 @@
         </ul>
 
         <!-- language selector -->
-        <div class="ml-md-auto flags">
-            <a class="flagLink" href="<?= $frLink ?>">
-                <img class="mx-1 flag <?= $frFlag ?>" id="fr" src="../assets/img/flags/fr.png">
-            </a>
+        <div class="">
+            <div class="ml-md-auto flags">
+                <a class="flagLink" href="<?= $frLink ?>">
+                    <img class="mx-1 flag <?= $frFlag ?>" id="fr" src="../assets/img/flags/fr.png">
+                </a>
 
-            <a class="flagLink" href="<?= $enLink ?>">
-                <img class="mx-1 flag <?= $enFlag ?>" id="en" src="../assets/img/flags/uk.png">
-            </a>
+                <a class="flagLink" href="<?= $enLink ?>">
+                    <img class="mx-1 flag <?= $enFlag ?>" id="en" src="../assets/img/flags/uk.png">
+                </a>
 
-            <a class="flagLink" href="<?= $roLink ?>">
-                <img class="mx-1 flag <?= $roFlag ?>" id="ro" src="../assets/img/flags/ro.png">
-            </a>
+                <a class="flagLink" href="<?= $roLink ?>">
+                    <img class="mx-1 flag <?= $roFlag ?>" id="ro" src="../assets/img/flags/ro.png">
+                </a>
+            </div>
         </div>
     </div>
 </nav>
