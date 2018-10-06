@@ -3,7 +3,7 @@
 <footer class="footer mt-5 bg-dark">
     <div class="container">
         <div class="row">
-            <div class="col-5 mx-3 mt-3 mr-auto">
+            <div class="col-md-5 mx-3 mt-3 mr-auto order-0">
                 <div>
                     <img class="logo" src="../assets/img/ui stuff/logo.png">
                 </div>
@@ -12,8 +12,8 @@
                     <a href="http://www.dcantemir.ro" class="foot"><?= $footerSite ?></a>
                 </div>
             </div>
-            <div class="col-5 mx-3 mt-3 ml-auto">
-                <?php include('facebook.php'); ?>
+            <div class="col-md-5 mx-3 mt-3 ml-auto order-1">
+            <?php //include('facebook.php'); ?>
             </div>
         </div>
 

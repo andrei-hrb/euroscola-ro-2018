@@ -20,12 +20,12 @@ $srTeam = "active";
 
 <div class="container my-5">
     <div class="text-center">
-        <img src="../assets/img/team/team.png" class="rounded">
-        <div class="m-3">
+        <img src="../assets/img/team/team.png " class="rounded img-fluid" width="100%" height="auto">
+        <div class="mt-3 mb-1">
             <div class="container">
                 <div class="row">
                     <div class="col-9 mx-auto">
-                        <h5 class="team-text"><?= $teamText ?></h5>
+                        <h5 class="team-text display-5"><?= $teamText ?></h5>
                     </div>
                 </div>
             </div>
@@ -39,9 +39,9 @@ $srTeam = "active";
 function newPerson($name, $img, $post)
 {
     echo '<div class="col-4">
-            <img class="rounded" src="' . $img . '" width="140" height="140">
-            <h4 class="mt-1">' . $name . '</h4>
-            <p class="mb-3">' . $post . '</p>
+            <img class="rounded people" src="' . $img . '">
+            <h6 class="mt-1 people">' . $name . '</h6>
+            <p class="mb-3 people">' . $post . '</p>
         </div>';
 }
 
@@ -65,8 +65,6 @@ $journal
         <?php newPerson('Filip Felicia', '../assets/img/team/felicia.jpg', substr($profs, 0, -1)); ?>
         <?php newPerson('Basoc Lenuța', '../assets/img/team/basoc.jpg', substr($profs, 0, -1)); ?>
     </div>
-
-    <hr>
 
     <div class="row">
         <?php newPerson('Alexe Vlad-Andrei', '../assets/img/team/alexe.jpg', $web); ?>

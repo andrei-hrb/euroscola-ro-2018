@@ -1,17 +1,4 @@
 /* navbar */
-
-img.logo {
-    width: 15rem;
-    height: 4rem;
-}
-#nav{
-    background:#1F363D;
-}
-a.nav-elm {
-    font-family: Karla, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.52rem !important;
-}
-
 img.flag {
     width: 1.38rem;
     height: 1.38rem;
@@ -40,6 +27,35 @@ img.selected {
     border-radius: 100%;
 }
 
+@media screen and (min-width: 722px) {
+    img.logo {
+        width: 15rem;
+        height: 4rem;
+    }
+}
+
+@media screen and (max-width: 721px) {
+    img.logo {
+        width: 11.1rem;
+        height: 3rem;
+    }
+
+    .flags {
+        margin: 0 auto;
+        width: 100px;
+    }
+}
+
+#nav {
+    background: #1F363D;
+!important;
+}
+
+a.nav-elm {
+    font-family: Karla, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.52rem !important;
+}
+
 /* */
 
 img.resize {
@@ -53,72 +69,113 @@ img.resize {
     font-family: Open Sans, sans-serif, serif;
 }
 
+@media screen and (min-width: 722px) {
+    #mapid {
+        height: 16.5rem;
+        width: 31rem;
+        margin-top: 6rem;
+    }
+
+    .team-text {
+        font-size: 7vh;
+    }
+
+    .people h6 {
+        font-size: 5vh;
+    }
+
+    .people img {
+        width: 60%;
+        height: auto;
+    }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 721px) {
+    #mapid {
+        height: 40vw;
+        width: 80vw;
+        margin: auto;
+
+    }
+
+    .team-text {
+        font-size: 3vh;
+    }
+
+    .people h6 {
+        font-size: 3vh;
+    }
+
+    .people img {
+        width: 100%;
+        height: auto;
+    }
+
+    .people p {
+        font-size: small;
+    }
+}
+
 .people .col-4 {
     margin-bottom: 1.5rem;
     text-align: center;
 }
 
-.people h2 {
-    font-weight: 400;
-}
-
-.people .col-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-}
-
 /* footer */
+a.foot:visited {
+    color: #999999;
+}
 
 .foot {
     font-family: Open Sans, sans-serif, serif;
 }
 
-a.foot:visited {
-    color: #999999;
+@media screen and (min-width: 722px) {
+    .foot {
+        font-size: small;
+    }
 }
 
-#mapid {
-    height: 16.5rem;
-    width: 31rem;
-    margin-top:6rem;
-}
-#titlu{
-    margin-left:2rem;
+
+@media screen and (max-width: 721px) {
+    .foot {
+        font-size: x-small;
+    }
 }
 
-.featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-  }
-  
-  /* Thin out the marketing headings */
-  .featurette-heading {
+/* .featurette-divider {
+    margin: 2rem 0; } /* Space out the Bootstrap <hr> more */
+
+/* Thin out the marketing headings */
+/*
+.featurette-heading {
     font-weight: 100;
     letter-spacing: -.05rem;
-    margin-left:1rem;
-   
-    
+    margin-left: 1rem;
 
-  }
-  
-  
-  /* RESPONSIVE CSS
-  -------------------------------------------------- */
-  
-  @media (min-width: 40em) {
-    /* Bump up size of carousel content */
+} */
+
+/* RESPONSIVE CSS - ca sa ce? =))))
+--------------------------------------------------
+
+ @media (min-width: 40em) {
+    /* Bump up size of carousel content
     .carousel-caption p {
-      margin-bottom: 1.25rem;
-      font-size: 1.25rem;
-      line-height: 1.4;
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
     }
-  
+
     .featurette-heading {
-      font-size: 50px;
+        font-size: 50px;
     }
-  }
-  
-  @media (min-width: 62em) {
+}
+
+@media (min-width: 62em) {
     .featurette-heading {
-      margin-top: 1rem;
+        margin-top: 1rem;
     }
-  }
+}
+
+*/

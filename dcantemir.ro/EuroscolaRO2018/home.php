@@ -44,11 +44,11 @@ $srTeam = "";
 
 <!-- Erasmus -->
 <div class="row featurette">
-    <div class="col-7 order-1">
+    <div class="col-7 order-0">
         <h2 class="featurette-heading"><?= $twoTitle ?>
             <p class="lead"><?= $twoText ?></p>
     </div>
-    <div class="col-5">
+    <div class="col-5 order-1">
         <img class="featurette-image img-fluid mx-auto order-0" src="../assets/img/team/team.png">
     </div>
 </div>
@@ -68,7 +68,7 @@ $srTeam = "";
 
 <hr class="featurette-divider">
 
-<div class="container">
+<!--div class="container">
     <div id="player"></div>
 
     <script>
@@ -104,7 +104,7 @@ $srTeam = "";
             player.stopVideo();
         }
     </script>
-</div>
+</div -->
 
 <?php include("assets/misc/footer/footer.php"); ?>
 <?php include("assets/misc/html/scripts.php"); ?>
