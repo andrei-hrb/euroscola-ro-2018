@@ -20,12 +20,16 @@ $srTeam = "active";
 
 <div class="container my-5">
     <div class="text-center">
-        <img src="../assets/img/team/team.png " class="rounded img-fluid" width="100%" height="auto">
+    <img id="myImg" class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png"alt="ce frumoasa-i viata cand ai test la antre">
+        <div id="myModal" class="modal">
+        <span class="close">&times;</span><!-- The Close Button -->
+        <img class="modal-content" id="img01"><!-- Modal Content (The Image) -->
+        <div id="caption"></div><!-- Modal Caption (Image Text) --></div></div>
         <div class="mt-3 mb-1">
             <div class="container">
                 <div class="row">
                     <div class="col-9 mx-auto">
-                        <h5 class="team-text display-5"><?= $teamText ?></h5>
+                        <h6 class="team-text display-5"><?= $teamText ?></h6>
                     </div>
                 </div>
             </div>

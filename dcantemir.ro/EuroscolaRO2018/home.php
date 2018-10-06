@@ -8,6 +8,9 @@ $srTeam = "";
 ?>
 <html>
 <head>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <?php include("assets/misc/html/head.php"); ?>
     <title> <?= $home . ' ' . $title ?> </title>
 </head>
@@ -29,24 +32,27 @@ $srTeam = "";
 8) Pagina / Grup de Facebook-->
 
 <!--Introduction-->
+<div class="container marketing">
 <hr class="featurette-divider">
 <div class="row featurette ">
-    <div class="col-7">
+    <div class="col-7 order-0">
         <h2 class="featurette-heading"><?= $oneTitle ?> </h2>
         <p class="lead"><?= $oneText ?></p>
     </div>
     <div class="col-5">
-        <img class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png">
-    </div>
-</div>
+        <img id="myImg" class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png"alt="ce frumoasa-i viata cand ai test la antre">
+        <div id="myModal" class="modal">
+        <span class="close">&times;</span><!-- The Close Button -->
+        <img class="modal-content" id="img01"><!-- Modal Content (The Image) -->
+        <div id="caption"></div><!-- Modal Caption (Image Text) --></div></div> </div>
 
 <hr class="featurette-divider">
 
 <!-- Erasmus -->
 <div class="row featurette">
-    <div class="col-7 order-0">
-        <h2 class="featurette-heading"><?= $twoTitle ?>
-            <p class="lead"><?= $twoText ?></p>
+    <div class="col-7">
+        <h2 class="featurette-heading"><?= $twoTitle ?></h2>
+        <p class="lead"><?= $twoText ?></p>
     </div>
     <div class="col-5 order-1">
         <img class="featurette-image img-fluid mx-auto order-0" src="../assets/img/team/team.png">
@@ -61,12 +67,11 @@ $srTeam = "";
         <h2 class="featurette-heading"><?= $threeTitle ?></h2>
         <p class="lead"><?= $threeText ?></p>
     </div>
-    <div class="col-5">
-        <img class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png">
-    </div>
+    <div class="col-5 order-1">
+        <img class="featurette-image img-fluid mx-auto order-0" src="../assets/img/team/team.png">
+    </div> </div>
+        <hr class="featurette-divider">
 </div>
-
-<hr class="featurette-divider">
 
 <!--div class="container">
     <div id="player"></div>
