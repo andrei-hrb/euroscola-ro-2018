@@ -22,7 +22,7 @@ $srTeam = "active";
     <div class="text-center">
     <img id="myImg" class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png"alt="ce frumoasa-i viata cand ai test la antre">
         <div id="myModal" class="modal">
-        <span class="close">&times;</span><!-- The Close Button -->
+        <span class="close" style="color: white;">&times;</span><!-- The Close Button -->
         <img class="modal-content" id="img01"><!-- Modal Content (The Image) -->
         <div id="caption"></div><!-- Modal Caption (Image Text) --></div></div>
         <div class="mt-3 mb-1">

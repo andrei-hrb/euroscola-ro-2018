@@ -36,9 +36,9 @@ $srTeam = "";
             <p class="lead"><?= $oneText ?></p>
         </div>
         <div class="col-md-5 order-1">
-            <img id="myImg" class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png">
+            <img id="myImg img01" class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png">
             <div id="myModal" class="modal">
-                <p class="close">&times;</p>
+                <p class="close" style="color: white">&times;</p>
                 <img class="modal-content" id="img01">
                 <div id="caption"></div>
             </div>
@@ -54,7 +54,12 @@ $srTeam = "";
             <p class="lead"><?= $twoText ?></p>
         </div>
         <div class="col-md-5 order-1">
-            <img class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png">
+            <img id="myImg img02" class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png">
+            <div id="myModal" class="modal">
+                <p class="close" style="color: white; @media ">&times;</p>
+                <img class="modal-content" id="img02">
+                <div id="caption"></div>
+            </div>
         </div>
     </div>
 
@@ -62,12 +67,17 @@ $srTeam = "";
 
     <!-- Euroscola -->
     <div class="row featurette">
-        <div class="col-7 order-0">
+        <div class="col-md-7 order-0">
             <h2 class="featurette-heading"><?= $threeTitle ?></h2>
             <p class="lead"><?= $threeText ?></p>
         </div>
-        <div class="col-5 order-1">
-            <img class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png">
+        <div class="col-md-5 order-1">
+            <img id="myImg img03" class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png">
+            <div id="myModal" class="modal">
+                <p class="close" style="color: white"; @media>&times;</p>
+                <img class="modal-content" id="img03">
+                <div id="caption"></div>
+            </div>
         </div>
     </div>
     <hr class="featurette-divider">
