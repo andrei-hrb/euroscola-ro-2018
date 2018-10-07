@@ -13,6 +13,7 @@ or be lazy and just press the heroku link from above
  2. maps and stuff - leafet
  3. hating the facebook plugin for being so inestetic
  4. "boostrap"
- 5. server side, no js, 'cuz why now?
- 6. youtube player - copy paste but i edited some of it so 
- 7. best mobile experience ever =))
+ 5. all logic is on the server side
+, no js, 'cuz why now?
+ 6. youtube player - copy paste but i edited some of it so it's a feature
+
