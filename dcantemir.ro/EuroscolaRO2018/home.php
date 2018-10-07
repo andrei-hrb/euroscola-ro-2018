@@ -31,30 +31,29 @@ $srTeam = "";
 <!--Introduction-->
 <div class="container marketing" id="spacingtop">
     <div class="row featurette">
-        <div class="col-7 order-0">
+        <div class="col-md-7 order-0">
             <h2 class="featurette-heading"><?= $oneTitle ?> </h2>
             <p class="lead"><?= $oneText ?></p>
         </div>
-        <div class="col-5 order-1">
-            <img class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png">
-            <!-- ce naiba faci aici? avem timp sa scoatem o mie de cacaturi pe care toti le bagi tu?
-            ca sa ce e faza cu albul??? in loc sa se vada ca lumea pui toate rahaturile de pe net... bravo
-            div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
-            <div id="caption"></div></div></div> </div -->
+        <div class="col-md-5 order-1">
+            <img id="myImg" class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png">
+            <div id="myModal" class="modal">
+                <p class="close">&times;</p>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
         </div>
-    </div>
+    </div -->
 
     <hr class="featurette-divider">
 
     <!-- Erasmus -->
     <div class="row featurette">
-        <div class="col-7 order-0">
+        <div class="col-md-7 order-0">
             <h2 class="featurette-heading"><?= $twoTitle ?></h2>
             <p class="lead"><?= $twoText ?></p>
         </div>
-        <div class="col-5 order-1">
+        <div class="col-md-5 order-1">
             <img class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png">
         </div>
     </div>
