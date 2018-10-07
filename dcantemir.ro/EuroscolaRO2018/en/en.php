@@ -51,10 +51,10 @@ $threeText="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id li
 
 //Cantemir
 $cndc="Colegiul Național \"Dimitrie Cantemir\" ";
-$cndctext="VIZIUNEA ";
-$cndctext1="Colegiul Național \"Dimitrie Cantemir\" urmărește facilitarea integrării absolvenților în societatea contemporană prin valorificarea potențialului individual și instituțional, asigurarea unui climat de formare și informare sigur, stimulativ și participativ, formarea cetățeniei europene a elevilor și a personalului.";
-$cndctext2="MISIUNEA ";
-$cndctext3="Colegiul Național \"Dimitrie Cantemir\" cultivă excelența, valorifică tradiția și promovează inovarea. Împreună, parcurgem pașii spre noi înșine înșine și ne găsim locul într-o lume în continuă schimbare, învățând să devenim oameni care știu să împărtășească succesul cu alți oameni.";
+$cndctext="THE VISION ";
+$cndctext1="\"Dimitrie Cantemir\" Highschool has in mind the facilitation of graduate integration in modern-day society by developing their individual potential, assuring a safe enviroment for forming and informing, one that stimulates and makes them participate, by granting the students and staff their european citizenship";
+$cndctext2="THE MISSION ";
+$cndctext3="\"Dimitrie Cantemir\" Highschool cultivates excellence, values tradition and promotes inovation. Together, we make stept towards finding ourselves and finding our place in an ever-changing world, learning how to become people who can share succes with others";
 
 
 //Team
