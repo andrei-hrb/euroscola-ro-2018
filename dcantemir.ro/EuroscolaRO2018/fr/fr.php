@@ -51,11 +51,11 @@ $threeTitle="Concours Euroscola, c'est quoi?";
 $threeText="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
 
 //Cantemir
-$cndc="Colegiul Național \"Dimitrie Cantemir\" ";
-$cndctext="La vision ";
-$cndctext1="Le Collège National \"Dimitrie Cantemir\" vise à facilitation de l'intégration des diplômés dans la société contemporaine par la valorisation du potentiel individuel et institutionnel, l'assurance d'un climat d'apprentissage et d'information sûr, incitatif et participatif, la constitution de citoyenneté européene des élèves et du personnel.";
-$cndctext2="MISIUNEA ";
-$cndctext3="Colegiul Național \"Dimitrie Cantemir\" cultivă excelența, valorifică tradiția și promovează inovarea. Împreună, parcurgem pașii spre noi înșine înșine și ne găsim locul într-o lume în continuă schimbare, învățând să devenim oameni care știu să împărtășească succesul cu alți oameni.";
+$cndc=" \"Dimitrie Cantemir\" National College ";
+$cndctext="LA VISION ";
+$cndctext1="\"Dimitrie Cantemir\" National College aims at facilitating the integration of graduates in contemporary society by capitalizing on the individual and institutional potential, ensuring a safe, stimulating and participatory training and information climate, forming the European citizenship of pupils and staff.";
+$cndctext2="LA MISSION  ";
+$cndctext3="Le Collège national \"Dimitrie Cantemir\" cultive l'excellence, met en valeur la tradition et encourage l'innovation. Ensemble, nous allons vers nous memes   et trouvons notre place dans un monde en changement, en apprenant à devenir des personnes sachant partager le succès avec les autres.";
 
 //Team
 $teamText = "Seconde E, specialisation: math-info anglais renforcé";
