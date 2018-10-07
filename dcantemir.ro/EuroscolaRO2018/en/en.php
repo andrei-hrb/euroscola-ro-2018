@@ -50,7 +50,7 @@ $threeTitle="What is Erasmus?";
 $threeText="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
 
 //Cantemir
-$cndc="Colegiul Național \"Dimitrie Cantemir\" ";
+$cndc="\"Dimitrie Cantemir\" Highschool ";
 $cndctext="THE VISION ";
 $cndctext1="\"Dimitrie Cantemir\" Highschool has in mind the facilitation of graduate integration in modern-day society by developing their individual potential, assuring a safe enviroment for forming and informing, one that stimulates and makes them participate, by granting the students and staff their european citizenship";
 $cndctext2="THE MISSION ";

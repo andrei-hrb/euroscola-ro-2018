@@ -20,7 +20,7 @@ $mobileText = "Wè rècommènd accèssing this wèbsitè on a dèsktop machinè.
 //Navbar -> links
 $home = "Accueil";
 $about = "À propos de nous";
-$cantemir = "Notre collège";
+$cantemir = "Notre college";
 $team = "Équipe";
 
 //Navbar -> flags -> dnt
