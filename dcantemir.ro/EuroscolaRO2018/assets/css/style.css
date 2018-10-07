@@ -72,8 +72,7 @@ img.resize {
 @media screen and (min-width: 722px) {
     #mapid {
         height: 20rem;
-        width: 40rem;
-        margin-top: 8rem;
+        width: 100%;
     }
 
     .team-text {
@@ -96,7 +95,6 @@ img.resize {
         height: 40vw;
         width: 80vw;
         margin: auto;
-
     }
 
     .team-text {
@@ -137,45 +135,55 @@ a.foot:visited {
     }
 }
 
-
 @media screen and (max-width: 721px) {
     .foot {
         font-size: x-small;
     }
 }
+
 /*font si asezare*/
-#spacingtop{
-    margin-top:7rem; /*fixed spacing doesn't see $cndc on the page due the fixed navbar*/
+#spacingtop {
+    margin-top: 3rem;
 }
- .featurette-divider {
-    margin: 2rem ; } 
+
+.featurette-divider {
+    margin: 2rem;
+}
+
 .featurette-heading {
     font-weight: 100;
     letter-spacing: -.05rem;
-    margin-left: 1rem;}
+    margin-left: 1rem;
+}
+
 .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
-  }
-  .marketing h2 {
+}
+
+.marketing h2 {
     font-weight: 400;
-  }
-  .marketing .col-lg-4 p {
+}
+
+.marketing .col-lg-4 p {
     margin-right: .75rem;
     margin-left: .75rem;
-  }
+}
+
 /*scrisul ami boldat aka mai frumusel*/
- @media (min-width: 40em) {
+@media (min-width: 40em) {
     .featurette-heading {
         font-size: 50px;
     }
 }
+
 @media (min-width: 62em) {
     .featurette-heading {
         margin-top: 1rem;
     }
 }
-/*ZOOM IMAGE optional??? 
+
+/*ZOOM IMAGE optional???
 #zoom {
     transition: transform .2s; 
 }
@@ -194,7 +202,9 @@ a.foot:visited {
     transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+#myImg:hover {
+    opacity: 0.7;
+}
 
 /* The Modal (background) */
 .modal {
@@ -207,8 +217,8 @@ a.foot:visited {
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
 }
 
 /* Modal Content (Image) */
@@ -232,14 +242,18 @@ a.foot:visited {
 }
 
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption { 
+.modal-content, #caption {
     animation-name: zoom;
     animation-duration: 0.6s;
 }
 
 @keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
 }
 
 /* The Close Button */
@@ -261,7 +275,7 @@ a.foot:visited {
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
     .modal-content {
         width: 100%;
     }

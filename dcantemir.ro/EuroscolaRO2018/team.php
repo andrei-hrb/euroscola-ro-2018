@@ -29,7 +29,7 @@ $srTeam = "active";
             <div class="container">
                 <div class="row">
                     <div class="col-9 mx-auto">
-                        <h6 class="team-text display-5"><?= $teamText ?></h6>
+                        <h6 class="team-text display-5 text-center"><?= $teamText ?></h6>
                     </div>
                 </div>
             </div>

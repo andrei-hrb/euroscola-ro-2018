@@ -7,7 +7,7 @@
         let mymap = L.map('mapid', {
             zoomControl: false,
             attributionControl: false
-        }).setView([46.25321, 26.77684], 14);
+        }).setView([46.25321, 26.77684], 13);
         L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
             attribution: '',
             maxZoom: 17,

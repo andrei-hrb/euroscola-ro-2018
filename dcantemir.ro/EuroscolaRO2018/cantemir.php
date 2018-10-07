@@ -19,14 +19,14 @@ $srTeam = "";
 
 
 <div class="row featurette">
-    <div class="col-md-7 order-0">
-        <h1 class="featurette-heading text-center"id="spacingtop"><?= $cndc ?></h1>
-        <h2 class="mx-4"><?= $cndctext ?></h2>
-        <p class="lead mx-3"><?=$cndctext1?></p>
-        <h2 class="mx-4"><?= $cndctext2 ?></h2>
-        <p class="lead mx-3"><?=$cndctext3?></p>
+    <div class="col-md-6 order-0">
+        <h1 class="featurette-heading text-center mb-3 my-3"><?= $cndc ?></h1>
+        <h2 class="mx-4 mb-1"><?= $cndctext ?></h2>
+        <p class="lead mx-4 mb-2"><?=$cndctext1?></p>
+        <h2 class="mx-4 mb-1"><?= $cndctext2 ?></h2>
+        <p class="lead mx-4"><?=$cndctext3?></p>
     </div>
-    <div class="col-md-5 order-1">
+    <div class="col-md-5 order-1 my-auto">
         <?php include("assets/misc/footer/map.php"); ?>
     </div>
 </div>
