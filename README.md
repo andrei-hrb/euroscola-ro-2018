@@ -1,6 +1,5 @@
 
 # EuroscolaRO2018 - Explore IT with Us
-## Colegiul Național "Dimitrie Cantemir"
 
 ### How to test this project:
 ##### Windows
@@ -18,7 +17,7 @@
   
 ##### or be lazy and just press the heroku link from above
 
-## Features:
+### Features:
  1. somehow cleaver, somehow shitty php methods for multilang
  2. maps and stuff - leafet
  3. hating the facebook plugin for being so inestetic
