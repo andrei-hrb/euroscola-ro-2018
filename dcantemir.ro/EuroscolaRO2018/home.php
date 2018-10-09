@@ -13,7 +13,7 @@ $srTeam = "";
 </head>
 
 <body>
-<?php include("assets/misc/utils/mobile.php"); ?>
+<?php include("assets/misc/utils/fail.php"); ?>
 <?php include("assets/misc/navbar/navbar.php"); ?>
 <?php include("assets/misc/posts/carousel.php"); ?>
 

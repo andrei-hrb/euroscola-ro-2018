@@ -20,17 +20,18 @@ $srTeam = "active";
 
 <div class="container my-5">
     <div class="text-center">
-    <img id="myImg" class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png"alt="ce frumoasa-i viata cand ai test la antre">
+        <img id="myImg" class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.jpg" alt=<?= $teamAltText ?>>
         <div id="myModal" class="modal">
-        <span class="close" style="color: white;">&times;</span><!-- The Close Button -->
-        <img class="modal-content" id="img01"><!-- Modal Content (The Image) -->
-        <div id="caption"></div><!-- Modal Caption (Image Text) --></div></div>
-        <div class="mt-3 mb-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-9 mx-auto">
-                        <h6 class="team-text display-5 text-center"><?= $teamText ?></h6>
-                    </div>
+            <span class="close">&times;</span><!-- The Close Button -->
+            <img class="modal-content" id="img01"><!-- Modal Content (The Image) -->
+            <div id="caption"></div><!-- Modal Caption (Image Text) -->
+        </div>
+    </div>
+    <div class="mt-3 mb-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-9 mx-auto">
+                    <h6 class="team-text display-5 text-center"><?= $teamText ?></h6>
                 </div>
             </div>
         </div>
@@ -42,8 +43,9 @@ $srTeam = "active";
 <?php
 function newPerson($name, $img, $post)
 {
-    echo '<div class="col-4">
-            <img class="rounded people" src="' . $img . '">
+    echo '
+        <div class="col-4">
+            <img id="myImg" class="rounded people featurette-image" src="../assets/img/team/' . $img . '.jpg" alt="' . $name . '">
             <h6 class="mt-1 people">' . $name . '</h6>
             <p class="mb-3 people">' . $post . '</p>
         </div>';
@@ -66,55 +68,55 @@ $journal
 <div class="container people">
 
     <div class="row">
-        <?php newPerson('Filip Felicia', '../assets/img/team/felicia.jpg', substr($profs, 0, -1)); ?>
-        <?php newPerson('Basoc Lenuța', '../assets/img/team/basoc.jpg', substr($profs, 0, -1)); ?>
+        <?php newPerson('Filip Gabriela-Felicia', 'felicia', substr($profs, 0, -1)); ?>
+        <?php newPerson('Basoc Lenuța', 'basoc', substr($profs, 0, -1)); ?>
     </div>
 
     <div class="row">
-        <?php newPerson('Alexe Vlad-Andrei', '../assets/img/team/alexe.jpg', $web); ?>
-        <?php newPerson('Balint Robert', '../assets/img/team/balint.jpg', $interview); ?>
-        <?php newPerson('Birtea Bogdan-Octavian', '../assets/img/team/birtea.jpg', $posters); ?>
+        <?php newPerson('Alexe Vlad-Andrei', 'alexe', $web); ?>
+        <?php newPerson('Balint Robert', 'balint', $interview); ?>
+        <?php newPerson('Birtea Bogdan-Octavian', 'birtea', $posters); ?>
     </div>
 
     <div class="row">
-        <?php newPerson('Calfa Mihai', '../assets/img/team/calfa.jpg', $posters); ?>
-        <?php newPerson('Cărăușu Maria', '../assets/img/team/carausu.jpg', $interview); ?>
-        <?php newPerson('Cătea Francesca-Rita', '../assets/img/team/catea.jpg', $journal); ?>
+        <?php newPerson('Calfa Mihai', 'calfa', $posters); ?>
+        <?php newPerson('Cărăușu Maria', 'carausu', $interview); ?>
+        <?php newPerson('Cătea Francesca-Rita', 'catea', $journal); ?>
     </div>
 
     <div class="row">
-        <?php newPerson('Cercel Cosmin', '../assets/img/team/cercel.jpg', $articles); ?>
-        <?php newPerson('Ciobanu Francesco', '../assets/img/team/ciobanu.jpg', $posters); ?>
-        <?php newPerson('Enea Flavia', '../assets/img/team/enea.jpg', $posters); ?>
+        <?php newPerson('Cercel Cosmin', 'cercel', $articles); ?>
+        <?php newPerson('Ciobanu Francesco', 'ciobanu', $posters); ?>
+        <?php newPerson('Enea Flavia', 'enea', $posters); ?>
     </div>
 
     <div class="row">
-        <?php newPerson('Filip Bianca-Maria', '../assets/img/team/filip.jpg', $posters); ?>
-        <?php newPerson('Ghineț Iustin-Gabriel', '../assets/img/team/ghinet.jpg', $posters); ?>
-        <?php newPerson('Guramba Robert-Petru', '../assets/img/team/guramba.jpg', $posters); ?>
+        <?php newPerson('Filip Maria-Bianca', 'filip', $posters); ?>
+        <?php newPerson('Ghineț Iustin-Gabriel', 'ghinet', $posters); ?>
+        <?php newPerson('Guramba Robert-Petru', 'guramba', $posters); ?>
     </div>
 
     <div class="row">
-        <?php newPerson('Gotschik Clara-Maria', '../assets/img/team/gotschik.jpg', $journal); ?>
-        <?php newPerson('Hanganu Sonia-Serena', '../assets/img/team/hanganu.jpg', $articles); ?>
-        <?php newPerson('Hîrbu Andrei', '../assets/img/team/hirbu.jpg', $web); ?>
+        <?php newPerson('Gotschik Clara-Maria', 'gotschik', $journal); ?>
+        <?php newPerson('Hanganu Sonia-Serena', 'hanganu', $articles); ?>
+        <?php newPerson('Hîrbu Andrei', 'hirbu', $web); ?>
     </div>
 
     <div class="row">
-        <?php newPerson('Lupu Răzvan-Ioan', '../assets/img/team/lupu.jpg', $interview); ?>
-        <?php newPerson('Neculăiță-Mocanu Mălina-Andreea', '../assets/img/team/mocanu.jpg', $journal); ?>
-        <?php newPerson('Palaghiță Mara-Andreea', '../assets/img/team/palaghita.jpg', $fb); ?>
+        <?php newPerson('Lupu Răzvan-Ioan', 'lupu', $interview); ?>
+        <?php newPerson('Neculăiță-Mocanu Mălina-Andreea', 'mocanu', $journal); ?>
+        <?php newPerson('Palaghiță Mara-Andreea', 'palaghita', $fb); ?>
     </div>
 
     <div class="row">
-        <?php newPerson('Popa Tudor-Valentin', '../assets/img/team/popa.jpg', $articles); ?>
-        <?php newPerson('Stancu Diana-Elena', '../assets/img/team/stancu.jpg', $web); ?>
-        <?php newPerson('Pricopi Andrei', '../assets/img/team/pricopi.jpg', $articles); ?>
+        <?php newPerson('Popa Tudor-Valentin', 'popa', $articles); ?>
+        <?php newPerson('Stancu Diana-Elena', 'stancu', $web); ?>
+        <?php newPerson('Pricopi Andrei', 'pricopi', $articles); ?>
     </div>
 
     <div class="row">
-        <?php newPerson('Suditu Mara-Ioana', '../assets/img/team/suditu.jpg', $events); ?>
-        <?php newPerson('Zotica Ștefan-Lucian', '../assets/img/team/zotica.jpg', $interview); ?>
+        <?php newPerson('Suditu Mara-Ioana', 'suditu', $events); ?>
+        <?php newPerson('Zotica Ștefan-Lucian', 'zotica', $interview); ?>
     </div>
 
 </div>

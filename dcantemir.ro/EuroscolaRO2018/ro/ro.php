@@ -66,3 +66,4 @@ $interview = "Interviu";
 $articles = "Articole";
 $events = "Eveniment";
 $journal = "Jurnal";
+$teamAltText = "ZOE";
