@@ -20,19 +20,17 @@ $srTeam = "active";
 
 <div class="container my-5">
     <div class="text-center">
-        <img id="myImg" class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.jpg" alt=<?= $teamAltText ?>>
+        <img id="myImg" class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.jpg" alt=<?= $teamAltText ?> style="width:100%;max-width:1000px">
         <div id="myModal" class="modal">
-            <span class="close">&times;</span><!-- The Close Button -->
-            <img class="modal-content" id="img01"><!-- Modal Content (The Image) -->
-            <div id="caption"></div><!-- Modal Caption (Image Text) -->
-        </div>
-    </div>
-    <div class="mt-3 mb-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-9 mx-auto">
-                    <h6 class="team-text display-5 text-center"><?= $teamText ?></h6>
-                </div>
+        <span class="close" style="color: white;">&times;</span><!-- The Close Button -->
+        <img class="modal-content" id="img01"><!-- Modal Content (The Image) -->
+        <div id="caption"></div><!-- Modal Caption (Image Text) --></div></div>
+        <div class="mt-3 mb-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 mx-auto">
+                        <h6 class="team-text display-5 text-center"><?= $teamText ?></h6>
+                    </div>
             </div>
         </div>
     </div>
@@ -45,7 +43,7 @@ function newPerson($name, $img, $post)
 {
     echo '
         <div class="col-4">
-            <img id="myImg" class="rounded people featurette-image" src="../assets/img/team/' . $img . '.jpg" alt="' . $name . '">
+            <img  class="rounded people" src="../assets/img/team/' . $img . '.jpg" alt="' . $name . '">
             <h6 class="mt-1 people">' . $name . '</h6>
             <p class="mb-3 people">' . $post . '</p>
         </div>';
