@@ -1,5 +1,8 @@
 <?php
 $lang = $_GET["lang"];
+
+if ($lang == "") header('Location: /?lang=en', true, 301);
+
 include("$lang/$lang.php");
 
 $srHome = "active";
@@ -13,7 +16,6 @@ $srTeam = "";
 </head>
 
 <body>
-<?php include("assets/misc/utils/fail.php"); ?>
 <?php include("assets/misc/navbar/navbar.php"); ?>
 <?php include("assets/misc/posts/carousel.php"); ?>
 
@@ -74,7 +76,7 @@ $srTeam = "";
         <div class="col-md-5 order-1">
             <img id="myImg img03" class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png">
             <div id="myModal" class="modal">
-                <p class="close" style="color: white"; @media>&times;</p>
+                <p class="close" style="color: white;">&times;</p>
                 <img class="modal-content" id="img03">
                 <div id="caption"></div>
             </div>
