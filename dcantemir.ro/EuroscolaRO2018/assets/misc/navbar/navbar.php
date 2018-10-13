@@ -19,6 +19,9 @@
             <li class="nav-item ml-1">
                 <a class="nav-link nav-elm <?= $srTeam ?>" href="../team.php/?lang=<?= $lang ?>"><?= $team ?></a>
             </li>
+            <li class="nav-item ml-1">
+                <a class="nav-link nav-elm <?= $srGallery ?>" href="../gallery.php/?lang=<?= $lang ?>"><?= $gallery ?></a>
+            </li>
         </ul>
 
         <!-- language selector -->

@@ -27,63 +27,75 @@ $srTeam = "";
 4) Erasmus in CNDC
 5) Campania noastra de promovare
 6) Impact
-7) Sponsori / Parteneri
 8) Pagina / Grup de Facebook-->
 
 <!--Introduction-->
-<div class="container marketing" id="spacingtop">
+<div class="container" id="spacingtop">
     <div class="row featurette">
         <div class="col-md-7 order-0">
             <h2 class="featurette-heading"><?= $oneTitle ?> </h2>
             <p class="lead"><?= $oneText ?></p>
         </div>
         <div class="col-md-5 order-1">
-            <img id="myImg img01" class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png">
-            <div id="myModal" class="modal">
-                <p class="close" style="color: white">&times;</p>
-                <img class="modal-content" id="img01">
-                <div id="caption"></div>
+            <img  class="featurette-image img-fluid " src="../assets/img/home/cndc.jpeg" style="width:70%">
             </div>
         </div>
-    </div -->
-
-    <hr class="featurette-divider">
-
-    <!-- Erasmus -->
-    <div class="row featurette">
-        <div class="col-md-7 order-0">
-            <h2 class="featurette-heading"><?= $twoTitle ?></h2>
-            <p class="lead"><?= $twoText ?></p>
-        </div>
-        <div class="col-md-5 order-1">
-            <img id="myImg img02" class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png">
-            <div id="myModal" class="modal">
-                <p class="close" style="color: white; @media ">&times;</p>
-                <img class="modal-content" id="img02">
-                <div id="caption"></div>
-            </div>
-        </div>
-    </div>
 
     <hr class="featurette-divider">
 
     <!-- Euroscola -->
     <div class="row featurette">
         <div class="col-md-7 order-0">
+            <h2 class="featurette-heading"><?= $twoTitle ?></h2>
+            <p class="lead"><?= $twoText ?></p>
+        </div>
+        <div class="col-md-5 order-1">
+            <img  class="featurette-image img-fluid " src="../assets/img/home/euroscola.jpg" style="width:70%">
+            </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- Erasmus -->
+    <div class="row featurette">
+        <div class="col-md-7 order-0">
             <h2 class="featurette-heading"><?= $threeTitle ?></h2>
             <p class="lead"><?= $threeText ?></p>
         </div>
         <div class="col-md-5 order-1">
-            <img id="myImg img03" class="featurette-image img-fluid mx-auto" src="../assets/img/team/team.png">
-            <div id="myModal" class="modal">
-                <p class="close" style="color: white;">&times;</p>
-                <img class="modal-content" id="img03">
-                <div id="caption"></div>
+            <img class="featurette-image img-fluid mx-auto mt-5" src="../assets/img/home/erasmus.jpg" style="width:100%">
+            </div>
+       
+    </div>
+    <hr class="featurette-divider">
+    <!-- Erasmus cndc -->
+    <div class="row featurette">
+        <div class="col-md-7 order-0">
+            <h2 class="featurette-heading"><?= $fourTitle ?></h2>
+            <h2 class="text-danger" > <?=$fourText5?>01/10/2016-30/09/2018</h2>
+            <h2 class="text-danger" > <?=$fourText6?>63248€</h2>
+           <h2 class="text-danger" > <?=$fourText?></h2>
+            <ol class="lead"><li><?=$fourText1?><li><?=$fourText2?><li><?=$fourText3?><li><?=$fourText4?></ol>
+            <h2 class="text-danger" > <?=$fourText7?></h2><p class="lead"> <?=$fourText8?></p>
+            <h2 class="text-danger" > <?=$fourText9?></h2><p class="lead"><?=$fourText10?></p>
+            <h2 class="text-danger" > <?=$fourText11?></h2><ol class="lead"><li><?=$fourText12?><li><?=$fourText13?><li><?=$fourText14?><li><?=$fourText15?><li><?=$fourText16?><li><?=$fourText17?></ol>
+
+        </div>
+        <div class="col-md-5 order-1">
+            <img class="featurette-image img-fluid mx-auto mt-5" src="../assets/img/home/logoproiect.png" >
+            <img class="featurette-image img-fluid mx-auto mt-5" src="../assets/img/home/grup1.jpg" >
+            <img class="featurette-image img-fluid mx-auto mt-5" src="../assets/img/home/grup2.png" >
+
             </div>
         </div>
     </div>
-    <hr class="featurette-divider">
 </div>
+<hr class="featurette-divider">
+    <!-- Campania noastra de promovare -->
+    <hr class="featurette-divider">
+    <!-- -->
+  
+
 
 <!--div class="container">
     <div id="player"></div>

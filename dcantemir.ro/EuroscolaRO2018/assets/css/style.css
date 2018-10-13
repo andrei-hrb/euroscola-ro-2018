@@ -150,20 +150,6 @@ a.foot:visited {
     margin-left: 1rem;
 }
 
-.marketing .col-lg-4 {
-    margin-bottom: 1.5rem;
-    text-align: center;
-}
-
-.marketing h2 {
-    font-weight: 400;
-}
-
-.marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-}
-
 /*scrisul ami boldat aka mai frumusel*/
 @media (min-width: 40em) {
     .featurette-heading {
@@ -268,3 +254,14 @@ a.foot:visited {
         width: 100%;
     }
 }
+
+ /*GALERIE*/
+ .coloane {
+    padding-top: 10px;
+    padding-left:20px;
+    column-count: 2;
+    -webkit-column-width: 40%;
+    -moz-column-width: 40%;
+    column-width: 40%; }  
+    
+    
