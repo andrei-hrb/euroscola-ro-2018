@@ -33,8 +33,7 @@ $enLink = "?lang=en";
 $roLink = "?lang=ro";
 
 //footer
-$footerText = "Site créé pour le Concours national EUROSCOLA, la neuvième édition (2018-2019) dans le cadre
-du matériel de promotion d'Erasmus+";
+$footerText = "Site créé pour le Concours national EUROSCOLA, la neuvième édition (2018-2019) dans le cadre du matériel de promotion d'Erasmus+";
 $footerSite = "Le site du notre collège";
 
 //Home
@@ -72,18 +71,18 @@ $fourText15="Pregătirea elevilor pentru inserția pe piață muncii după absol
 $fourText16="Facilitarea orientării profesionale pe piață muncii după absolvire;";
 $fourText17="Experiență de lucru efectiv într-un mediu multicultural;";
 //Cantemir
-$cndc=" \"Dimitrie Cantemir\" National College ";
+$cndc=" Collège National «Dimitrie Cantemir»";
 $cndctext="LA VISION ";
-$cndctext1="\"Dimitrie Cantemir\" National College aims at facilitating the integration of graduates in contemporary society by capitalizing on the individual and institutional potential, ensuring a safe, stimulating and participatory training and information climate, forming the European citizenship of pupils and staff.";
-$cndctext2="LA MISSION  ";
-$cndctext3="Le Collège national \"Dimitrie Cantemir\" cultive l'excellence, met en valeur la tradition et encourage l'innovation. Ensemble, nous allons vers nous memes   et trouvons notre place dans un monde en changement, en apprenant à devenir des personnes sachant partager le succès avec les autres.";
+$cndctext1="Le Collège National «Dimitrie Cantemir» vise à facilitation de l'intégration des diplômés dans la société contemporaine par la valorisation du potentiel individuel et institutionnel, l'assurance d'un climat d'apprentissage et d'information sûr, incitatif et participatif, la constitution de citoyenneté européene des élèves et du personnel.";
+$cndctext2="LA MISSION";
+$cndctext3="Le Collège National «Dimitrie Cantemir» cultive l'excellence, met en valeur la tradition et encourage l'innovation. Ensemble, nous allons vers nous mêmes et trouvons notre place dans un monde en changement, en apprenant à devenir des personnes sachant partager le succès avec les autres.";
 
 //Team
 $teamText = "Seconde E, specialisation: math-info anglais renforcé";
 $profs = "Professeurs";
 $web = "Web";
 $fb = "Facebook";
-$posters = "Affiches / Posters";
+$posters = "Affiches";
 $interview = "Interview";
 $articles = "Articles";
 $events = "Événement";
@@ -91,3 +90,6 @@ $journal = "Journal";
 
 //Gallery
 $sessions="Lucru in echipa";
+$workshop1="Workshop1";
+$workshop2="Workshop2";
+$popularization="Popularizare";
