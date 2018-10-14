@@ -91,3 +91,6 @@ $teamAltText = "ZOE";
 
 //Gallery
 $sessions="Lucru in echipa";
+$workshop1="Workshop1";
+$workshop2="Workshop2";
+$popularization="Popularizare";

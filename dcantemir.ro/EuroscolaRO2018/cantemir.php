@@ -5,6 +5,7 @@ include("$lang/$lang.php");
 $srHome = "";
 $srCantemir = "active";
 $srTeam = "";
+$srGallery="";
 ?>
 
 <html>

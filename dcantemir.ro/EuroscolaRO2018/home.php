@@ -8,6 +8,7 @@ include("$lang/$lang.php");
 $srHome = "active";
 $srCantemir = "";
 $srTeam = "";
+$srGallery="";
 ?>
 <html>
 <head>
@@ -85,16 +86,48 @@ $srTeam = "";
             <img class="featurette-image img-fluid mx-auto mt-5" src="../assets/img/home/logoproiect.png" >
             <img class="featurette-image img-fluid mx-auto mt-5" src="../assets/img/home/grup1.jpg" >
             <img class="featurette-image img-fluid mx-auto mt-5" src="../assets/img/home/grup2.png" >
-
-            </div>
-        </div>
     </div>
 </div>
 <hr class="featurette-divider">
     <!-- Campania noastra de promovare -->
-    <hr class="featurette-divider">
-    <!-- -->
-  
+    <div class="row featurette">
+        <div class="col-md-7 order-0">
+        <h2 class="featurette-heading"><?= $fiveTitle ?></h2>
+        <h2 class="text-danger" > <?=$fiveText?>03/10/2018-17/10/2018</h2>
+        <h2 class="text-danger" > <?=$fiveText1?></h2><ol class="lead"> <li> <?=$fiveText2?><li> <?=$fiveText3?><li> <?=$fiveText4?></ol>
+        </div>
+        <div class="col-md-5 order-1">
+            <img class="featurette-image img-fluid mx-auto mt-5" src="../assets/img/home/logoproiect.png" >
+            <img class="featurette-image img-fluid mx-auto mt-5" src="../assets/img/home/grup1.jpg" >
+            <img class="featurette-image img-fluid mx-auto mt-5" src="../assets/img/home/grup2.png" >
+    </div>
+</div>
+<hr class="featurette-divider">
+<!-- Impactul campaniei de promovare-->
+ <div class="row featurette">
+        <div class="col-md-7 order-0">
+            <h2 class="featurette-heading"><?= $sixTitle ?></h2>
+            <ol class="lead"><li><?=$sixText?><li><?=$sixText1?><li><?=$sixText2?></ol>
+
+        </div>
+        <div class="col-md-5 order-1">
+            <img class="featurette-image img-fluid mx-auto mt-5" src="../assets/img/home/logoproiect.png" >
+    </div>
+</div>
+<hr class="featurette-divider">
+<!-- Pagina de Facebook-->
+<div class="row featurette">
+        <div class="col-md-7 order-0">
+        <h2 class="featurette-heading"><?= $sevenTitle ?></h2> 
+            <p class="lead"> <?=$sevenText?><a href="https://www.facebook.com/exploreIT.EuroscolaRO2018/"><?=$sevenLink?></a></p>
+            <p class="lead"> <?=$sevenText1?><a href="https://www.facebook.com/groups/556478561456197/"><?=$sevenLink?></a></p>
+        </div>
+        <div class="col-md-5 order-1">
+            <img class="featurette-image img-fluid mx-auto mt-5" src="../assets/img/home/logoproiect.png" >
+            
+    </div>
+</div>
+</div>
 
 
 <!--div class="container">

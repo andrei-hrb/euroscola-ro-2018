@@ -52,19 +52,19 @@ tineret și sport pentru perioada 2014-2020 având ca și obiective dezvoltarea 
 inserție profesională prin oferirea unor oportunități de educație, formare și activități de tineret sau sport.";
 
 //Home -> Erasmus in CNDC
-$fourTitle="Erasmus+ in CNDC";
-$fourText="OBIECTIVE:";
-$fourText1="dezvoltarea de parteneriate transaționale cu firme IT;";
-$fourText2="dezvoltarea cunoștințelor și aptitudinilor elevilor și formarea competențelor specifice unui specialist cu calificare medie în domeniul IT; ";
-$fourText3="formarea și dezvoltarea deprinderilor de muncă în echipa;";
-$fourText4="dezvoltarea adaptabilității, creativității, spiritului inovativ și a gândirii critice prin contactul cu un nou mediu social, cultural, lingvistic și profesional;";
-$fourText5="PERIOADĂ:";
-$fourText6="BUGET:";
-$fourText7="BENEFICIARI:";
+$fourTitle="Erasmus+ in Colegiul Național \"Dimitrie Cantemir\" Oneşti";
+$fourText="Obiective:";
+$fourText1="Dezvoltarea de parteneriate transaționale cu firme IT;";
+$fourText2="Dezvoltarea cunoștințelor și aptitudinilor elevilor și formarea competențelor specifice unui specialist cu calificare medie în domeniul IT; ";
+$fourText3="Formarea și dezvoltarea deprinderilor de muncă în echipa;";
+$fourText4="Dezvoltarea adaptabilității, creativității, spiritului inovativ și a gândirii critice prin contactul cu un nou mediu social, cultural, lingvistic și profesional;";
+$fourText5="Perioadă: ";
+$fourText6="Buget: ";
+$fourText7="Beneficiar:";
 $fourText8="20 de elevi ai claselor a XI-a, matematică-informatică engleză intensiv" ;
-$fourText9="ACTIVITĂȚi:";
+$fourText9="Activități:";
 $fourText10="Organizarea a 2 stagii de pregătire(2017,2018) cu durata a 3 săptămâni fiecare în Portsmouth, Marea Britanie, în cadrul cărora elevii dezvoltă aplicații pentru sistemul de operare Android, sub coordonarea specialiștilor de la Universitatea Portsmouth și de la organizațiile partenere.";
-$fourText11="REZULTATE:";
+$fourText11="Rezultate:";
 $fourText12="9 aplicații pentru sistemul Android create în cele 2 stagii;";
 $fourText13="20 certificate Europass Mobility obținute de participanți;";
 $fourText14="Experiență efectivă de lucru în cadrul unei companii pentru elevii participanți;";
@@ -72,8 +72,25 @@ $fourText15="Pregătirea elevilor pentru inserția pe piață muncii după absol
 $fourText16="Facilitarea orientării profesionale pe piață muncii după absolvire;";
 $fourText17="Experiență de lucru efectiv într-un mediu multicultural;";
 
+//Home -> Campania de promovare
+$fiveTitle="Campania de promovare";
+$fiveText="Perioada de desfășurare a campaniei: ";
+$fiveText1="Obiective:";
+$fiveText2="Promovarea activităților desfășurate de elevii cantemireni, beneficiari direcți ai celor 2 stagii de formare în domeniul IT din Marea Britanie în cadrul proiectului european \"FUTURE CAREER? - TOUCH IT!\", 2016-1-RO01-KA102-024210;";
+$fiveText3="Informarea membrilor comunității oneștene cu privire la beneficiile realizării proiectelor de mobilitate Erasmus+ în domeniul educației și formării;";
+$fiveText4="Conștientizarea importanței parteneriatelor și programelor de finanțare europene pentru educația tinerilor și adulților.";
 
+//Home -> Impactul campaniei de promovare
+$sixTitle="Impactul campaniei de promovare";
+$sixText="Campania a constat în organizarea a 2 workshopuri la care au participat peste 100 de persoane din clasa a IX-a, a X-a și  a XI-a în care elevii participanți la acest proiect și-au prezentat aplicațiile și au dus la cunonștință  beneficiile proiectului;";
+$sixText1="Peste 15 instituții din oraș au participat la popularizarea acestui proiect cu finanțare europeană;";
+$sixText2="Pagină de facebook are peste 400 de like-uri.";
 
+//Home -> Pagina de Facebook
+$sevenTitle="Pagina de Facebook";
+$sevenText="Ne puteți contacta si pe pagina de Facebook, unde postăm regulat și ținem la curent utilizatorii în legătură cu campania: ";
+$sevenText1="În cadrul acestei pagini este și un grup, unde pot intra cei care vor să afle mai multe de la participanții proiectului:";
+$sevenLink="Aici este linkul";
 //Cantemir
 $cndc="Colegiul Național \"Dimitrie Cantemir\" ";
 $cndctext="VIZIUNEA ";
@@ -96,3 +113,6 @@ $teamAltText = "ZOE";
 
 //Gallery
 $sessions="Lucru in echipa";
+$workshop1="Workshop1";
+$workshop2="Workshop2";
+$popularization="Popularizare";

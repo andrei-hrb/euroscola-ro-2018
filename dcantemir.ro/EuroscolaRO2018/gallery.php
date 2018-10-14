@@ -5,9 +5,10 @@ if ($lang == "") header('Location: /?lang=en', true, 301);
 
 include("$lang/$lang.php");
 
-$srHome = "active";
+$srHome = "";
 $srCantemir = "";
 $srTeam = "";
+$srGallery="active"
 ?>
 <html>
 <head>
@@ -29,6 +30,7 @@ $srTeam = "";
 
 
 </div>
+<!--AFISE-->
 <!-- rand -->
 <div class="coloane">
   <!-- coloana -->
@@ -53,9 +55,36 @@ $srTeam = "";
     </div></div>
 
 <hr class="featurette-divider">
+
+
+<!--LUCRUL IN ECHIPA-->
 <!-- rand -->
 <div class="coloane">
 <h1 class="featurette-heading text-center text-info"><?=$sessions?></h1></div>
+
+<hr class="featurette-divider">
+
+<!--WORKSHOP1-->
+<!-- rand -->
+<div class="coloane">
+<h1 class="featurette-heading text-center text-info"><?=$workshop1?></h1></div>
+
+<hr class="featurette-divider">
+
+<!--WORKSHOP2-->
+<!-- rand -->
+<div class="coloane">
+<h1 class="featurette-heading text-center text-info"><?=$workshop2?></h1></div>
+
+<hr class="featurette-divider">
+
+<!--POPULARIZARE-->
+<!-- rand -->
+<div class="coloane">
+<h1 class="featurette-heading text-center text-info"><?=$popularization?></h1></div>
+
+
+
 
 
 
