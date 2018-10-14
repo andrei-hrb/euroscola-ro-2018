@@ -254,14 +254,3 @@ a.foot:visited {
         width: 100%;
     }
 }
-
- /*GALERIE*/
- .coloane {
-    padding-top: 10px;
-    padding-left:20px;
-    column-count: 2;
-    -webkit-column-width: 40%;
-    -moz-column-width: 40%;
-    column-width: 40%; }  
-    
-    

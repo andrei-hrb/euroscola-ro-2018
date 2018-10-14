@@ -91,6 +91,7 @@ $teamAltText = "ZOE";
 
 //Gallery
 $sessions="Lucru in echipa";
-$workshop1="Workshop1";
-$workshop2="Workshop2";
-$popularization="Popularizare";
+$flayers = "Pliante";
+$workshop1="Workshop #1";
+$workshop2="Workshop #2";
+$popularisation="Popularizare";
