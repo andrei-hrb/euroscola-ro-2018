@@ -13,8 +13,11 @@ $srGallery = "active"
 <html>
 <head>
     <?php include("assets/misc/html/head.php"); ?>
-    <title> <?= $home . ' ' . $title ?> </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <title> <?= $home . ' ' . $title ?></title>
 </head>
+
+
 
 <body>
 
@@ -25,7 +28,9 @@ function newPhoto6($img)
 {
     echo '
         <div class="col-6">
-            <img  class="rounded img-fluid my-1 img-thumbnail mx-auto d-block" style="max-height: 30rem" src="../assets/img/gallery/' . $img . '.jpg">
+            <a class="lightbox" href="../assets/img/gallery/' . $img . '.jpg">
+                 <img class="img-fluid rounded img-thumbnail" src="../assets/img/gallery/' . $img . '.jpg">
+            </a>
         </div>
     ';
 }
@@ -34,17 +39,19 @@ function newPhoto4($img)
 {
     echo '
         <div class="col-4">
-                <img class="rounded img-fluid my-1 img-thumbnail mx-auto d-block" style="max-height: 20rem" src="../assets/img/gallery/' . $img . '.jpg"> 
+            <a class="lightbox" href="../assets/img/gallery/' . $img . '.jpg">
+                 <img class="img-fluid rounded img-thumbnail" src="../assets/img/gallery/' . $img . '.jpg">
+            </a>
         </div>
     ';
 }
+
 ?>
 
 <!-- Posters -->
 
 <div id="posters" class="mx-4">
     <h1 class="featurette-heading text-center text-info"><?= $posters ?></h1>
-
     <div class="row">
         <?php newPhoto6('poster') ?>
         <?php newPhoto6('announcement') ?>
@@ -147,7 +154,8 @@ function newPhoto4($img)
     </div>
 </div>
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>baguetteBox.run('.tz-gallery');</script>
 <?php include("assets/misc/footer/footer.php"); ?>
 <?php include("assets/misc/html/scripts.php"); ?>
 </body>
