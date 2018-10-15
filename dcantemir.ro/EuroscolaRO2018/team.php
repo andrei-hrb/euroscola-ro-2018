@@ -21,14 +21,7 @@ $srGallery="";
 
 <div class="container my-5">
     <div class="text-center">
-        <img id="myImg" class="featurette-image img-fluid mx-auto img-thumbnail" style="width: 100%; max-width: 1000px;" src="../assets/img/team/team.jpg" alt=<?= $teamAltText ?>>
-        <div id="myModal" class="modal">
-        <span class="close" style="color: white;">&times;</span><!-- The Close Button -->
-        <img class="modal-content" id="img01" style="max-width: 90%"><!-- Modal Content (The Image) -->
-        <div id="caption">
-
-        </div><!-- Modal Caption (Image Text) -->
-        </div>
+        <img class="featurette-image img-fluid mx-auto img-thumbnail" style="width: 100%; max-width: 1000px;" src="../assets/img/team/team.jpg" >
     </div>
 
     <div class="mt-3 mb-1">

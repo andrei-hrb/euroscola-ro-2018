@@ -49,7 +49,8 @@ function newPhoto4($img)
 ?>
 
 <!-- Posters -->
-
+<div class="container gallery-container">
+<div class="tz-gallery">
 <div id="posters" class="mx-4">
     <h1 class="featurette-heading text-center text-info"><?= $posters ?></h1>
     <div class="row">
@@ -153,7 +154,8 @@ function newPhoto4($img)
         <?php newPhoto4('sample') ?>
     </div>
 </div>
-
+</div>
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 <script>baguetteBox.run('.tz-gallery');</script>
 <?php include("assets/misc/footer/footer.php"); ?>
