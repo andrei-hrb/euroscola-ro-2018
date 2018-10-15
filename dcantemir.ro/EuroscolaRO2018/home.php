@@ -59,13 +59,20 @@ $srGallery="";
 
     <!-- Erasmus -->
     <div class="row featurette">
-        <div class="col-md-7 order-0">
+    
+        <div>
             <h2 class="featurette-heading"><?= $threeTitle ?></h2>
-            <p class="lead"><?= $threeText ?></p>
+            <div >
+    <img class="featurette-image img-fluid mx-auto mt-5" src="../assets/img/home/erasmus.jpg" style="width:50%">
+    </div>
+            <h2 class="text-danger"><?= $threeText ?></h2><ul class="lead"> <li><?= $threeText1 ?></ul>
+            <h2 class="text-danger"><?= $threeText2 ?><?= $threeText3 ?></h2>
+            <h2 class="text-danger"><?= $threeText4 ?></h2><ul class="lead"> <li><?= $threeText5 ?><li><?= $threeText6 ?><li><?= $threeText7 ?></ul>
+            <h2 class="text-danger"><?= $threeText8 ?></h2><ol class="lead"> <li><?= $threeText9 ?><li><?= $threeText10 ?><li><?= $threeText11 ?><li><?= $threeText12 ?><li><?= $threeText13 ?><li><?= $threeText14 ?></ol>
+            <h2 class="text-danger"><?= $threeText15 ?></h2><ul class="lead"> <li><?= $threeText16 ?></ul>
+
         </div>
-        <div class="col-md-5 order-1">
-            <img class="featurette-image img-fluid mx-auto mt-5" src="../assets/img/home/erasmus.jpg" style="width:100%">
-            </div>
+        
        
     </div>
     <hr class="featurette-divider">
@@ -103,6 +110,7 @@ $srGallery="";
     </div>
 </div>
 <hr class="featurette-divider">
+
 <!-- Impactul campaniei de promovare-->
  <div class="row featurette">
         <div class="col-md-7 order-0">

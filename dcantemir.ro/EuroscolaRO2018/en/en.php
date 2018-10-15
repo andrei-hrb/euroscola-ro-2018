@@ -40,36 +40,56 @@ $footerSite = "The site of our school";
 
 //Home -> introduction
 $oneTitle="Introduction";
-$oneText="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
+$oneText="This site was created the group of 10th grade student from \"Dimitrie Cantemir\" National College that participates in the Euroscola 2018 competition. They are running the \"Erasmus+, Explore It with Us\" campaign, to promote the european-funded project \"FUTURE CAREER? TOUCH IT!\", developed between 2016 and 2018 by the \"Dimitrie Cantemir\" National College Onesti.";
 
 //Home -> Ce este Euroscola?
 $twoTitle="What is Euroscola?";
-$twoText="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
+$twoText="The European Parliament created the Euroscola programme to inform the young generations about the procces of european integration and to promote their part in the building of the European Union. It reunites perdiodically highschool students from the 28 member states, giving them the chance, for one day, to find out how The European Parliament functions, to make new friends and to share visions and expectations.";
 
 //Home -> ce este Erasmus?
 $threeTitle="What is Erasmus?";
-$threeText="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
+$threeText="ERASMUS+ is the newest programme of the European Union that adresses the following: education, growth, youth and sports for the 2014-2020 period. Its objectives are the development of skills and helping you reach the proffesional market by offering you different opportunities in education, sports and youth activities.";
 
 //Home -> Erasmus in CNDC
-$fourTitle="Erasmus+ in CNDC";
-$fourText="OBIECTIVE:";
-$fourText1="dezvoltarea de parteneriate transaționale cu firme IT;";
-$fourText2="dezvoltarea cunoștințelor și aptitudinilor elevilor și formarea competențelor specifice unui specialist cu calificare medie în domeniul IT; ";
-$fourText3="formarea și dezvoltarea deprinderilor de muncă în echipa;";
-$fourText4="dezvoltarea adaptabilității, creativității, spiritului inovativ și a gândirii critice prin contactul cu un nou mediu social, cultural, lingvistic și profesional;";
-$fourText5="PERIOADĂ:";
-$fourText6="BUGET:";
-$fourText7="BENEFICIARI:";
-$fourText8="20 de elevi ai claselor a XI-a, matematică-informatică engleză intensiv" ;
-$fourText9="ACTIVITĂȚi:";
-$fourText10="Organizarea a 2 stagii de pregătire(2017,2018) cu durata a 3 săptămâni fiecare în Portsmouth, Marea Britanie, în cadrul cărora elevii dezvoltă aplicații pentru sistemul de operare Android, sub coordonarea specialiștilor de la Universitatea Portsmouth și de la organizațiile partenere.";
-$fourText11="REZULTATE:";
-$fourText12="9 aplicații pentru sistemul Android create în cele 2 stagii;";
-$fourText13="20 certificate Europass Mobility obținute de participanți;";
-$fourText14="Experiență efectivă de lucru în cadrul unei companii pentru elevii participanți;";
-$fourText15="Pregătirea elevilor pentru inserția pe piață muncii după absolvire;";
-$fourText16="Facilitarea orientării profesionale pe piață muncii după absolvire;";
-$fourText17="Experiență de lucru efectiv într-un mediu multicultural;";
+$fourTitle="Erasmus+ inside the \"Dimitrie Cantemir\" National College, Onesti";
+$fourText="Objectives: ";
+$fourText1="The development of transitional partenerships with IT firms;";
+$fourText2="Student development in knowledge and skills and forming the specific traits of a specialist with medium qualification in the field of IT; ";
+$fourText3="Improving team work and ethics;";
+$fourText4="Improving the capacity to adapt, creativity, the spirit of inovation and critical thinking through contact with a new social, cultural and proffesional enviroment.";
+$fourText5="Period:";
+$fourText6="Budget:";
+$fourText7="Beneficiaries:";
+$fourText8="20 11th grade students, Mathematics-Computer science profile, intensive English." ;
+$fourText9="Activities: ";
+$fourText10="Organising two preparation stages(2017, 2018), lasting 3 weeks each, in Portsmouth, Great Britain. The studens created and developped Android applications, under the supervision of specialists from the Portsmouth University and the partenered organisations.";
+$fourText11="Results:";
+$fourText12=" Nine apps for the Android operating system during the two stages;";
+$fourText13="20 Europass Mobility certificates obtained by the participants;";
+$fourText14="Actual work experience inside of a company for the participants;";
+$fourText15="Student preparation for inserion on the work market after graduation;";
+$fourText16="Helping student chose what they want to do after graduation;";
+$fourText17="Work experience in a multicultural enviroment;";
+
+//Home -> Campania de promovare
+$fiveTitle="Campania de promovare";
+$fiveText="Perioada de desfășurare a campaniei: ";
+$fiveText1="Obiective:";
+$fiveText2="Promovarea activităților desfășurate de elevii cantemireni, beneficiari direcți ai celor 2 stagii de formare în domeniul IT din Marea Britanie în cadrul proiectului european \"FUTURE CAREER? - TOUCH IT!\", 2016-1-RO01-KA102-024210;";
+$fiveText3="Informarea membrilor comunității oneștene cu privire la beneficiile realizării proiectelor de mobilitate Erasmus+ în domeniul educației și formării;";
+$fiveText4="Conștientizarea importanței parteneriatelor și programelor de finanțare europene pentru educația tinerilor și adulților.";
+//Home->Impact
+$sixTitle="Impact";
+$sixText="The impact of the campaign consisted of the two workshops in which over 100 students participated, 9th, 10th and 11th graders, where the oldest presented their apps and highlighted the benefits of the project.";
+$sixText1="Over 5 institutions and companies participated in promoting this european-funded project.";
+$sixText2="Our Facebook page has around 500 likes, and our students are welcome to join our group to find out more about the campaign.";
+
+//Home -> Pagina de Facebook
+$sevenTitle="We are on  Facebook!";
+$sevenText="You can contact us on our facebook page, where we post regularly and keep the users posted on our progress. ";
+$sevenText1="There is also a group that has been created, for the people who want to find out more from the participants of the project. ";
+$sevenLink="Here is the link: ";
+
 //Cantemir
 $cndc="\"Dimitrie Cantemir\" Highschool";
 $cndctext="THE VISION";

@@ -47,10 +47,23 @@ $twoText="Parlamentul European a creat programul Euroscola pentru a informa tine
 
 //Home -> ce este Erasmus?
 $threeTitle="Ce este Erasmus+?";
-$threeText="ERASMUS+ este noul program al Uniunii Europene care se adresează următoarelor domenii: educație, formare,
-tineret și sport pentru perioada 2014-2020 având ca și obiective dezvoltarea competențelor și a capacității de
-inserție profesională prin oferirea unor oportunități de educație, formare și activități de tineret sau sport.";
-
+$threeText="Scop: ";
+$threeText1="Acces la studii, formare și voluntariat în străinătate pentru 4 milioane cetățeni europeni. ";
+$threeText2="Buget: ";
+$threeText3="14,7 miliarde EUR (până în 2020) ";
+$threeText4="Strategii vizate: ";
+$threeText5="Europa 2020, pentru creștere economică, locuri de muncă, echitate socială și incluziune; ";
+$threeText6="UE pentru tineret; ";
+$threeText7=" Cadrul Strategic ET2020 pentru educație și formare.";
+$threeText8=" Obiective: ";
+$threeText9="Reducerea șomajului, în special în rândul tinerilor; ";
+$threeText10="Promovarea învățământului pentru adulți, în special în domeniul noilor competențe și în cel al competențelor cerute pe piață muncii;";
+$threeText11="Încurajarea participării tinerilor la viață democratică europeană;";
+$threeText12="Sprijinirea inovării, cooperării și reformei; ";
+$threeText13="Reducerea abandonului școlar;";
+$threeText14=" Promovarea cooperării și mobilității cu țările partenere ale UE.";
+$threeText15="Rezultate: ";
+$threeText16="Acestea pot fi consultate în rapoarte și culegeri statistice, dar și pe Platforma de prezentare a rezultatelor proiectelor Erasmus+, care oferă informații în legătură cu majoritatea inițiativelor finanțate și prezintă bune practici și povești de succes. ";
 //Home -> Erasmus in CNDC
 $fourTitle="Erasmus+ in Colegiul Național \"Dimitrie Cantemir\" Oneşti";
 $fourText="Obiective:";
@@ -83,8 +96,8 @@ $fiveText4="Conștientizarea importanței parteneriatelor și programelor de fin
 //Home -> Impactul campaniei de promovare
 $sixTitle="Impactul campaniei de promovare";
 $sixText="Campania a constat în organizarea a 2 workshopuri la care au participat peste 100 de persoane din clasa a IX-a, a X-a și  a XI-a în care elevii participanți la acest proiect și-au prezentat aplicațiile și au dus la cunonștință  beneficiile proiectului;";
-$sixText1="Peste 15 instituții din oraș au participat la popularizarea acestui proiect cu finanțare europeană;";
-$sixText2="Pagină de facebook are peste 400 de like-uri.";
+$sixText1="Peste 5 instituții și firme din oraș au participat la popularizarea acestui proiect cu finanțare europeană;";
+$sixText2="Pagina de facebook are peste 500 de like-uri.";
 
 //Home -> Pagina de Facebook
 $sevenTitle="Pagina de Facebook";
