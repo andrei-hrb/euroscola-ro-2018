@@ -89,6 +89,7 @@ $events = "Événement";
 $journal = "Journal";
 
 //Gallery
+$contents = "Cuprins";
 $sessions="Lucru in echipa";
 $flayers = "Pliante";
 $workshop1="Workshop #1";

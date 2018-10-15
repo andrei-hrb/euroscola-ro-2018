@@ -8,8 +8,8 @@
                     <img class="logo" src="../assets/img/ui stuff/logo.png">
                 </div>
                 <div class="mt-3">
-                    <p class="text-white foot"><?= $footerText ?> </p>
-                    <a href="http://www.dcantemir.ro" class="foot"><?= $footerSite ?></a>
+                    <p class="text-white foot foot-text"><?= $footerText ?> </p>
+                    <a href="http://www.dcantemir.ro" class="foot-text"><?= $footerSite ?></a>
                 </div>
             </div>
             <div class="col-md-5 mx-3 mt-3 ml-auto order-1">
@@ -17,7 +17,7 @@
             </div>
         </div>
 
-        <p class="text-center text-light mt-5 foot" style="font-size: xsmall;">Build with ❤️ by <a href="https://github.com/andrei-hrb" class="foot"><strong>Hîrbu Andrei</strong></a> and <a href="https://github.com/DianaElenaStancu" style="text-decoration: none;" class="foot"><strong>Diana-Elena Stancu</strong></a>. Check this project on <a href="https://github.com/andrei-hrb/EuroscolaRO2018" class="foot">GitHub</a>.</p>
-        <p class="text-center text-light foot" style="font-size: small; margin-bottom: 0; padding = 0;">#EuroscolaRO2018</p>
+        <p class="text-center text-light mt-5 foot foot-links">Build with ❤️ by <a href="https://github.com/andrei-hrb" class="foot"><strong class="foot-links">Hîrbu Andrei</strong></a> and <a href="https://github.com/DianaElenaStancu" style="text-decoration: none;" class="foot"><strong class="foot-links">Diana-Elena Stancu</strong></a>. Check this project on <a href="https://github.com/andrei-hrb/EuroscolaRO2018" class="foot foot-links">GitHub</a>.</p>
+        <p class="text-center text-light foot foot-links" style="margin-bottom: 0; padding = 0;">#EuroscolaRO2018</p>
     </div>
 </footer>
