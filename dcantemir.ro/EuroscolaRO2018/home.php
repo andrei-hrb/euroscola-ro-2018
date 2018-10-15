@@ -48,7 +48,7 @@ $srGallery="";
     <div class="row featurette">
         <div class="col-md-7 order-0">
             <h2 class="featurette-heading"><?= $twoTitle ?></h2>
-            <p class="lead"><?= $twoText ?></p>
+            <p class="lead"><?= $twoText ?> +++ adaugara content!!!</p>
         </div>
         <div class="col-md-5 order-1">
             <img  class="featurette-image img-fluid " src="../assets/img/home/euroscola.jpg" style="width:70%">
