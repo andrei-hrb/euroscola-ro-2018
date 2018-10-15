@@ -187,7 +187,8 @@ function newPhoto4($img, $id)
 <script src="../assets/js/lightbox.min.js"></script>
 <script>
     lightbox.option({
-        'maxWidth': 1000
+        'maxWidth': 1000,
+        'maxHeight': 750
     });
 </script>
 </body>
