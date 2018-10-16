@@ -104,7 +104,7 @@ $sevenTitle = "Pagina de Facebook";
 $sevenText = "Ne puteți contacta si pe pagina de Facebook, unde postăm regulat și ținem la curent utilizatorii în legătură cu campania: ";
 $sevenText1 = "În cadrul acestei pagini este și un grup, unde pot intra cei care vor să afle mai multe de la participanții proiectului:";
 $sevenLink = "Aici este linkul";
-=
+
 //Cantemir
 $cndc = "Colegiul Național \"Dimitrie Cantemir\" ";
 $cndctext = "VIZIUNEA ";
@@ -115,7 +115,7 @@ $cndctext3 = "Colegiul Național \"Dimitrie Cantemir\" cultivă excelența, valo
 
 //Team
 $teamText = "Clasa a 10-a E, profil matematică-informatică cu intensiv engleză";
-$profs = "Profesori";
+$profs = "Profesor";
 $web = "Web";
 $posters = "Postere/Afișe";
 $interview = "Interviu";
