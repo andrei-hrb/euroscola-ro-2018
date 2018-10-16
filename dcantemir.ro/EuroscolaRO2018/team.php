@@ -44,19 +44,19 @@ function newPerson($name, $img, $post)
 {
     echo '
         <div class="col-4">
-            <img  class="rounded people" src="../assets/img/team/' . $img . '.jpg" alt="' . $name . '">
+    <a href="../assets/img/team/' . $img . '.jpg" data-lightbox= "<?= $name ?>" data-title=" <?= $name ?>">
+            <img  class="rounded people" src="../assets/img/team/' . $img . '.jpg" >
+        </a>       
             <h6 class="mt-1 people">' . $name . '</h6>
             <p class="mb-3 people">' . $post . '</p>
         </div>';
 }
 ?>
-
 <div class="container people">
     <div class="row">
         <?php newPerson('Filip Gabriela-Felicia', 'felicia', $profs); ?>
         <?php newPerson('Basoc Lenuța', 'basoc', $profs); ?>
     </div>
-
     <div class="row">
         <?php newPerson('Alexe Vlad-Andrei', 'alexe', $web); ?>
         <?php newPerson('Balint Robert', 'balint', $video); ?>
@@ -110,9 +110,9 @@ function newPerson($name, $img, $post)
 <script src="../assets/js/lightbox.min.js"></script>
 <script>
     lightbox.option({
-        'maxWidth': 1300,
-        'maxHeight': 900
-    });
+        'maxWidth': 1400,
+        'maxHeight': 1000,
+   });
 </script>
 </body>
 </html>

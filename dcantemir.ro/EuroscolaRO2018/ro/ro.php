@@ -115,7 +115,7 @@ $cndctext3 = "Colegiul Național \"Dimitrie Cantemir\" cultivă excelența, valo
 
 //Team
 $teamText = "Clasa a 10-a E, profil matematică-informatică cu intensiv engleză";
-$profs = "Profesori";
+$profs = "Profesor";
 $web = "Web";
 $posters = "Postere/Afișe";
 $interview = "Interviu";

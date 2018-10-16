@@ -80,7 +80,7 @@ $cndctext3="Le Collège National «Dimitrie Cantemir» cultive l'excellence, met
 
 //Team
 $teamText = "Seconde E, specialisation: math-info anglais renforcé";
-$profs = "Professeurs";
+$profs = "Professeur";
 $web = "Web";
 $posters = "Affiches";
 $interview = "Interview";
