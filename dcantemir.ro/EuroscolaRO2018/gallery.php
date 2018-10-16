@@ -18,7 +18,6 @@ $srGallery = "active"
 </head>
 
 
-
 <body>
 
 <?php include("assets/misc/navbar/navbar.php"); ?>
@@ -41,7 +40,7 @@ function newPhoto4($img, $id)
         <div class="col-4">
             
             <a href="../assets/img/gallery/' . $img . '.jpg" data-lightbox="' . $id . '" data-title="' . $id . '">
-                <img class="rounded img-fluid my-1 img-thumbnail mx-auto d-block" style="max-height: 20rem" src="../assets/img/gallery/' . $img . '.jpg"> 
+                <img class="shadow rounded my-3 mx-auto d-block gallery" src="../assets/img/gallery/' . $img . '.jpg"> 
             </a>
         </div>
     ';
@@ -107,15 +106,21 @@ function newPhoto4($img, $id)
         <h1 class="featurette-heading text-center"><?= $sessions ?></h1>
 
         <div class="row">
-            <?php newPhoto4('sample', $sessions) ?>
-            <?php newPhoto4('sample', $sessions) ?>
-            <?php newPhoto4('sample', $sessions) ?>
+            <?php newPhoto4('team1', $sessions) ?>
+            <?php newPhoto4('team5', $sessions) ?>
+            <?php newPhoto4('team2', $sessions) ?>
         </div>
 
         <div class="row">
-            <?php newPhoto4('sample', $sessions) ?>
-            <?php newPhoto4('sample', $sessions) ?>
-            <?php newPhoto4('sample', $sessions) ?>
+            <?php newPhoto4('team4', $sessions) ?>
+            <?php newPhoto4('team3', $sessions) ?>
+            <?php newPhoto4('team7', $sessions) ?>
+        </div>
+
+        <div class="row">
+            <?php newPhoto4('team8', $sessions) ?>
+            <?php newPhoto4('team6', $sessions) ?>
+
         </div>
     </div>
 
@@ -170,22 +175,43 @@ function newPhoto4($img, $id)
         <h1 class="featurette-heading text-center"><?= $popularisation ?></h1>
 
         <div class="row">
-            <?php newPhoto4('sample', $popularisation) ?>
-            <?php newPhoto4('sample', $popularisation) ?>
-            <?php newPhoto4('sample', $popularisation) ?>
+            <?php newPhoto4('popularisation1', $popularisation) ?>
+            <?php newPhoto4('popularisation2', $popularisation) ?>
+            <?php newPhoto4('popularisation3', $popularisation) ?>
         </div>
 
         <div class="row">
-            <?php newPhoto4('sample', $popularisation) ?>
-            <?php newPhoto4('sample', $popularisation) ?>
-            <?php newPhoto4('sample', $popularisation) ?>
+            <?php newPhoto4('popularisation4', $popularisation) ?>
+            <?php newPhoto4('popularisation5', $popularisation) ?>
+            <?php newPhoto4('popularisation6', $popularisation) ?>
         </div>
+
+        <div class="row">
+            <?php newPhoto4('popularisation7', $popularisation) ?>
+            <?php newPhoto4('popularisation8', $popularisation) ?>
+            <?php newPhoto4('popularisation9', $popularisation) ?>
+        </div>
+
+        <div class="row">
+            <?php newPhoto4('popularisation10', $popularisation) ?>
+            <?php newPhoto4('popularisation11', $popularisation) ?>
+            <?php newPhoto4('popularisation12', $popularisation) ?>
+        </div>
+
+        <div class="row">
+            <?php newPhoto4('popularisation13', $popularisation) ?>
+            <?php newPhoto4('popularisation14', $popularisation) ?>
+            <?php newPhoto4('popularisation15', $popularisation) ?>
+        </div>
+
+        <div class="row">
+            <?php newPhoto4('popularisation16', $popularisation) ?>
+            <?php newPhoto4('popularisation17', $popularisation) ?>
+            <?php newPhoto4('popularisation18', $popularisation) ?>
+        </div>
+
     </div>
 </div>
-</div>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-<script>baguetteBox.run('.tz-gallery');</script>
 <?php include("assets/misc/footer/footer.php"); ?>
 <?php include("assets/misc/html/scripts.php"); ?>
 <script src="../assets/js/lightbox.min.js"></script>

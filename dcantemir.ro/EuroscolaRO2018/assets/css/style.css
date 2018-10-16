@@ -40,6 +40,10 @@ img.resize {
     width: 120rem;
 }
 
+.featurette-heading {
+    font-size: 2.5rem;
+}
+
 @media screen and (min-width: 722px) {
     img.logo {
         width: 15rem;
@@ -72,10 +76,6 @@ img.resize {
         font-size: small;
     }
 
-    .featurette-heading {
-        font-size: 2.5rem;
-    }
-    
     .contents li {
         font-size: xx-large;
     }
@@ -118,10 +118,6 @@ img.resize {
         font-size: x-small;
     }
 
-    .featurette-heading {
-        font-size: 1.75rem;
-    }
-
     .contents li {
         font-size: medium;
     }
@@ -154,4 +150,15 @@ a.contents:visited {
     font-weight: 100;
     letter-spacing: -.05rem;
     margin-left: 1rem;
+}
+
+.carousel-item .img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.gallery {
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
 }

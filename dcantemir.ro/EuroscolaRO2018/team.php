@@ -5,7 +5,7 @@ include("$lang/$lang.php");
 $srHome = "";
 $srCantemir = "";
 $srTeam = "active";
-$srGallery="";
+$srGallery = "";
 ?>
 <html>
 <head>
@@ -31,7 +31,7 @@ $srGallery="";
     </div>
 
     <div class="text-center">
-        <a href="../assets/img/team/team.jpg" data-lightbox= "<?= $teamText ?>" data-title=" <?= $teamText ?>">
+        <a href="../assets/img/team/team.jpg" data-lightbox="<?= $teamText ?>" data-title=" <?= $teamText ?>">
             <img class="featurette-image img-fluid mx-auto img-thumbnail" style="width: 100%; max-width: 1000px;" src="../assets/img/team/team.jpg">
         </a>
     </div>
@@ -44,13 +44,12 @@ function newPerson($name, $img, $post)
 {
     echo '
         <div class="col-4">
-    <a href="../assets/img/team/' . $img . '.jpg" data-lightbox= "<?= $name ?>" data-title=" <?= $name ?>">
-            <img  class="rounded people" src="../assets/img/team/' . $img . '.jpg" >
-        </a>       
+            <img  class="rounded people" src="../assets/img/team/' . $img . '.jpg" >  
             <h6 class="mt-1 people">' . $name . '</h6>
             <p class="mb-3 people">' . $post . '</p>
         </div>';
 }
+
 ?>
 <div class="container people">
     <div class="row">
@@ -58,7 +57,7 @@ function newPerson($name, $img, $post)
         <?php newPerson('Basoc Lenuța', 'basoc', $profs); ?>
     </div>
     <div class="row">
-        <?php newPerson('Alexe Vlad-Andrei', 'alexe', $web); ?>
+        <?php newPerson('Alexe Vlad-Andrei', 'alexe', $posters); ?>
         <?php newPerson('Balint Robert', 'balint', $video); ?>
         <?php newPerson('Birtea Bogdan-Octavian', 'birtea', $posters); ?>
     </div>
@@ -112,7 +111,7 @@ function newPerson($name, $img, $post)
     lightbox.option({
         'maxWidth': 1400,
         'maxHeight': 1000,
-   });
+    });
 </script>
 </body>
 </html>
