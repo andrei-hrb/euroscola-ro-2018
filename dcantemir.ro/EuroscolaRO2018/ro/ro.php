@@ -64,6 +64,7 @@ $threeText13 = "Reducerea abandonului școlar;";
 $threeText14 = " Promovarea cooperării și mobilității cu țările partenere ale UE.";
 $threeText15 = "Rezultate: ";
 $threeText16 = "Acestea pot fi consultate în rapoarte și culegeri statistice, dar și pe Platforma de prezentare a rezultatelor proiectelor Erasmus+, care oferă informații în legătură cu majoritatea inițiativelor finanțate și prezintă bune practici și povești de succes. ";
+
 //Home -> Erasmus in CNDC
 $fourTitle = "Erasmus+ in Colegiul Național \"Dimitrie Cantemir\" Oneşti";
 $fourText = "Obiective:";
@@ -104,14 +105,13 @@ $sevenTitle = "Pagina de Facebook";
 $sevenText = "Ne puteți contacta si pe pagina de Facebook, unde postăm regulat și ținem la curent utilizatorii în legătură cu campania: ";
 $sevenText1 = "În cadrul acestei pagini este și un grup, unde pot intra cei care vor să afle mai multe de la participanții proiectului:";
 $sevenLink = "Aici este linkul";
-=
+
 //Cantemir
 $cndc = "Colegiul Național \"Dimitrie Cantemir\" ";
 $cndctext = "VIZIUNEA ";
 $cndctext1 = "Colegiul Național \"Dimitrie Cantemir\" urmărește facilitarea integrării absolvenților în societatea contemporană prin valorificarea potențialului individual și instituțional, asigurarea unui climat de formare și informare sigur, stimulativ și participativ, formarea cetățeniei europene a elevilor și a personalului.";
 $cndctext2 = "MISIUNEA ";
 $cndctext3 = "Colegiul Național \"Dimitrie Cantemir\" cultivă excelența, valorifică tradiția și promovează inovarea. Împreună, parcurgem pașii spre noi înșine înșine și ne găsim locul într-o lume în continuă schimbare, învățând să devenim oameni care știu să împărtășească succesul cu alți oameni.";
-
 
 //Team
 $teamText = "Clasa a 10-a E, profil matematică-informatică cu intensiv engleză";

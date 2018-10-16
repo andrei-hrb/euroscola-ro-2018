@@ -11,7 +11,7 @@ $srGallery="";
 <head>
     <?php include("assets/misc/html/head.php"); ?>
     <link rel="stylesheet" href="../assets/css/lightbox.min.css">
-    <title> <?= $team . ' ' . $title ?></title>
+    <title> <?= $team . ' ' . $title ?> </title>
 </head>
 
 <body>
