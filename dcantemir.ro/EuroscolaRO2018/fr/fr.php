@@ -70,6 +70,7 @@ $fourText14="Experiență efectivă de lucru în cadrul unei companii pentru ele
 $fourText15="Pregătirea elevilor pentru inserția pe piață muncii după absolvire;";
 $fourText16="Facilitarea orientării profesionale pe piață muncii după absolvire;";
 $fourText17="Experiență de lucru efectiv într-un mediu multicultural;";
+
 //Cantemir
 $cndc=" Collège National «Dimitrie Cantemir»";
 $cndctext="LA VISION ";
@@ -81,16 +82,16 @@ $cndctext3="Le Collège National «Dimitrie Cantemir» cultive l'excellence, met
 $teamText = "Seconde E, specialisation: math-info anglais renforcé";
 $profs = "Professeurs";
 $web = "Web";
-$fb = "Facebook";
 $posters = "Affiches";
 $interview = "Interview";
 $articles = "Articles";
-$events = "Événement";
 $journal = "Journal";
+$popularisation="Popularizare";
+$video = "Video";
 
 //Gallery
+$contents = "Cuprins";
 $sessions="Lucru in echipa";
 $flayers = "Pliante";
 $workshop1="Workshop #1";
 $workshop2="Workshop #2";
-$popularisation="Popularizare";

@@ -99,17 +99,16 @@ $cndctext3="\"Dimitrie Cantemir\" Highschool cultivates excellence, values tradi
 
 //Team
 $teamText = "Class 10 E, maths ― computer-science English intensive";
-$profs = "Teachers";
+$profs = "Teacher";
 $web = "Web";
-$fb = "Facebook";
 $posters = "Posters";
 $interview = "Interview";
 $articles = "Articles";
-$events = "Event";
-$journal = "Journal";
-$teamAltText = "ZOE";
+$popularisation = "Popularisation";
+$video = "Video";
 
 //Gallery
+$contents = "Cuprins";
 $sessions="Lucru in echipa";
 $flayers = "Pliante";
 $workshop1="Workshop #1";
