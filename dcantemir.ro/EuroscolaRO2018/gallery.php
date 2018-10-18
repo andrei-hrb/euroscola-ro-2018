@@ -54,13 +54,13 @@ function newPhoto4($img, $id)
     <div class="container featurette" id="cuprins">
     <h1 class="featurette-heading text-center"><?= $contents ?></h1>
 
-          <div class="btn-group">
-            <a class="btn btn-secondary btn-lg " href="#posters"><?=$posters  ?></a>
-            <a class="btn btn-secondary btn-lg" href="#flayers"><?=$flayers  ?></a>
-            <a class="btn btn-secondary btn-lg" href="#teamwork"><?=$sessions  ?></a>
-            <a class="btn btn-secondary btn-lg" href="#workshop1"><?=$workshop1  ?></a>
-            <a class="btn btn-secondary btn-lg" href="#workshop2"><?=$workshop2  ?></a>
-            <a class="btn btn-secondary btn-lg" href="#popularisation"><?=$popularisation  ?></a>
+          <div class="btn-group-justified mx-3 btn-group-lg">
+            <a class="btn btn-secondary mt-1 " href="#posters"><?=$posters  ?></a>
+            <a class="btn btn-secondary mt-1 " href="#flayers"><?=$flayers  ?></a>
+            <a class="btn btn-secondary  mt-1" href="#teamwork"><?=$sessions  ?></a>
+            <a class="btn btn-secondary  mt-1" href="#workshop1"><?=$workshop1  ?></a>
+            <a class="btn btn-secondary mt-1" href="#workshop2"><?=$workshop2  ?></a>
+            <a class="btn btn-secondary mt-1" href="#popularisation"><?=$popularisation  ?></a>
         </div>
     </div>
 </div>

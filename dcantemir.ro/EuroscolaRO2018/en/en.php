@@ -48,23 +48,23 @@ $twoText = "The European Parliament created the Euroscola programme to inform th
 
 //Home -> ce este Erasmus?
 $threeTitle = "What is Erasmus?";
-$threeText = "ERASMUS+ is the newest programme of the European Union that adresses the following: education, growth, youth and sports for the 2014-2020 period. Its objectives are the development of skills and helping you reach the proffesional market by offering you different opportunities in education, sports and youth activities.";
+$threeText = "Context: ";
 $threeText1 = "Acces la studii, formare și voluntariat în străinătate pentru 4 milioane cetățeni europeni. ";
-$threeText2 = "Bugetul alocat:";
+$threeText2 = "Buget: ";
 $threeText3 = "14,7 miliarde EUR (până în 2020) ";
-$threeText4 = "STRATEGII VIZATE:";
+$threeText4 = "Strategii vizate: ";
 $threeText5 = "Europa 2020, pentru creștere economică, locuri de muncă, echitate socială și incluziune; ";
-$threeText6 = "UE pentru tineret;";
+$threeText6 = "UE pentru tineret; ";
 $threeText7 = " Cadrul Strategic ET2020 pentru educație și formare.";
-$threeText8 = " OBICETIVE:";
-$threeText9 = "Reducerea șomajului, în special în rândul tinerilor.";
+$threeText8 = " Obiective: ";
+$threeText9 = "Reducerea șomajului, în special în rândul tinerilor; ";
 $threeText10 = "Promovarea învățământului pentru adulți, în special în domeniul noilor competențe și în cel al competențelor cerute pe piață muncii;";
 $threeText11 = "Încurajarea participării tinerilor la viață democratică europeană;";
 $threeText12 = "Sprijinirea inovării, cooperării și reformei; ";
 $threeText13 = "Reducerea abandonului școlar;";
 $threeText14 = " Promovarea cooperării și mobilității cu țările partenere ale UE.";
-$threeText15 = "REZULTATE:";
-$threeText16 = "Acestea pot fi consultate în rapoarte și culegeri statistice, dar și pe Platforma de prezentare a rezultatelor proiectelor Erasmus+, care oferă informații în legătură cu majoritatea inițiativelor finanțate și prezintă bune practici și povești de succes.";
+$threeText15 = "Rezultate: ";
+$threeText16 = "Acestea pot fi consultate în rapoarte și culegeri statistice, dar și pe Platforma de prezentare a rezultatelor proiectelor Erasmus+, care oferă informații în legătură cu majoritatea inițiativelor finanțate și prezintă bune practici și povești de succes. ";
 
 //Home -> Erasmus in CNDC
 $fourTitle = "Erasmus+ inside the \"Dimitrie Cantemir\" National College, Onesti";
@@ -89,11 +89,11 @@ $fourText17 = "Work experience in a multicultural enviroment;";
 
 //Home -> Campania de promovare
 $fiveTitle = "Campania de promovare";
-$fiveText = "Perioada de desfășurare a campaniei: ";
-$fiveText1 = "Obiective:";
-$fiveText2 = "Promovarea activităților desfășurate de elevii cantemireni, beneficiari direcți ai celor 2 stagii de formare în domeniul IT din Marea Britanie în cadrul proiectului european \"FUTURE CAREER? - TOUCH IT!\", 2016-1-RO01-KA102-024210;";
-$fiveText3 = "Informarea membrilor comunității oneștene cu privire la beneficiile realizării proiectelor de mobilitate Erasmus+ în domeniul educației și formării;";
-$fiveText4 = "Conștientizarea importanței parteneriatelor și programelor de finanțare europene pentru educația tinerilor și adulților.";
+$fiveText = "Period: ";
+$fiveText1 = "Objectives:";
+$fiveText2 = "Promoting the activity of the students, direct beneficiaries of the two forming stages in the field of IT in Great Britain, as part of the \"FUTURE CAREER? - TOUCH IT!\" project, 2016-1-RO01-KA102-024210;";
+$fiveText3 = "Informing the local population about the benefits of Erasmus+ mobility projects in the field of education;";
+$fiveText4 = "Comprehending the importance of partenerships and european-funded programmes for the education of teens and adults.";
 //Home->Impact
 $sixTitle = "Impact";
 $sixText = "The impact of the campaign consisted of the two workshops in which over 100 students participated, 9th, 10th and 11th graders, where the oldest presented their apps and highlighted the benefits of the project.";
@@ -103,8 +103,8 @@ $sixText2 = "Our Facebook page has around 500 likes, and our students are welcom
 //Home -> Pagina de Facebook
 $sevenTitle = "We are on  Facebook!";
 $sevenText = "You can contact us on our facebook page, where we post regularly and keep the users posted on our progress. ";
-$sevenText1 = "There is also a group that has been created, for the people who want to find out more from the participants of the project. ";
-$sevenLink = "Here is the link: ";
+$sevenText1 = "There is also a group that has been created, for the people who want to find out more from the participants of the project (you will find it associated with our page). ";
+
 
 //Cantemir
 $cndc = "\"Dimitrie Cantemir\" National College";

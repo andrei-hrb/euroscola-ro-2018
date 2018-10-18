@@ -42,35 +42,61 @@ $footerSite = "Le site du notre collège";
 $oneTitle="Introduction";
 $oneText="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
 
-//Home -> Ce este Erasmus?
-$twoTitle="Programme Erasmus, c'est quoi?";
-$twoText="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
+//Home -> Ce este Euroscola?
+$twoTitle = "Euroscola, c'est quoi?";
+$twoText = "Le Parlement Européen a créé le programme Euroscola pour informer les jeunes hommes du process d'inégration européen et pour promouvoir leur participation au développement de l'Union Européene. Le programme réunit régulièrement des lycéens des 28 états membres, en leur offrant la chance, pendant une jour, de trouver comment le Parlement Européen fonctionne, de découvrir eux-mêmes, de partager leur visions et attentes.";
 
-//Home -> ce este Euroscola?
-$threeTitle="Concours Euroscola, c'est quoi?";
-$threeText="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
+//Home -> ce este Erasmus?
+$threeTitle = "Erasmus+, c'est quoi?";
+$threeText = "But: ";
+$threeText1 = "Accès aux études, à la formation et au volontariat à l'étranger pour 4 millions de citoyens européens. ";
+$threeText2 = "Budget: ";
+$threeText3 = "14,7 milliards d'euros (jusqu'à 2020)  ";
+$threeText4 = "Stratégies ciblées:  ";
+$threeText5 = "Europe 2020, pour la croissance économique, l'emploi, l'équité sociale et l'inclusion;";
+$threeText6 = "Politique européenne de la jeunesse;  ";
+$threeText7 = "Cadre stratégique ET2020 pour éducation et  formation. ";
+$threeText8 = " Objectifs: ";
+$threeText9 = " Réduire le chômage, en particulier chez les jeunes;  ";
+$threeText10 = "Promouvoir l'éducation des adultes, en particulier dans le domaine des nouvelles aptitudes et compétences requises sur le marché du travail;";
+$threeText11 = " Encourager la participation des jeunes à la vie démocratique européenne;";
+$threeText12 = "Soutenir l'innovation, la coopération et la réforme; ";
+$threeText13 = "Réduire le décrochage scolaire; ";
+$threeText14 = " Promouvoir la coopération et la mobilité avec les pays partenaires de l'UE.";
+$threeText15 = "Résultats:  ";
+$threeText16 = "Celles-ci peuvent être consultées dans des rapports statistiques, mais également sur la plate-forme de résultats du projet Erasmus +, qui fournit des informations sur les initiatives les plus financées et présente les bonnes pratiques et les réussites. ";
 
 //Home -> Erasmus in CNDC
-$fourTitle="Erasmus+ in CNDC";
-$fourText="OBIECTIVE:";
-$fourText1="dezvoltarea de parteneriate transaționale cu firme IT;";
-$fourText2="dezvoltarea cunoștințelor și aptitudinilor elevilor și formarea competențelor specifice unui specialist cu calificare medie în domeniul IT; ";
-$fourText3="formarea și dezvoltarea deprinderilor de muncă în echipa;";
-$fourText4="dezvoltarea adaptabilității, creativității, spiritului inovativ și a gândirii critice prin contactul cu un nou mediu social, cultural, lingvistic și profesional;";
-$fourText5="PERIOADĂ:";
-$fourText6="BUGET:";
-$fourText7="BENEFICIARI:";
-$fourText8="20 de elevi ai claselor a XI-a, matematică-informatică engleză intensiv" ;
-$fourText9="ACTIVITĂȚi:";
-$fourText10="Organizarea a 2 stagii de pregătire(2017,2018) cu durata a 3 săptămâni fiecare în Portsmouth, Marea Britanie, în cadrul cărora elevii dezvoltă aplicații pentru sistemul de operare Android, sub coordonarea specialiștilor de la Universitatea Portsmouth și de la organizațiile partenere.";
-$fourText11="REZULTATE:";
-$fourText12="9 aplicații pentru sistemul Android create în cele 2 stagii;";
-$fourText13="20 certificate Europass Mobility obținute de participanți;";
-$fourText14="Experiență efectivă de lucru în cadrul unei companii pentru elevii participanți;";
-$fourText15="Pregătirea elevilor pentru inserția pe piață muncii după absolvire;";
-$fourText16="Facilitarea orientării profesionale pe piață muncii după absolvire;";
-$fourText17="Experiență de lucru efectiv într-un mediu multicultural;";
+$fourTitle = "Erasmus à CNDC";
+$fourText = "Objectifs:";
+$fourText1 = "Le développement de partenariats transnationaux avec des entreprises IT;";
+$fourText2 = "Le développement de connaissance et d'aptitudes des élèves et la formation des compétences spécifiques à un spécialiste à qualification moyenne dans le domaine IT; ";
+$fourText3 = "La formation et le développement d'aptitudes de travail en équipe;";
+$fourText4 = "Le développement de l'adaptibilité, de la créativité, de l'esprit innovant et de la pensée critique par le contact avec un nouvel environnement social, culturel, linguistique et professionnel.";
+$fourText5 = "Période:  ";
+$fourText6 = "Budget: ";
+$fourText7 = "Bénéfeciaires:";
+$fourText8 = "20 élèves de 11e année, specialisation math-info anglais renforcé";
+$fourText9 = "Activités:";
+$fourText10 = "L'organisation de 2 stages de préparation (2017, 2018) d'une durée de 3 semaines chaque à Portsmouth, Royaume-Uni, dans lesquels les élèves développent des applications pour le système d'exploitation Android, sous la coordination de spécialistes de l'Université Portsmouth et des organisations associées.";
+$fourText11 = "Résultats:";
+$fourText12 = "9 applications pour le système d'exploitation Android, crées durant les 2 stages;";
+$fourText13 = "20 certificats Europass Mobility obtenus par les participants;";
+$fourText14 = "Expérience effective de travail dans une entreprise pour les élèves;";
+$fourText15 = "La préparation des élèves pour l'insertion sur le marché du travail après l'obtention du diplôme;";
+$fourText16 = "La facilitation de l'orientation professionnelle sur le marché du travail après l'obtention du diplôme;";
+$fourText17 = "Expérience professionnelle effective dans un environnement multiculturel.";
 
+//Home -> Impactul campaniei de promovare
+$sixTitle = "L'impact de la campagne de promotion";
+$sixText = "L'impact de la campagne a consisté en deux ateliers auxquels ont participé plus de 100 étudiants, de 9e, 10e et 11e année, où les plus âgés ont présenté leurs applications et mis en évidence les avantages du projet;";
+$sixText1 = "Plus de 5 institutions et entreprises de la ville ont participé à faire mieux connaître ce projet financé par l'Union Européene;";
+$sixText2 = "Plus de 750 personnes aiment la page Facebook.";
+
+//Home -> Pagina de Facebook
+$sevenTitle = "La page Facebook";
+$sevenText = "Aussi, vous pouvez nous contacter sur la page Facebook, où nous postons régulièrement et nous tenons au courant les utilisateurs en ce qui concerne la campagne. ";
+$sevenText1 = "Si vous voulez trouver plusieurs informations des participants du projet, vous pouvez accéder à notre groupe Facebook (îl vei găsi asociat cu pagina noastră de Facebook).";
 //Cantemir
 $cndc=" Collège National «Dimitrie Cantemir»";
 $cndctext="LA VISION ";

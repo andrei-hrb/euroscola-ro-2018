@@ -102,9 +102,9 @@ $sixText2 = "Pagina de facebook are peste 500 de like-uri.";
 
 //Home -> Pagina de Facebook
 $sevenTitle = "Pagina de Facebook";
-$sevenText = "Ne puteți contacta si pe pagina de Facebook, unde postăm regulat și ținem la curent utilizatorii în legătură cu campania: ";
-$sevenText1 = "În cadrul acestei pagini este și un grup, unde pot intra cei care vor să afle mai multe de la participanții proiectului:";
-$sevenLink = "Aici este linkul";
+$sevenText = "Ne puteți contacta si pe pagina de Facebook, unde postăm regulat și ținem la curent utilizatorii în legătură cu campania. ";
+$sevenText1 = "În cadrul acestei pagini este și un grup, unde pot intra cei care vor să afle mai multe de la participanții proiectului (îl vei găsi asociat cu pagina noastră de Facebook).";
+
 
 //Cantemir
 $cndc = "Colegiul Național \"Dimitrie Cantemir\" ";
