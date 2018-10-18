@@ -48,31 +48,26 @@ function newPhoto4($img, $id)
 
 ?>
 
-<!-- Posters -->
+
 
 <div id="spacingtop">
-    <div class="container featurette">
-        <div class="row">
-            <div class="col-2 ml-md-5">
-                <p class="featurette-heading"><?= $contents ?>:</p>
-            </div>
-            <div class="col-9 mt-xs-2 mt-md-3">
-                <ol class="ml-5">
-                    <li class="my-1"><a href="#posters" class="contents"> <?= $posters ?></a></li>
-                    <li class="my-1"><a href="#flayers" class="contents"> <?= $flayers ?></a></li>
-                    <li class="my-1"><a href="#teamwork" class="contents"> <?= $sessions ?></a></li>
-                    <li class="my-1"><a href="#workshop1" class="contents"> <?= $workshop1 ?></a></li>
-                    <li class="my-1"><a href="#workshop2" class="contents"> <?= $workshop2 ?></a></li>
-                    <li class="my-1"><a href="#popularisation"> <?= $popularisation ?></a></li>
-                </ol>
-            </div>
+    <div class="container featurette" id="cuprins">
+    <h1 class="featurette-heading text-center"><?= $contents ?></h1>
+
+          <div class="btn-group">
+            <a class="btn btn-secondary btn-lg " href="#posters"><?=$posters  ?></a>
+            <a class="btn btn-secondary btn-lg" href="#flayers"><?=$flayers  ?></a>
+            <a class="btn btn-secondary btn-lg" href="#teamwork"><?=$sessions  ?></a>
+            <a class="btn btn-secondary btn-lg" href="#workshop1"><?=$workshop1  ?></a>
+            <a class="btn btn-secondary btn-lg" href="#workshop2"><?=$workshop2  ?></a>
+            <a class="btn btn-secondary btn-lg" href="#popularisation"><?=$popularisation  ?></a>
         </div>
     </div>
 </div>
 
 <hr class="featurette-divider">
 
-
+<!-- Posters -->
 <div class="featurette">
     <div id="posters" class="mx-4">
         <h1 class="featurette-heading text-center"><?= $posters ?></h1>
@@ -108,7 +103,7 @@ function newPhoto4($img, $id)
         <div class="row">
             <?php newPhoto4('team1', $sessions) ?>
             <?php newPhoto4('team5', $sessions) ?>
-            <?php newPhoto4('team2', $sessions) ?>
+            <?php newPhoto4('team11', $sessions) ?>
         </div>
 
         <div class="row">
@@ -119,8 +114,6 @@ function newPhoto4($img, $id)
 
         <div class="row">
             <?php newPhoto4('team8', $sessions) ?>
-            <?php newPhoto4('team6', $sessions) ?>
-
         </div>
     </div>
 
@@ -133,15 +126,25 @@ function newPhoto4($img, $id)
         <h1 class="featurette-heading text-center"><?= $workshop1 ?></h1>
 
         <div class="row">
-            <?php newPhoto4('sample', $workshop1) ?>
-            <?php newPhoto4('sample', $workshop1) ?>
-            <?php newPhoto4('sample', $workshop1) ?>
+            <?php newPhoto4('workshop1.12', $workshop1) ?>
+            <?php newPhoto4('workshop1.2', $workshop1) ?>
+            <?php newPhoto4('workshop1.11', $workshop1) ?>
         </div>
 
         <div class="row">
-            <?php newPhoto4('sample', $workshop1) ?>
-            <?php newPhoto4('sample', $workshop1) ?>
-            <?php newPhoto4('sample', $workshop1) ?>
+            <?php newPhoto4('workshop1.3', $workshop1) ?>
+            <?php newPhoto4('workshop1.5', $workshop1) ?>
+            <?php newPhoto4('workshop1.6', $workshop1) ?>
+        </div>
+        <div class="row">
+            <?php newPhoto4('workshop1.4', $workshop1) ?>
+            <?php newPhoto4('workshop1.7', $workshop1) ?>
+            <?php newPhoto4('workshop1.8', $workshop1) ?>
+        </div>
+        <div class="row">
+            <?php newPhoto4('workshop1.9', $workshop1) ?>
+            <?php newPhoto4('workshop1.10', $workshop1) ?>
+            <?php newPhoto4('workshop1', $workshop1) ?>
         </div>
     </div>
 
@@ -154,15 +157,20 @@ function newPhoto4($img, $id)
         <h1 class="featurette-heading text-center"><?= $workshop2 ?></h1>
 
         <div class="row">
-            <?php newPhoto4('sample', $workshop2) ?>
-            <?php newPhoto4('sample', $workshop2) ?>
-            <?php newPhoto4('sample', $workshop2) ?>
+            <?php newPhoto4('workshop2.1', $workshop2) ?>
+            <?php newPhoto4('workshop2.9', $workshop2) ?>
+            <?php newPhoto4('workshop2.3', $workshop2) ?>
         </div>
 
         <div class="row">
-            <?php newPhoto4('sample', $workshop2) ?>
-            <?php newPhoto4('sample', $workshop2) ?>
-            <?php newPhoto4('sample', $workshop2) ?>
+            <?php newPhoto4('workshop2.4', $workshop2) ?>
+            <?php newPhoto4('workshop2.5', $workshop2) ?>
+            <?php newPhoto4('workshop2.6', $workshop2) ?>
+        </div>
+        <div class="row">
+            <?php newPhoto4('workshop2.8', $workshop2) ?>
+            <?php newPhoto4('workshop2.2', $workshop2) ?>
+            <?php newPhoto4('workshop2.13', $workshop2) ?>
         </div>
     </div>
 
@@ -175,7 +183,7 @@ function newPhoto4($img, $id)
         <h1 class="featurette-heading text-center"><?= $popularisation ?></h1>
 
         <div class="row">
-            <?php newPhoto4('popularisation1', $popularisation) ?>
+            <?php newPhoto4('popularisation21', $popularisation) ?>
             <?php newPhoto4('popularisation2', $popularisation) ?>
             <?php newPhoto4('popularisation3', $popularisation) ?>
         </div>
@@ -183,7 +191,7 @@ function newPhoto4($img, $id)
         <div class="row">
             <?php newPhoto4('popularisation4', $popularisation) ?>
             <?php newPhoto4('popularisation5', $popularisation) ?>
-            <?php newPhoto4('popularisation6', $popularisation) ?>
+            <?php newPhoto4('popularisation22', $popularisation) ?>
         </div>
 
         <div class="row">
@@ -208,6 +216,11 @@ function newPhoto4($img, $id)
             <?php newPhoto4('popularisation16', $popularisation) ?>
             <?php newPhoto4('popularisation17', $popularisation) ?>
             <?php newPhoto4('popularisation18', $popularisation) ?>
+        </div>
+        <div class="row">
+            <?php newPhoto4('popularisation19', $popularisation) ?>
+            <?php newPhoto4('popularisation20', $popularisation) ?>
+            <?php newPhoto4('popularisation1', $popularisation) ?>
         </div>
 
     </div>

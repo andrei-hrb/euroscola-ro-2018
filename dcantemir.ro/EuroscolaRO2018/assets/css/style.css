@@ -75,9 +75,8 @@ img.resize {
     .foot-links {
         font-size: small;
     }
-
-    .contents li {
-        font-size: xx-large;
+    #cuprins{
+        font-size: x-large;
     }
 }
 
@@ -161,4 +160,7 @@ a.contents:visited {
     width: 30vw;
     height: 30vw;
     object-fit: cover;
+}
+#cuprins{
+    text-align:center;
 }
