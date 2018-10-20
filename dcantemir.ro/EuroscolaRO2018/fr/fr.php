@@ -11,16 +11,12 @@
 //Title -> dnt 
 $title = "- Explore with us";
 
-//Mobile
-$mobileTitle = "This sitè isn't optimizèd for mobilè usè!";
-$mobileText = "Wè rècommènd accèssing this wèbsitè on a dèsktop machinè. Wè apologizè for this inconvènièncè!";
-
 //Navbar
 
 //Navbar -> links
 $home = "Accueil";
 $about = "À propos de nous";
-$cantemir = "Notre college";
+$cantemir = "Notre collège";
 $team = "Équipe";
 $gallery="Galerie";
 
@@ -87,6 +83,14 @@ $fourText15 = "La préparation des élèves pour l'insertion sur le marché du t
 $fourText16 = "La facilitation de l'orientation professionnelle sur le marché du travail après l'obtention du diplôme;";
 $fourText17 = "Expérience professionnelle effective dans un environnement multiculturel.";
 
+//Home -> Campania de promovare
+$fiveTitle = "Campagne de promotion:";
+$fiveText = "Period: ";
+$fiveText1 = "Objectives:";
+$fiveText2 = "Promoting the activity of the students, direct beneficiaries of the two forming stages in the field of IT in Great Britain, as part of the \"FUTURE CAREER? - TOUCH IT!\" project, 2016-1-RO01-KA102-024210;";
+$fiveText3 = "Informing the local population about the benefits of Erasmus+ mobility projects in the field of education;";
+$fiveText4 = "Comprehending the importance of partenerships and european-funded programmes for the education of teens and adults.";
+
 //Home -> Impactul campaniei de promovare
 $sixTitle = "L'impact de la campagne de promotion";
 $sixText = "L'impact de la campagne a consisté en deux ateliers auxquels ont participé plus de 100 étudiants, de 9e, 10e et 11e année, où les plus âgés ont présenté leurs applications et mis en évidence les avantages du projet;";
@@ -97,6 +101,7 @@ $sixText2 = "Plus de 750 personnes aiment la page Facebook.";
 $sevenTitle = "La page Facebook";
 $sevenText = "Aussi, vous pouvez nous contacter sur la page Facebook, où nous postons régulièrement et nous tenons au courant les utilisateurs en ce qui concerne la campagne. ";
 $sevenText1 = "Si vous voulez trouver plusieurs informations des participants du projet, vous pouvez accéder à notre groupe Facebook (îl vei găsi asociat cu pagina noastră de Facebook).";
+
 //Cantemir
 $cndc=" Collège National «Dimitrie Cantemir»";
 $cndctext="LA VISION ";
@@ -112,12 +117,12 @@ $posters = "Affiches";
 $interview = "Interview";
 $articles = "Articles";
 $journal = "Journal";
-$popularisation="Popularizare";
+$popularisation="Promotion";
 $video = "Video";
 
 //Gallery
-$contents = "Cuprins";
-$sessions="Lucru in echipa";
-$flayers = "Pliante";
+$contents = "Content";
+$sessions="Travail en équipe";
+$flayers = "Brochure";
 $workshop1="Workshop #1";
 $workshop2="Workshop #2";

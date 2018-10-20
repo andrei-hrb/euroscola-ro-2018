@@ -117,6 +117,10 @@ img.resize {
     .contents li {
         font-size: medium;
     }
+
+    .cupr {
+        display: none;
+    }
 }
 
 .people .col-4 {
@@ -158,6 +162,7 @@ a.contents:visited {
     height: 30vw;
     object-fit: cover;
 }
+
 #cuprins{
     text-align:center;
 }

@@ -10,10 +10,6 @@
 //Title -> dnt
 $title = "- Explore with us";
 
-//Mobile
-$mobileTitle = "Acest site nu este optimizat pentru telefoanele mobile!";
-$mobileText = "Recomandam accesarea acestui site de pe un desktop. Ne cerem scuze pentru aceasta inconventienta!";
-
 //Navbar
 
 //Navbar -> links

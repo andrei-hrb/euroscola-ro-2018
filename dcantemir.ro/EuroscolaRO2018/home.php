@@ -32,7 +32,7 @@ $srGallery = "";
 6) Impact
 8) Pagina / Grup de Facebook-->
 
-    <div class="container-fluid">
+    <div class="container-fluid cupr">
       <div class="row flex-xl-nowrap">
         <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
             <ul class="section-nav">

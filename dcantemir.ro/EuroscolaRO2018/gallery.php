@@ -114,6 +114,12 @@ function newPhoto4($img, $id)
 
         <div class="row">
             <?php newPhoto4('team8', $sessions) ?>
+            <?php newPhoto4('team20', $sessions) ?>
+            <?php newPhoto4('team21', $sessions) ?>
+        </div>
+
+        <div class="row">
+            <?php newPhoto4('team23', $sessions) ?>
         </div>
     </div>
 
