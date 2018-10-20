@@ -82,6 +82,7 @@ $fourText14 = "Actual work experience inside of a company for the participants;"
 $fourText15 = "Student preparation for insertion on the work market after graduation;";
 $fourText16 = "Helping student chose what they want to do after graduation;";
 $fourText17 = "Work experience in a multicultural environment;";
+$fourText18 = "Details:";
 
 //Home -> Campania de promovare
 $fiveTitle = "Promoting campaign";
@@ -102,27 +103,36 @@ $sevenTitle = "We are on  Facebook!";
 $sevenText = "You can contact us on our facebook page, where we post regularly and keep the users posted on our progress. ";
 $sevenText1 = "There is also a group that has been created, for the people who want to find out more from the participants of the project (you will find it associated with our page). ";
 
-
 //Cantemir
-$cndc = "\"Dimitrie Cantemir\" National College";
+$cndc = "\"Dimitrie Cantemir\" Highschool";
 $cndctext = "THE VISION";
 $cndctext1 = "\"Dimitrie Cantemir\" Highschool has in mind the facilitation of graduate integration in modern-day society by developing their individual potential, assuring a safe enviroment for forming and informing, one that stimulates and makes them participate, by granting the students and staff their european citizenship.";
 $cndctext2 = "THE MISSION";
 $cndctext3 = "\"Dimitrie Cantemir\" Highschool cultivates excellence, values tradition and promotes inovation. Together, we make steps towards finding ourselves and finding our place in an ever-changing world, learning how to become people who can share succes with others.";
 
 //Team
-$teamText = "Class 10 E, maths ― computer-science intensive English";
+$teamText = "Class 10 E, maths & computer-science intensive English";
 $profs = "Teacher";
 $web = "Web";
 $posters = "Posters";
 $interview = "Interview";
 $articles = "Articles";
-$popularisation = "Popularization";
+$popularization = "Popularization";
 $video = "Video";
 
 //Gallery
 $contents = "Content";
+$videos = "Videos";
 $sessions = "Teamwork";
 $flayers = "Flyers";
 $workshop1 = "Workshop #1";
 $workshop2 = "Workshop #2";
+
+$footText1 = "Build with ❤️ by ";
+$footText2 = "and";
+$footText3 = "Check this project on ";
+$street = "Street:";
+$phone = "Phone";
+$secretary = "- secretary:";
+$director = " - director:";
+$accountancy = " - accountancy:";

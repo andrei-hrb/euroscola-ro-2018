@@ -1,5 +1,5 @@
 <?php
-// Getting the language of the user and redirecting to the correct version of the website
+
 $lang = substr($_SERVER["HTTP_ACCEPT_LANGUAGE"], 0, 2);
 
 if( ! in_array($lang, array('en', 'fr', 'ro')) )

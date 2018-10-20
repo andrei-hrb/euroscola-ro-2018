@@ -1,3 +1,5 @@
+<!-- code might look strange because of the usage of php; check the github project -->
+
 <?php
 $lang = $_GET["lang"];
 include("$lang/$lang.php");
@@ -17,8 +19,6 @@ $srGallery = "";
 <body>
 <?php include("assets/misc/navbar/navbar.php"); ?>
 
-<!-- Group photo plus text -->
-
 <div class="container my-5 featurette">
     <div class="mt-3 mb-1">
         <div class="container">
@@ -32,21 +32,19 @@ $srGallery = "";
 
     <div class="text-center">
         <a href="../assets/img/team/team.jpg" data-lightbox="<?= $teamText ?>" data-title=" <?= $teamText ?>">
-            <img class="featurette-image img-fluid mx-auto img-thumbnail" style="width: 100%; max-width: 1000px;" src="../assets/img/team/team.jpg">
+            <img class="shadow featurette-image img-fluid mx-auto" style="width: 100%; max-width: 1000px;" src="../assets/img/team/team.jpg">
         </a>
     </div>
 </div>
-
-<!-- Each person's photo, name and role in this project -->
 
 <?php
 function newPerson($name, $img, $post)
 {
     echo '
         <div class="col-4">
-            <img  class="rounded people" src="../assets/img/team/' . $img . '.jpg" >  
-            <h6 class="mt-1 people">' . $name . '</h6>
-            <p class="mb-3 people">' . $post . '</p>
+            <img class="rounded people" src="../assets/img/team/' . $img . '.jpg" >  
+            <h6 class="mt-1 people lead">' . $name . '</h6>
+            <p class="mb-3 people lead">' . $post . '</p>
         </div>';
 }
 
@@ -63,7 +61,7 @@ function newPerson($name, $img, $post)
     </div>
 
     <div class="row">
-        <?php newPerson('Calfa Mihai', 'calfa', $popularisation); ?>
+        <?php newPerson('Calfa Mihai', 'calfa', $popularization); ?>
         <?php newPerson('Cărăușu Maria', 'carausu', $interview); ?>
         <?php newPerson('Cătea Francesca-Rita', 'catea', $articles); ?>
     </div>
@@ -75,7 +73,7 @@ function newPerson($name, $img, $post)
     </div>
 
     <div class="row">
-        <?php newPerson('Filip Maria-Bianca', 'filip', $popularisation); ?>
+        <?php newPerson('Filip Maria-Bianca', 'filip', $popularization); ?>
         <?php newPerson('Ghineț Iustin-Gabriel', 'ghinet', $posters); ?>
         <?php newPerson('Guramba Robert-Petru', 'guramba', $posters); ?>
     </div>
@@ -88,8 +86,8 @@ function newPerson($name, $img, $post)
 
     <div class="row">
         <?php newPerson('Lupu Răzvan-Ioan', 'lupu', $interview); ?>
-        <?php newPerson('Neculăiță-Mocanu Mălina-Andreea', 'mocanu', $popularisation); ?>
-        <?php newPerson('Palaghiță Mara-Andreea', 'palaghita', $popularisation); ?>
+        <?php newPerson('Neculăiță-Mocanu Mălina-Andreea', 'mocanu', $popularization); ?>
+        <?php newPerson('Palaghiță Mara-Andreea', 'palaghita', $popularization); ?>
     </div>
 
     <div class="row">
@@ -99,7 +97,7 @@ function newPerson($name, $img, $post)
     </div>
 
     <div class="row">
-        <?php newPerson('Suditu Mara-Ioana', 'suditu', $popularisation); ?>
+        <?php newPerson('Suditu Mara-Ioana', 'suditu', $popularization); ?>
         <?php newPerson('Zotica Ștefan-Lucian', 'zotica', $video); ?>
     </div>
 </div>

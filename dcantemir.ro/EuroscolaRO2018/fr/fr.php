@@ -82,6 +82,7 @@ $fourText14 = "Expérience effective de travail dans une entreprise pour les él
 $fourText15 = "La préparation des élèves pour l'insertion sur le marché du travail après l'obtention du diplôme;";
 $fourText16 = "La facilitation de l'orientation professionnelle sur le marché du travail après l'obtention du diplôme;";
 $fourText17 = "Expérience professionnelle effective dans un environnement multiculturel.";
+$fourText18 = "Details:";
 
 //Home -> Campania de promovare
 $fiveTitle = "Campagne de promotion:";
@@ -117,7 +118,7 @@ $posters = "Affiches";
 $interview = "Interview";
 $articles = "Articles";
 $journal = "Journal";
-$popularisation="Popularisation";
+$popularization="Popularisation";
 $video = "Video";
 
 //Gallery
@@ -126,3 +127,13 @@ $sessions="Travail en équipe";
 $flayers = "Brochure";
 $workshop1="Workshop #1";
 $workshop2="Workshop #2";
+$videos = "Videos";
+
+$footText1 = "Build with ❤️ by ";
+$footText2 = "and";
+$footText3 = "Check this project on ";
+$street = "Street:";
+$phone = "Phone";
+$secretary = "- secretary:";
+$director = " - director:";
+$accountancy = " - accountancy:";

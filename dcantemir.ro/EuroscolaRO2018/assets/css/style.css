@@ -118,8 +118,16 @@ img.resize {
         font-size: medium;
     }
 
-    .cupr {
-        display: none;
+    .lead {
+        font-size: medium !important;
+    }
+
+    .featurette-heading {
+        font-size: xx-large !important;
+    }
+
+    .featurette-heading2 {
+        font-size: x-large !important;
     }
 }
 
@@ -134,7 +142,8 @@ a.contents:visited {
 }
 
 .foot,
-.contents {
+.contents,
+.featurette-heading2 {
     font-family: Open Sans, sans-serif, serif;
 }
 
@@ -158,11 +167,38 @@ a.contents:visited {
 }
 
 .gallery {
-    width: 30vw;
-    height: 30vw;
+    width: 20vw;
+    height: 20vw;
     object-fit: cover;
 }
 
 #cuprins{
     text-align:center;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.toc-entry {
+    font-size: medium !important;
+}
+
+.section-nav {
+    border: 0 !important;
+}
+
+.bd-sidebar {
+    border: 0 !important;
 }

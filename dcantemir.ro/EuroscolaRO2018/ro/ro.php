@@ -81,6 +81,7 @@ $fourText14 = "Experiență efectivă de lucru în cadrul unei companii pentru e
 $fourText15 = "Pregătirea elevilor pentru inserția pe piață muncii după absolvire;";
 $fourText16 = "Facilitarea orientării profesionale pe piață muncii după absolvire;";
 $fourText17 = "Experiență de lucru efectiv într-un mediu multicultural;";
+$fourText18 = "Detali:";
 
 //Home -> Campania de promovare
 $fiveTitle = "Campania de promovare";
@@ -116,7 +117,7 @@ $web = "Web";
 $posters = "Postere/Afișe";
 $interview = "Interviu";
 $articles = "Articole";
-$popularisation = "Popularizare";
+$popularization = "Popularizare";
 $video = "Video";
 
 //Gallery
@@ -125,4 +126,13 @@ $sessions = "Lucru in echipa";
 $flayers = "Pliante";
 $workshop1 = "Workshop #1";
 $workshop2 = "Workshop #2";
+$videos = "Videoclipuri";
 
+$footText1 = "Creat cu ❤️ de ";
+$footText2 = "și";
+$footText3 = "Proiectul este și pe ";
+$street = "Strada:";
+$phone = "Telefon";
+$secretary = "- secretariat:";
+$director = " - director:";
+$accountancy = " - contabilitate:";
