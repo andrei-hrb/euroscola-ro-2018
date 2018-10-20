@@ -9,7 +9,7 @@
  ************************/
 
 //Title -> dnt
-$title = "- Explore with us";
+$title = "- Explore IT with Us";
 
 //Navbar
 

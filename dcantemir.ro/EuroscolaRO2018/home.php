@@ -1,5 +1,4 @@
 <!-- code might look strange because of the usage of php; check the github project -->
-
 <?php
 $lang = $_GET["lang"];
 
@@ -14,8 +13,14 @@ $srGallery = "";
 ?>
 <html>
 <head>
+    <meta name="og:title" content="<?= $home . ' ' . $title ?>">
+    <meta property="og:image" content="../assets/img/ui stuff/cover.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="640">
+
     <?php include("assets/misc/html/head.php"); ?>
-    <title> <?= $home . ' ' . $title ?> </title>
+    <title><?= $home . ' ' . $title ?></title>
     <link href="https://getbootstrap.com/docs/4.1/assets/css/docs.min.css" rel="stylesheet">
     <link href="../assets/css/lightbox.min.css" rel="stylesheet">
     <div id="fb-root"></div><script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src='https://connect.facebook.net/ro_RO/sdk.js#xfbml=1&version=v3.1';fjs.parentNode.insertBefore(js, fjs);}(document,'script','facebook-jssdk'));</script>

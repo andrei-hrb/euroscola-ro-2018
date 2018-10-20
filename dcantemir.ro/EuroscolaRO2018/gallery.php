@@ -14,8 +14,14 @@ $srGallery = "active"
 ?>
 <html>
 <head>
+    <meta name="og:title" content="<?= $gallery . ' ' . $title ?>">
+    <meta property="og:image" content="../assets/img/ui stuff/cover.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="640">
+
     <?php include("assets/misc/html/head.php"); ?>
-    <title> <?= $home . ' ' . $title ?> </title>
+    <title> <?= $gallery . ' ' . $title ?> </title>
     <link rel="stylesheet" href="../assets/css/lightbox.min.css">
     <link href="https://getbootstrap.com/docs/4.1/assets/css/docs.min.css" rel="stylesheet">
 </head>

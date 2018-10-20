@@ -12,6 +12,12 @@ $srGallery = "";
 
 <html>
 <head>
+    <meta name="og:title" content="<?= $gallery . ' ' . $title ?>">
+    <meta property="og:image" content="../assets/img/ui stuff/cover.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="640">
+
     <?php include("assets/misc/html/head.php"); ?>
     <title> <?= $cantemir . ' ' . $title ?></title>
 </head>

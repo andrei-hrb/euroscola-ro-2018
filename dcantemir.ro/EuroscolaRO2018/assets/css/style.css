@@ -44,7 +44,13 @@ img.resize {
     font-size: 2.5rem;
 }
 
-@media screen and (min-width: 722px) {
+.gallery {
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
     img.logo {
         width: 15rem;
         height: 4rem;
@@ -77,7 +83,7 @@ img.resize {
     }
 }
 
-@media screen and (max-width: 721px) {
+@media screen and (max-width: 767px) {
     img.logo {
         width: 11.1rem;
         height: 3rem;
@@ -129,6 +135,11 @@ img.resize {
     .featurette-heading2 {
         font-size: x-large !important;
     }
+
+    .gallery {
+        width: 30vw;
+        height: 30vw;
+    }
 }
 
 .people .col-4 {
@@ -164,16 +175,6 @@ a.contents:visited {
 .carousel-item .img-fluid {
     width: 100%;
     height: auto;
-}
-
-.gallery {
-    width: 20vw;
-    height: 20vw;
-    object-fit: cover;
-}
-
-#cuprins{
-    text-align:center;
 }
 
 .video {
