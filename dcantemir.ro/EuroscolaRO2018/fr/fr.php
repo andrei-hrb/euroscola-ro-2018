@@ -117,7 +117,7 @@ $posters = "Affiches";
 $interview = "Interview";
 $articles = "Articles";
 $journal = "Journal";
-$popularisation="Promotion";
+$popularisation="Popularisation";
 $video = "Video";
 
 //Gallery

@@ -117,13 +117,12 @@ $web = "Web";
 $posters = "Posters";
 $interview = "Interview";
 $articles = "Articles";
-$popularisation = "Popularisation";
+$popularisation = "Popularization";
 $video = "Video";
 
 //Gallery
-$contents = "Cuprins";
-$sessions = "Lucru in echipa";
-$flayers = "Pliante";
+$contents = "Content";
+$sessions = "Teamwork";
+$flayers = "Flyers";
 $workshop1 = "Workshop #1";
 $workshop2 = "Workshop #2";
-$popularisation = "Popularizare";
