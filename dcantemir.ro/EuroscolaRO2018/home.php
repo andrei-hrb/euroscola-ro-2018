@@ -16,6 +16,12 @@ $srGallery = "";
     <link rel="stylesheet" href="../assets/css/lightbox.min.css">
     <?php include("assets/misc/html/head.php"); ?>
     <title> <?= $home . ' ' . $title ?> </title>
+<!--for fixed div1 -->
+
+<link href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" rel="stylesheet">
+
+<link href="https://getbootstrap.com/docs/4.1/assets/css/docs.min.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -32,22 +38,23 @@ $srGallery = "";
 6) Impact
 8) Pagina / Grup de Facebook-->
 
-    <div class="container-fluid">
+    <div class="container-fluid mt-3">
       <div class="row flex-xl-nowrap">
         <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+        <h4 class=" text-center" ><?= $contents ?> </h4>
             <ul class="section-nav">
-<li class="toc-entry toc-h1 "><a  class="" href="#introduction"><?=$oneTitle?></a>
-<li class="toc-entry toc-h1 "><a href="#euroscola"><?=$twoTitle?></a></li>
-<li class="toc-entry toc-h1 "><a href="#erasmus"><?=$threeTitle?></a></li>
-<li class="toc-entry toc-h1 "><a href="#erasmusc"><?=$fourTitle?></a></li>
-<li class="toc-entry toc-h1 "><a href="#campania"><?=$fiveTitle?></a></li>
-<li class="toc-entry toc-h1 "><a href="#impact"><?=$sixTitle?></a></li>
-<li class="toc-entry toc-h1 "><a href="#pagina"><?=$sevenTitle?></a></li>
+<li class="toc-entry toc-h1"><a href="#introduction"><?=$oneTitle?></a>
+<li class="toc-entry toc-h1"><a href="#euroscola"><?=$twoTitle?></a></li>
+<li class="toc-entry toc-h1"><a href="#erasmus"><?=$threeTitle?></a></li>
+<li class="toc-entry toc-h1"><a href="#erasmusc"><?=$fourTitle?></a></li>
+<li class="toc-entry toc-h1"><a href="#campania"><?=$fiveTitle?></a></li>
+<li class="toc-entry toc-h1"><a href="#impact"><?=$sixTitle?></a></li>
+<li class="toc-entry toc-h1"><a href="#pagina"><?=$sevenTitle?></a></li>
 </ul>
  </div>
         <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
           <!--Introduction-->
-<div  id="introducion" class="container mt-3" >
+<div  id="introducion" class="container" id="spacingtop">
   <div class="row featurette">
       <div class="col-md-7 order-0">
           <h2 class="featurette-heading text-center mb-3"><?= $oneTitle ?> </h2>
@@ -78,7 +85,7 @@ $srGallery = "";
   <hr class="featurette-divider">
 
   <!-- Erasmus -->
-  <div id="erasmus" class="featurette">
+  <div class="featurette">
       <div class="row">
           <div class="col-md-7 order-0">
               <h2 class="featurette-heading text-center mb-3"><?= $threeTitle ?></h2>
@@ -115,7 +122,7 @@ $srGallery = "";
 
 
   <!-- Erasmus CNDC -->
-  <div id="erasmusc" class="row featurette">
+  <div class="row featurette">
       <div class="col-md-7 order-0">
           <h2 class="featurette-heading text-center mb-3"><?= $fourTitle ?></h2>
           <h2 class="mx-4 mb-1"> <?= $fourText5 ?>01/10/2016-30/09/2018</h2>
@@ -154,7 +161,7 @@ $srGallery = "";
   </div>
   <hr class="featurette-divider">
   <!-- Campania noastra de promovare -->
-  <div id="campania" class="row featurette ">
+  <div class="row featurette">
       <div>
           <h2 class="featurette-heading text-center mb-3 "><?= $fiveTitle ?></h2>
           <h2 class="mx-4 mb-1"> <?= $fiveText ?>03/10/2018-17/10/2018</h2>
@@ -176,7 +183,7 @@ $srGallery = "";
   <hr class="featurette-divider">
 
   <!-- Impactul campaniei de promovare-->
-  <div id="impact" class="row featurette">
+  <div class="row featurette">
       <div class="col-md-7 order-0">
           <h2 class="featurette-heading text-center mb-3"><?= $sixTitle ?></h2>
           <ul class=" mb-5">
@@ -200,7 +207,7 @@ $srGallery = "";
 
   <!-- Pagina de Facebook-->
 
-  <div id="pagina" class="row featurette">
+  <div class="row featurette">
       <div class="col-md-7 order-0">
           <h2 class="featurette-heading text-center mb-3"><?= $sevenTitle ?></h2>
           <p class="lead"> <?= $sevenText ?></p>
@@ -213,57 +220,10 @@ $srGallery = "";
       </div>
   </div>
 </div>
-
-
-<!--div class="container">
-  <div id="player"></div>
-
-  <script>
-      var tag = document.createElement('script');
-
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-      var player;
-
-      function onYouTubeIframeAPIReady() {
-          player = new YT.Player('player', {
-              height: '360',
-              width: '640',
-              videoId: 'rVeMiVU77wo',
-              events: {
-                  'onStateChange': onPlayerStateChange
-              }
-          });
-      }
-
-      var done = false;
-
-      function onPlayerStateChange(event) {
-          if (event.data == YT.PlayerState.PLAYING && !done) {
-              setTimeout(stopVideo, 6000);
-              done = true;
-          }
-      }
-
-      function stopVideo() {
-          player.stopVideo();
-      }
-  </script>
-</div -->
-
         </main>
       </div>
     </div>
-<?php include("assets/misc/footer/footer.php"); ?>
+   <?php include("assets/misc/footer/footer.php"); ?>
 <?php include("assets/misc/html/scripts.php"); ?>
-<script src="../assets/js/lightbox.min.js"></script>
-<script>
-    lightbox.option({
-        'maxWidth': 1200,
-        'maxHeight': 800,
-    });
-</script>
 </body>
 </html>

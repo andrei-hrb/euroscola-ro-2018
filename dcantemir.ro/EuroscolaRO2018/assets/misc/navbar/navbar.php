@@ -1,5 +1,4 @@
 <!-- Navbar -->
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <!-- logo -->
     <a class="navbar-brand" href="../home.php/?lang=<?= $lang ?>"><img class="logo" src="../assets/img/ui stuff/logo.png"></a>

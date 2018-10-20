@@ -112,12 +112,12 @@ $posters = "Affiches";
 $interview = "Interview";
 $articles = "Articles";
 $journal = "Journal";
-$popularisation="Popularizare";
+$popularisation="Popularisation";
 $video = "Video";
 
 //Gallery
-$contents = "Cuprins";
-$sessions="Lucru in echipa";
+$contents = "Content";
+$sessions="Travail d'équipe";
 $flayers = "Pliante";
 $workshop1="Workshop #1";
 $workshop2="Workshop #2";
