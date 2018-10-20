@@ -8,7 +8,7 @@
                     </a>
                 </div>
                 <div class="mt-3">
-                    <p class="text-white foot foot-text"><?= $footerText ?> </p>
+                    <p class="text-white foot foot-text"><?= $footerText ?></p>
                 </div>
             </div>
             <div class="col-md-5 mx-3 mt-3 mr-auto order-1">

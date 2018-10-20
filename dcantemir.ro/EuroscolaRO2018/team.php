@@ -11,11 +11,12 @@ $srGallery = "";
 ?>
 <html>
 <head>
-    <meta name="og:title" content="<?= $team. ' ' . $title ?>">
-    <meta property="og:image" content="../assets/img/ui stuff/cover.jpg">
+    <meta property="og:title" content="<?= $team. ' ' . $title ?>">
+    <meta property="og:image" content="https://i.imgur.com/VIfOuyT.jpg">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1024">
     <meta property="og:image:height" content="640">
+    <meta property="og:details" content="<?= $footerText ?>">
 
     <?php include("assets/misc/html/head.php"); ?>
     <link rel="stylesheet" href="../assets/css/lightbox.min.css">
