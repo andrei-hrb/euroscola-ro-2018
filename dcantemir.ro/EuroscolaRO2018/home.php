@@ -14,7 +14,7 @@ $srGallery = "";
 <html>
 <head>
     <?php include("assets/misc/html/head.php"); ?>
-    <title><?= $home . ' ' . $title ?></title>
+    <title><?= $home . ' ' . $baseTitle ?></title>
     <link href="https://getbootstrap.com/docs/4.1/assets/css/docs.min.css" rel="stylesheet">
     <link href="../assets/css/lightbox.min.css" rel="stylesheet">
     <div id="fb-root"></div>
@@ -37,31 +37,31 @@ $srGallery = "";
         <div class="col-12 col-md-3 bd-sidebar" id="spacingtop">
             <ul class="section-nav">
                 <li class="toc-entry toc-h1 lead">
-                    <a href="#introduction"><?= $oneTitle ?></a>
+                    <a href="#introduction"><?= $introductionTitle ?></a>
                     <hr>
                 </li>
                 <li class="toc-entry toc-h1 lead">
-                    <a href="#euroscola"><?= $twoTitle ?></a>
+                    <a href="#euroscola"><?= $euroscolaTitle ?></a>
                     <hr>
                 </li>
                 <li class="toc-entry toc-h1 lead">
-                    <a href="#erasmus"><?= $threeTitle ?></a>
+                    <a href="#erasmus"><?= $erasmusTitle ?></a>
                     <hr>
                 </li>
                 <li class="toc-entry toc-h1 lead">
-                    <a href="#erasmuscndc"><?= $fourTitle ?></a>
+                    <a href="#erasmuscndc"><?= $erasmusTitle ?></a>
                     <hr>
                 </li>
                 <li class="toc-entry toc-h1 lead">
-                    <a href="#campaign"><?= $fiveTitle ?></a>
+                    <a href="#campaign"><?= $campaignTitle ?></a>
                     <hr>
                 </li>
                 <li class="toc-entry toc-h1 lead">
-                    <a href="#impact"><?= $sixTitle ?></a>
+                    <a href="#impact"><?= $impactTitle ?></a>
                     <hr>
                 </li>
                 <li class="toc-entry toc-h1 lead">
-                    <a href="#facebook"><?= $sevenTitle ?></a>
+                    <a href="#facebook"><?= $facebookTitle ?></a>
                 </li>
             </ul>
         </div>
@@ -70,8 +70,8 @@ $srGallery = "";
             <div class="container" id="spacingtop">
                 <div class="row featurette" id="introduction">
                     <div class="col-md-7 order-0">
-                        <h2 class="featurette-heading text-center mb-3"><?= $oneTitle ?> </h2>
-                         <p class="lead ind"><?= $oneText ?></p>
+                        <h2 class="featurette-heading text-center mb-3"><?= $introductionTitle ?> </h2>
+                         <p class="lead ind"><?= $introductionText ?></p>
                     </div>
                     <div class="col-md-5 order-1">
                         <div class="mx-auto text-center">
@@ -83,8 +83,8 @@ $srGallery = "";
 
                 <div id="euroscola" class="row featurette">
                     <div class="col-md-7 order-0">
-                        <h2 class="featurette-heading text-center mb-3"><?= $twoTitle ?></h2>
-                        <p class="lead ind"><?= $twoText ?></p>
+                        <h2 class="featurette-heading text-center mb-3"><?= $euroscolaTitle ?></h2>
+                        <p class="lead ind"><?= $euroscolaText ?></p>
                     </div>
                     <div class="align-self-center col-md-5 order-1 mx-auto text-center">
                         <img class="img-fluid" src="../assets/img/home/euroscola.jpg" style="width:70%">
@@ -95,109 +95,109 @@ $srGallery = "";
                 <div id=eurasmus" class="featurette">
                     <div class="row">
                         <div class="col-md-7 order-0">
-                            <h2 class="featurette-heading text-center mb-3"><?= $threeTitle ?></h2>
-                            <h2 class="mx-4 mb-1 featurette-heading2"><?= $threeText ?></h2>
-                            <p class="lead ind"><?= $threeText1 ?></p>
-                            <h2 class="mx-4 mb-1 featurette-heading2"><?= $threeText4 ?></h2>
+                            <h2 class="featurette-heading text-center mb-3"><?= $erasmusTitle ?></h2>
+                            <h2 class="mx-4 mb-1 featurette-heading2"><?= $erasmusText ?></h2>
+                            <p class="lead ind"><?= $erasmusText1 ?></p>
+                            <h2 class="mx-4 mb-1 featurette-heading2"><?= $erasmusText4 ?></h2>
                             <ul class=" mb-5">
-                                <li class="lead"><?= $threeText5 ?></li>
-                                <li class="lead"><?= $threeText6 ?></li>
-                                <li class="lead"><?= $threeText7 ?></li>
+                                <li class="lead"><?= $erasmusText5 ?></li>
+                                <li class="lead"><?= $erasmusText6 ?></li>
+                                <li class="lead"><?= $erasmusText7 ?></li>
                             </ul>
                         </div>
                         <div class="col-md-5 order-1 mx-auto text-center float-right">
                             <img class="img-fluid mx-auto" src="../assets/img/home/erasmus.jpg" style="width:70%">
                         </div>
                     </div>
-                    <h2 class="mx-4 mb-1 featurette-heading2"><?= $threeText8 ?></h2>
+                    <h2 class="mx-4 mb-1 featurette-heading2"><?= $erasmusText8 ?></h2>
                     <ul class=" mb-5">
-                        <li class="lead"><?= $threeText9 ?></li>
-                        <li class="lead"><?= $threeText10 ?></li>
-                        <li class="lead"><?= $threeText11 ?></li>
-                        <li class="lead"><?= $threeText12 ?></li>
-                        <li class="lead"><?= $threeText13 ?></li>
-                        <li class="lead"><?= $threeText14 ?></li>
+                        <li class="lead"><?= $erasmusText9 ?></li>
+                        <li class="lead"><?= $erasmusText10 ?></li>
+                        <li class="lead"><?= $erasmusText11 ?></li>
+                        <li class="lead"><?= $erasmusText12 ?></li>
+                        <li class="lead"><?= $erasmusText13 ?></li>
+                        <li class="lead"><?= $erasmusText14 ?></li>
                     </ul>
-                    <h2 class="mx-4 mb-1 featurette-heading2"><?= $threeText15 ?></h2>
-                    <p class="lead ind"><?= $threeText16 ?></p>
+                    <h2 class="mx-4 mb-1 featurette-heading2"><?= $erasmusText15 ?></h2>
+                    <p class="lead ind"><?= $erasmusText16 ?></p>
                 </div>
                 <hr class="featurette-divider">
 
                 <div id="erasmuscndc" class="row featurette">
                     <div class="col-md-7 order-0">
-                        <h2 class="featurette-heading text-center mb-3"><?= $fourTitle ?></h2>
-                        <h2 class="featurette-heading2 mx-4 mb-1"> <?= $fourText18 ?></h2>
+                        <h2 class="featurette-heading text-center mb-3"><?= $erasmusCNDCTitle ?></h2>
+                        <h2 class="featurette-heading2 mx-4 mb-1"> <?= $erasmusCNDCText18 ?></h2>
                         <ul class="lead">
-                            <li><?= $fourText5 ?> 01/10/2016 - 30/09/2018</li>
-                            <li><?= $fourText6 ?> 63248€</li>
+                            <li><?= $erasmusCNDCText5 ?> 01/10/2016 - 30/09/2018</li>
+                            <li><?= $erasmusCNDCText6 ?> 63248€</li>
                         </ul>
-                        <h2 class="featurette-heading2 mx-4 mb-1"> <?= $fourText ?></h2>
+                        <h2 class="featurette-heading2 mx-4 mb-1"> <?= $erasmusCNDCText ?></h2>
                         <ul class="lead">
-                            <li><?= $fourText1 ?>
-                            <li><?= $fourText2 ?>
-                            <li><?= $fourText3 ?>
-                            <li><?= $fourText4 ?>
+                            <li><?= $erasmusCNDCText1 ?>
+                            <li><?= $erasmusCNDCText2 ?>
+                            <li><?= $erasmusCNDCText3 ?>
+                            <li><?= $erasmusCNDCText4 ?>
                         </ul>
-                        <h2 class="featurette-heading2 mx-4 mb-1"> <?= $fourText7 ?></h2>
-                        <p class="lead ind"> <?= $fourText8 ?></p>
-                        <h2 class="featurette-heading2 mx-4 mb-1"> <?= $fourText9 ?></h2>
-                        <p class="lead ind"><?= $fourText10 ?></p>
-                        <h2 class="featurette-heading2 mx-4 mb-1"> <?= $fourText11 ?></h2>
+                        <h2 class="featurette-heading2 mx-4 mb-1"> <?= $erasmusCNDCText7 ?></h2>
+                        <p class="lead ind"> <?= $erasmusCNDCText8 ?></p>
+                        <h2 class="featurette-heading2 mx-4 mb-1"> <?= $erasmusCNDCText9 ?></h2>
+                        <p class="lead ind"><?= $erasmusCNDCText10 ?></p>
+                        <h2 class="featurette-heading2 mx-4 mb-1"> <?= $erasmusCNDCText11 ?></h2>
                         <ul class="lead">
-                            <li><?= $fourText12 ?>
-                            <li><?= $fourText13 ?>
-                            <li><?= $fourText14 ?>
-                            <li><?= $fourText15 ?>
-                            <li><?= $fourText16 ?>
-                            <li><?= $fourText17 ?>
+                            <li><?= $erasmusCNDCText12 ?>
+                            <li><?= $erasmusCNDCText13 ?>
+                            <li><?= $erasmusCNDCText14 ?>
+                            <li><?= $erasmusCNDCText15 ?>
+                            <li><?= $erasmusCNDCText16 ?>
+                            <li><?= $erasmusCNDCText17 ?>
                         </ul>
                     </div>
                     <div class="col-md-5 order-1">
-                        <a href="../assets/img/home/logoproiect.png" data-lightbox="<?= $fourTitle ?>" data-title=" <?= $fourTitle ?>"><img class=" img-fluid mx-auto mt-5" src="../assets/img/home/logoproiect.png"></a>
-                        <a href="../assets/img/home/grup1.jpg" data-lightbox="<?= $fourTitle ?>" data-title=" <?= $fourTitle ?>"><img class=" img-fluid mx-auto mt-5" src="../assets/img/home/grup1.jpg"></a>
-                        <a href="../assets/img/home/grup2.png" data-lightbox="<?= $fourTitle ?>" data-title=" <?= $fourTitle ?>"><img class=" img-fluid mx-auto mt-5" src="../assets/img/home/grup2.png"></a>
+                        <a href="../assets/img/home/logoproiect.png" data-lightbox="<?= $erasmusCNDCTitle ?>" data-title=" <?= $erasmusCNDCTitle ?>"><img class=" img-fluid mx-auto mt-5" src="../assets/img/home/logoproiect.png"></a>
+                        <a href="../assets/img/home/grup1.jpg" data-lightbox="<?= $erasmusCNDCTitle ?>" data-title=" <?= $erasmusCNDCTitle ?>"><img class=" img-fluid mx-auto mt-5" src="../assets/img/home/grup1.jpg"></a>
+                        <a href="../assets/img/home/grup2.png" data-lightbox="<?= $erasmusCNDCTitle ?>" data-title=" <?= $erasmusCNDCTitle ?>"><img class=" img-fluid mx-auto mt-5" src="../assets/img/home/grup2.png"></a>
                     </div>
                 </div>
                 <hr class="featurette-divider">
 
                 <div id="campaign" class="row featurette">
                     <div>
-                        <h2 class="featurette-heading text-center mb-3 "><?= $fiveTitle ?></h2>
-                        <h2 class="mx-4 mb-1"> <?= $fiveText ?>03/10/2018-17/10/2018</h2>
-                        <h2 class="mx-4 mb-1"> <?= $fiveText1 ?></h2>
+                        <h2 class="featurette-heading text-center mb-3 "><?= $campaignTitle ?></h2>
+                        <h2 class="mx-4 mb-1"> <?= $campaignText ?>03/10/2018-17/10/2018</h2>
+                        <h2 class="mx-4 mb-1"> <?= $campaignText1 ?></h2>
                         <ol class="lead">
-                            <li> <?= $fiveText2 ?>
-                            <li> <?= $fiveText3 ?>
-                            <li> <?= $fiveText4 ?>
+                            <li> <?= $campaignText2 ?>
+                            <li> <?= $campaignText3 ?>
+                            <li> <?= $campaignText4 ?>
                         </ol>
                     </div>
                     <div class="row featurette mx-5 ">
-                        <a href="../assets/img/home/campanie1.jpg" data-lightbox="<?= $fiveTitle ?>" data-title=" <?= $fiveTitle ?>"><img class=" img-fluid mx-auto mt-5" style="max-height:652px; height: auto; width: auto;" src="../assets/img/home/campanie1.jpg"></a>
-                        <a href="../assets/img/home/campanie2.jpg" data-lightbox="<?= $fiveTitle ?>" data-title=" <?= $fiveTitle ?>"><img class=" img-fluid mx-auto mt-5" style=" max-height:652px; height: auto; width: auto;" src="../assets/img/home/campanie2.jpg"></a>
+                        <a href="../assets/img/home/campanie1.jpg" data-lightbox="<?= $campaignTitle ?>" data-title=" <?= $campaignTitle ?>"><img class=" img-fluid mx-auto mt-5" style="max-height:652px; height: auto; width: auto;" src="../assets/img/home/campanie1.jpg"></a>
+                        <a href="../assets/img/home/campanie2.jpg" data-lightbox="<?= $campaignTitle ?>" data-title=" <?= $campaignTitle ?>"><img class=" img-fluid mx-auto mt-5" style=" max-height:652px; height: auto; width: auto;" src="../assets/img/home/campanie2.jpg"></a>
                     </div>
                 </div>
                 <hr class="featurette-divider">
 
                 <div id="impact" class="row featurette">
                     <div class="col-md-7 order-0">
-                        <h2 class="featurette-heading text-center mb-3"><?= $sixTitle ?></h2>
+                        <h2 class="featurette-heading text-center mb-3"><?= $impactTitle ?></h2>
                         <ul class=" mb-5">
-                            <li class="lead"><?= $sixText ?> </li>
-                            <li class="lead"><?= $sixText1 ?> </li>
-                            <li class="lead"><?= $sixText2 ?> </li>
+                            <li class="lead"><?= $impactText ?> </li>
+                            <li class="lead"><?= $impactText1 ?> </li>
+                            <li class="lead"><?= $impactText2 ?> </li>
                         </ul>
                     </div>
                     <div class="col-md-5 order-1 mx-auto text-center">
-                        <a href="../assets/img/home/group.jpg" data-lightbox="<?= $sixTitle ?>" data-title=" <?= $sixTitle ?>"><img class="shadow img-fluid mx-auto mt-5" src="../assets/img/home/group.jpg" style="width:100%"></a>
+                        <a href="../assets/img/home/group.jpg" data-lightbox="<?= $impactTitle ?>" data-title=" <?= $impactTitle ?>"><img class="shadow img-fluid mx-auto mt-5" src="../assets/img/home/group.jpg" style="width:100%"></a>
                     </div>
                 </div>
                 <hr class="featurette-divider">
 
                 <div id="facebook" class="row featurette">
                     <div class="col-md-7 order-0">
-                        <h2 class="featurette-heading text-center mb-3"><?= $sevenTitle ?></h2>
-                        <p class="lead ind"> <?= $sevenText ?></p>
-                        <p class="lead ind"> <?= $sevenText1 ?></p>
+                        <h2 class="featurette-heading text-center mb-3"><?= $facebookTitle ?></h2>
+                        <p class="lead ind"> <?= $facebookText ?></p>
+                        <p class="lead ind"> <?= $facebookText1 ?></p>
                     </div>
                     <div class="col-md-5 order-1 m-auto text-center">
                         <?php include("assets/misc/3rd party parts/facebook.php"); ?>

@@ -3,10 +3,10 @@
         <div class="row">
             <div class="col-md-5 mx-3 mt-3 mr-auto order-0">
                 <a href="#"><img class="logo" src="../assets/img/ui stuff/logo.png"></a>
-                <p class="text-white foot foot-text mt-3"><?= $footerText ?></p>
+                <p class="text-white foot foot-text mt-3"><?= $footText ?></p>
             </div>
             <div class="col-md-5 mx-3 mt-3 mr-auto order-1">
-                <em><strong><a href="http://www.dcantemir.ro" class="foot foot-text mb-5 foot-links" style="font-size: medium;"><?= $cndc ?></a></strong></em><br>
+                <em><strong><a href="http://www.dcantemir.ro" class="foot foot-text mb-5 foot-links" style="font-size: medium;"><?= $cantemir ?></a></strong></em><br>
                 <div class="text-white foot foot-text">
                     <strong class="mt-5 mb-1"><?= $street ?></strong> Dr. Victor Babeş 12, mun. Oneşti, jud. Bacău<br>
                     <strong class="my-1"><?= $phone . $secretary ?></strong> (+4) 0234 311 046<br>

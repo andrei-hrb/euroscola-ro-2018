@@ -14,7 +14,7 @@ $srGallery = "active"
 <html>
 <head>
     <?php include("assets/misc/html/head.php"); ?>
-    <title> <?= $gallery . ' ' . $title ?> </title>
+    <title> <?= $gallery . ' ' . $baseTitle ?> </title>
     <link rel="stylesheet" href="../assets/css/lightbox.min.css">
     <link href="https://getbootstrap.com/docs/4.1/assets/css/docs.min.css" rel="stylesheet">
 </head>

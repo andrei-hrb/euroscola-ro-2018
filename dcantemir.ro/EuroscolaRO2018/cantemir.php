@@ -12,7 +12,7 @@ $srGallery = "";
 <html>
 <head>
     <?php include("assets/misc/html/head.php"); ?>
-    <title><?= $cantemir . ' ' . $title ?></title>
+    <title><?= $highschool . ' ' . $baseTitle ?></title>
 </head>
 
 <body>
@@ -20,11 +20,11 @@ $srGallery = "";
 
 <div class="row featurette" id="spacingtop">
     <div class="col-md-6 order-0 mx-1 mx-md-5">
-        <h1 class="featurette-heading text-center mb-4 ml-3"><?= $cndc ?></h1>
-        <h2 class="featurette-heading2 mx-4 mb-1"><?= $cndctext ?></h2>
-        <p class="lead mx-4 mb-2 ind"><?= $cndctext1 ?></p>
-        <h2 class="featurette-heading2 mx-4 mb-1"><?= $cndctext2 ?></h2>
-        <p class="lead mx-4 ind"><?= $cndctext3 ?></p>
+        <h1 class="featurette-heading text-center mb-4 ml-3"><?= $cantemir ?></h1>
+        <h2 class="featurette-heading2 mx-4 mb-1"><?= $cantemirtext ?></h2>
+        <p class="lead mx-4 mb-2 ind"><?= $cantemirtext1 ?></p>
+        <h2 class="featurette-heading2 mx-4 mb-1"><?= $cantemirtext2 ?></h2>
+        <p class="lead mx-4 ind"><?= $cantemirtext3 ?></p>
     </div>
     <div class="col-md-5 order-1 my-auto">
         <?php include("assets/misc/3rd party parts/map.php"); ?>

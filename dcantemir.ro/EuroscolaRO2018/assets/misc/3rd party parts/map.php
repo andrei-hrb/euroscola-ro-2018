@@ -13,7 +13,7 @@
             accessToken: 'pk.eyJ1IjoiZXRoYW53ZXN0aWNrIiwiYSI6ImNqbWM5dnVzMzFyNWwzcGxrcWM4dDJqYXMifQ.PW-7Jf_2icBH59RJ1js7UQ'
         }).addTo(mymap);
         L.marker([46.25321, 26.77684]).addTo(mymap)
-            .bindPopup('<img class="float-right" src="../assets/img/posts/cantemir.png" style="width:2rem; height: auto;">  <?= $cndc ?>')
+            .bindPopup('<img class="float-right" src="../assets/img/posts/cantemir.png" style="width:2rem; height: auto;">  <?= $cantemir ?>')
             .openPopup();
     </script>
 </div>
