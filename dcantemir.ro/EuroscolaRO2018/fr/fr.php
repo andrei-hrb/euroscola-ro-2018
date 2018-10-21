@@ -32,7 +32,7 @@ $roLink = "?lang=ro";
 
 //Home -> Introduction
 $introductionTitle="Introduction";
-$introductionText="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.";
+$introductionText="Ce site a été créé par le collectif de la classe 10e E du Collège National «Dimitrie Cantemir» Onesti, participant à la competition Euroscola 2018, dans laquelle il réalise la campagne «Erasmus+, Explore IT with Us» de promotion du projet de mobilité financé par l'Union Européene «FUTURE CAREER? TOUCH IT!», déroulé au cours de la période 2016-2018 par le National «Dimitrie Cantemir» Onesti.";
 
 //Home -> Euroscola
 $euroscolaTitle = "Euroscola, c'est quoi?";
@@ -83,11 +83,11 @@ $erasmusCNDCText19 = "Run the apps from here";
 
 //Home -> Campaign
 $campaignTitle = "Campagne de promotion:";
-$campaignText = "Period:";
-$campaignText1 = "Objectives:";
-$campaignText2 = "Promoting the activity of the students, direct beneficiaries of the two forming stages in the field of IT in Great Britain, as part of the \"FUTURE CAREER? - TOUCH IT!\" project, 2016-1-RO01-KA102-024210;";
-$campaignText3 = "Informing the local population about the benefits of Erasmus+ mobility projects in the field of education;";
-$campaignText4 = "Comprehending the importance of partenerships and european-funded programmes for the education of teens and adults.";
+$campaignText = "Période:";
+$campaignText1 = "Objectifs:";
+$campaignText2 = "Promouvoir les activités des étudiants de Cantemir, les bénéficiaires directs des deux cours de formation en informatique au Royaume-Uni dans le cadre du projet européen «FUTURE CAREER?- TOUCH IT!» 2016-1-RO01-KA102-024210;";
+$campaignText3 = "Informer les membres de la communauté des avantages de la mise en œuvre de projets de mobilité Erasmus + dans le domaine de l'éducation et de la formation;";
+$campaignText4 = "Compréhension de l'importance des partenariats et programmes de financement européen pour l'éducation des jeunes et des adultes.";
 $campaignText5 = "Realisations";
 
 
