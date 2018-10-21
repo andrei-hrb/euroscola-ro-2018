@@ -1,5 +1,4 @@
 <!-- code might look strange because of the usage of php; check the github project -->
-
 <?php
 $lang = $_GET["lang"];
 
@@ -14,13 +13,6 @@ $srGallery = "active"
 ?>
 <html>
 <head>
-    <meta property="og:title" content="<?= $gallery . ' ' . $title ?>">
-    <meta property="og:image" content="https://i.imgur.com/VIfOuyT.jpg">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:width" content="1024">
-    <meta property="og:image:height" content="640">
-    <meta property="og:details" content="<?= $footerText ?>">
-
     <?php include("assets/misc/html/head.php"); ?>
     <title> <?= $gallery . ' ' . $title ?> </title>
     <link rel="stylesheet" href="../assets/css/lightbox.min.css">
@@ -46,7 +38,6 @@ function newPhoto4($img, $id)
 {
     echo '
         <div class="col-4">
-            
             <a href="../assets/img/gallery/' . $img . '.jpg" data-lightbox="' . $id . '" data-title="' . $id . '">
                 <img class="rounded shadow my-3 mx-auto d-block gallery" src="../assets/img/gallery/' . $img . '.jpg"> 
             </a>
@@ -55,6 +46,7 @@ function newPhoto4($img, $id)
 }
 
 ?>
+
 <div class="row flex-xl-nowrap" id="spacingtop">
     <div class="col-12 col-md-3 bd-sidebar">
         <ul class="section-nav">
@@ -92,11 +84,10 @@ function newPhoto4($img, $id)
         </ul>
     </div>
 
-    <main class="col-12 col-md-9 bd-content" role="main" style="border-left: 1px solid #eee;">
+    <main class="col-12 col-md-9 bd-content" role="main">
         <div class="featurette">
             <div id="posters" class="mx-4">
                 <h1 class="featurette-heading text-center"><?= $posters ?></h1>
-
                 <div class="row">
                     <?php newPhoto6('poster', $posters) ?>
                     <?php newPhoto6('announcement', $posters) ?>
@@ -106,7 +97,6 @@ function newPhoto4($img, $id)
 
             <div id="flayers" class="mx-5">
                 <h1 class="featurette-heading text-center"><?= $flayers ?></h1>
-
                 <div class="row">
                     <?php newPhoto6('flayer1', $flayers) ?>
                     <?php newPhoto6('flayer2', $flayers) ?>
@@ -116,7 +106,6 @@ function newPhoto4($img, $id)
 
             <div id="videos" class="mx-5">
                 <h1 class="featurette-heading text-center"><?= $videos ?></h1>
-
                 <div class="row">
                     <div class="col-md-4">
                         <div class="video shadow">
@@ -139,7 +128,6 @@ function newPhoto4($img, $id)
 
             <div id="audio" class="mx-5">
                 <h1 class="featurette-heading text-center">Audio</h1>
-
                 <div class="row">
                     <div class="col-12 shadow">
                         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/517213752&color=%23dd0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
@@ -150,26 +138,21 @@ function newPhoto4($img, $id)
 
             <div id="teamwork" class="mx-4">
                 <h1 class="featurette-heading text-center"><?= $sessions ?></h1>
-
                 <div class="row">
                     <?php newPhoto4('team24', $sessions) ?>
                     <?php newPhoto4('team1', $sessions) ?>
                     <?php newPhoto4('team5', $sessions) ?>
-
                 </div>
-
                 <div class="row">
                     <?php newPhoto4('team4', $sessions) ?>
                     <?php newPhoto4('team3', $sessions) ?>
                     <?php newPhoto4('team7', $sessions) ?>
                 </div>
-
                 <div class="row">
                     <?php newPhoto4('team8', $sessions) ?>
                     <?php newPhoto4('team20', $sessions) ?>
                     <?php newPhoto4('team21', $sessions) ?>
                 </div>
-
                 <div class="row">
                     <?php newPhoto4('team23', $sessions) ?>
                     <?php newPhoto4('team11', $sessions) ?>
@@ -179,13 +162,11 @@ function newPhoto4($img, $id)
 
             <div id="workshop1" class="mx-4">
                 <h1 class="featurette-heading text-center"><?= $workshop1 ?></h1>
-
                 <div class="row">
                     <?php newPhoto4('workshop1.12', $workshop1) ?>
                     <?php newPhoto4('workshop1.2', $workshop1) ?>
                     <?php newPhoto4('workshop1.11', $workshop1) ?>
                 </div>
-
                 <div class="row">
                     <?php newPhoto4('workshop1.3', $workshop1) ?>
                     <?php newPhoto4('workshop1.5', $workshop1) ?>
@@ -206,13 +187,11 @@ function newPhoto4($img, $id)
 
             <div id="workshop2" class="mx-4">
                 <h1 class="featurette-heading text-center"><?= $workshop2 ?></h1>
-
                 <div class="row">
                     <?php newPhoto4('workshop2.1', $workshop2) ?>
                     <?php newPhoto4('workshop2.9', $workshop2) ?>
                     <?php newPhoto4('workshop2.3', $workshop2) ?>
                 </div>
-
                 <div class="row">
                     <?php newPhoto4('workshop2.4', $workshop2) ?>
                     <?php newPhoto4('workshop2.5', $workshop2) ?>
@@ -228,37 +207,31 @@ function newPhoto4($img, $id)
 
             <div id="popularization" class="mx-4">
                 <h1 class="featurette-heading text-center"><?= $popularization ?></h1>
-
                 <div class="row">
                     <?php newPhoto4('popularisation21', $popularization) ?>
                     <?php newPhoto4('popularisation2', $popularization) ?>
                     <?php newPhoto4('popularisation3', $popularization) ?>
                 </div>
-
                 <div class="row">
                     <?php newPhoto4('popularisation4', $popularization) ?>
                     <?php newPhoto4('popularisation5', $popularization) ?>
                     <?php newPhoto4('popularisation22', $popularization) ?>
                 </div>
-
                 <div class="row">
                     <?php newPhoto4('popularisation7', $popularization) ?>
                     <?php newPhoto4('popularisation8', $popularization) ?>
                     <?php newPhoto4('popularisation9', $popularization) ?>
                 </div>
-
                 <div class="row">
                     <?php newPhoto4('popularisation10', $popularization) ?>
                     <?php newPhoto4('popularisation11', $popularization) ?>
                     <?php newPhoto4('popularisation12', $popularization) ?>
                 </div>
-
                 <div class="row">
                     <?php newPhoto4('popularisation13', $popularization) ?>
                     <?php newPhoto4('popularisation14', $popularization) ?>
                     <?php newPhoto4('popularisation15', $popularization) ?>
                 </div>
-
                 <div class="row">
                     <?php newPhoto4('popularisation16', $popularization) ?>
                     <?php newPhoto4('popularisation17', $popularization) ?>

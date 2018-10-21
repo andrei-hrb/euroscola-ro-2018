@@ -6,34 +6,16 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item ml-1">
-                <a class="nav-link nav-elm <?= $srHome ?>" href="../home.php/?lang=<?= $lang ?>"><?= $home ?></a>
-            </li>
-            <li class="nav-item ml-1">
-                <a class="nav-link nav-elm <?= $srCantemir ?>" href="../cantemir.php/?lang=<?= $lang ?>"><?= $cantemir ?></a>
-            </li>
-            <li class="nav-item ml-1">
-                <a class="nav-link nav-elm <?= $srTeam ?>" href="../team.php/?lang=<?= $lang ?>"><?= $team ?></a>
-            </li>
-            <li class="nav-item ml-1">
-                <a class="nav-link nav-elm <?= $srGallery ?>" href="../gallery.php/?lang=<?= $lang ?>"><?= $gallery ?></a>
-            </li>
+            <li class="nav-item ml-1"><a class="nav-link nav-elm <?= $srHome ?>" href="../home.php/?lang=<?= $lang ?>"><?= $home ?></a></li>
+            <li class="nav-item ml-1"><a class="nav-link nav-elm <?= $srCantemir ?>" href="../cantemir.php/?lang=<?= $lang ?>"><?= $cantemir ?></a></li>
+            <li class="nav-item ml-1"><a class="nav-link nav-elm <?= $srTeam ?>" href="../team.php/?lang=<?= $lang ?>"><?= $team ?></a></li>
+            <li class="nav-item ml-1"><a class="nav-link nav-elm <?= $srGallery ?>" href="../gallery.php/?lang=<?= $lang ?>"><?= $gallery ?></a></li>
         </ul>
 
-        <div class="">
-            <div class="ml-md-auto flags">
-                <a class="flagLink" href="<?= $frLink ?>">
-                    <img class="mx-1 flag <?= $frFlag ?>" id="fr" src="../assets/img/flags/fr.png">
-                </a>
-
-                <a class="flagLink" href="<?= $enLink ?>">
-                    <img class="mx-1 flag <?= $enFlag ?>" id="en" src="../assets/img/flags/uk.png">
-                </a>
-
-                <a class="flagLink" href="<?= $roLink ?>">
-                    <img class="mx-1 flag <?= $roFlag ?>" id="ro" src="../assets/img/flags/ro.png">
-                </a>
-            </div>
+        <div class="ml-md-auto flags">
+            <a class="flagLink" href="<?= $frLink ?>"><img class="mx-1 flag <?= $frFlag ?>" id="fr" src="../assets/img/flags/fr.png"></a>
+            <a class="flagLink" href="<?= $enLink ?>"><img class="mx-1 flag <?= $enFlag ?>" id="en" src="../assets/img/flags/uk.png"></a>
+            <a class="flagLink" href="<?= $roLink ?>"><img class="mx-1 flag <?= $roFlag ?>" id="ro" src="../assets/img/flags/ro.png"></a>
         </div>
     </div>
 </nav>

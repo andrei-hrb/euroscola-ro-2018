@@ -1,5 +1,4 @@
 <!-- code might look strange because of the usage of php; check the github project -->
-
 <?php
 $lang = $_GET["lang"];
 include("$lang/$lang.php");
@@ -12,15 +11,8 @@ $srGallery = "";
 
 <html>
 <head>
-    <meta property="og:title" content="<?= $gallery . ' ' . $title ?>">
-    <meta property="og:image" content="https://i.imgur.com/VIfOuyT.jpg">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:width" content="1024">
-    <meta property="og:image:height" content="640">
-    <meta property="og:details" content="<?= $footerText ?>">
-
     <?php include("assets/misc/html/head.php"); ?>
-    <title> <?= $cantemir . ' ' . $title ?></title>
+    <title><?= $cantemir . ' ' . $title ?></title>
 </head>
 
 <body>
@@ -30,12 +22,12 @@ $srGallery = "";
     <div class="col-md-6 order-0 mx-1 mx-md-5">
         <h1 class="featurette-heading text-center mb-4 ml-3"><?= $cndc ?></h1>
         <h2 class="featurette-heading2 mx-4 mb-1"><?= $cndctext ?></h2>
-        <p class="lead mx-4 mb-2"  style="text-indent: 30px;"><?= $cndctext1 ?></p>
+        <p class="lead mx-4 mb-2 ind"><?= $cndctext1 ?></p>
         <h2 class="featurette-heading2 mx-4 mb-1"><?= $cndctext2 ?></h2>
-        <p class="lead mx-4"  style="text-indent: 30px;"><?= $cndctext3 ?></p>
+        <p class="lead mx-4 ind"><?= $cndctext3 ?></p>
     </div>
     <div class="col-md-5 order-1 my-auto">
-        <?php include("assets/misc/footer/map.php"); ?>
+        <?php include("assets/misc/3rd party parts/map.php"); ?>
     </div>
 </div>
 
