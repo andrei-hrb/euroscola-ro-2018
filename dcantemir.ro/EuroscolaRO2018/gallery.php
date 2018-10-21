@@ -86,7 +86,7 @@ function newPhoto4($img, $id)
 
     <main class="col-12 col-md-9 bd-content" role="main">
         <div class="featurette">
-            <div id="posters" class="mx-4">
+            <div id="posters" class="mx-md-4">
                 <h1 class="featurette-heading text-center"><?= $posters ?></h1>
                 <div class="row">
                     <?php newPhoto6('poster', $posters) ?>
@@ -136,7 +136,7 @@ function newPhoto4($img, $id)
             </div>
             <hr class="featurette-divider">
 
-            <div id="teamwork" class="mx-4">
+            <div id="teamwork" class="mx-md-4">
                 <h1 class="featurette-heading text-center"><?= $sessions ?></h1>
                 <div class="row">
                     <?php newPhoto4('team1', $sessions) ?>
@@ -161,7 +161,7 @@ function newPhoto4($img, $id)
             </div>
             <hr class="featurette-divider">
 
-            <div id="workshop1" class="mx-4">
+            <div id="workshop1" class="mx-md-4">
                 <h1 class="featurette-heading text-center"><?= $workshop1 ?></h1>
                 <div class="row">
                     <?php newPhoto4('wk1-1', $workshop1) ?>
@@ -186,7 +186,7 @@ function newPhoto4($img, $id)
             </div>
             <hr class="featurette-divider">
 
-            <div id="workshop2" class="mx-4">
+            <div id="workshop2" class="mx-md-4">
                 <h1 class="featurette-heading text-center"><?= $workshop2 ?></h1>
                 <div class="row">
                     <?php newPhoto4('wk2-1', $workshop2) ?>
@@ -206,7 +206,7 @@ function newPhoto4($img, $id)
             </div>
             <hr class="featurette-divider">
 
-            <div id="popularization" class="mx-4">
+            <div id="popularization" class="mx-md-4">
                 <h1 class="featurette-heading text-center"><?= $popularization ?></h1>
                 <div class="row">
                     <?php newPhoto4('pz1', $popularization) ?>

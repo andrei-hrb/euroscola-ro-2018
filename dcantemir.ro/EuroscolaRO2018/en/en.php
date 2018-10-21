@@ -88,27 +88,39 @@ $campaignText1 = "Objectives:";
 $campaignText2 = "Promoting the activity of the students, direct beneficiaries of the two forming stages in the field of IT in Great Britain, as part of the \"FUTURE CAREER? - TOUCH IT!\" project, 2016-1-RO01-KA102-024210;";
 $campaignText3 = "Informing the local population about the benefits of Erasmus+ mobility projects in the field of education;";
 $campaignText4 = "Comprehending the importance of partenerships and european-funded programmes for the education of teens and adults.";
-$campaignText5 = "Realisations:";
+$campaignText5 = "Realisations";
+$campaignText6 = "Organizarea a 2";
+$campaignText7 = "workshop-uri";
+$campaignText8 = "unde au fost prezentate aplicatiile participantilor;";
+$campaignText9 = "Un ";
+$campaignText10 = "articol";
+$campaignText11 = " publicat in ziarul Onesti Express;";
+$campaignText12 = "Interviuri";
+$campaignText13 = " cu unii concurenti din cadrul proiectului";
+$campaignText14 = "grup de Facebook";
+$campaignText15 = " activ de tineri care impartasesc experiente, pun intrebari sau socializeaza";
+$campaignText16 = "Acest site 😁";
+$campaignText17 = "Creatorii";
 
 //Home -> Impact
 $impactTitle = "Impact";
 $impactText = "The impact of the campaign consisted of the two workshops in which over 100 students participated, 9th, 10th and 11th graders, where the oldest presented their apps and highlighted the benefits of the project.";
 $impactText1 = "Over 5 institutions and companies participated in promoting this european-funded project.";
-$impactText2 = "Our Facebook page has around 500 likes, and our students are welcome to join our group to find out more about the campaign.";
+$impactText2 = "Our Facebook page has around 800 likes, and our students are welcome to join our group to find out more about the campaign.";
 
 //Home -> Facebook
 $facebookTitle = "We are on Facebook!";
-$facebookText = "You can contact us on our facebook page, where we post regularly and keep the users posted on our progress. ";
+$facebookText = "You can contact us on our Facebook page, where we post regularly and keep the users posted on our progress. ";
 $facebookText1 = "There is also a group that has been created, for the people who want to find out more from the participants of the project (you will find it associated with our page). ";
 
 //End Home
 
 //Cantemir
 $cantemir = "\"Dimitrie Cantemir\" Highschool";
-$cantemirtext = "THE VISION";
-$cantemirtext1 = "\"Dimitrie Cantemir\" Highschool has in mind the facilitation of graduate integration in modern-day society by developing their individual potential, assuring a safe enviroment for forming and informing, one that stimulates and makes them participate, by granting the students and staff their european citizenship.";
-$cantemirtext2 = "THE MISSION";
-$cantemirtext3 = "\"Dimitrie Cantemir\" Highschool cultivates excellence, values tradition and promotes inovation. Together, we make steps towards finding ourselves and finding our place in an ever-changing world, learning how to become people who can share succes with others.";
+$cantemirText = "THE VISION";
+$cantemirText1 = "\"Dimitrie Cantemir\" Highschool has in mind the facilitation of graduate integration in modern-day society by developing their individual potential, assuring a safe enviroment for forming and informing, one that stimulates and makes them participate, by granting the students and staff their european citizenship.";
+$cantemirText2 = "THE MISSION";
+$cantemirText3 = "\"Dimitrie Cantemir\" Highschool cultivates excellence, values tradition and promotes inovation. Together, we make steps towards finding ourselves and finding our place in an ever-changing world, learning how to become people who can share succes with others.";
 
 //Team
 $teamText = "Class 10 E, maths & computer-science intensive English";

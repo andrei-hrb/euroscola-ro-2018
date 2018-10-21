@@ -87,13 +87,25 @@ $campaignText1 = "Obiective:";
 $campaignText2 = "Promovarea activităților desfășurate de elevii cantemireni, beneficiari direcți ai celor 2 stagii de formare în domeniul IT din Marea Britanie în cadrul proiectului european \"FUTURE CAREER? - TOUCH IT!\", 2016-1-RO01-KA102-024210;";
 $campaignText3 = "Informarea membrilor comunității oneștene cu privire la beneficiile realizării proiectelor de mobilitate Erasmus+ în domeniul educației și formării;";
 $campaignText4 = "Conștientizarea importanței parteneriatelor și programelor de finanțare europene pentru educația tinerilor și adulților.";
-$campaignText5 = "Realizări:";
+$campaignText5 = "Realizări";
+$campaignText6 = "Organizarea a 2";
+$campaignText7 = "workshop-uri";
+$campaignText8 = "unde au fost prezentate aplicațiile participanților;";
+$campaignText9 = "Un ";
+$campaignText10 = "articol";
+$campaignText11 = " publicat in ziarul Onești Express;";
+$campaignText12 = "Interviuri";
+$campaignText13 = " cu unii participanților din cadrul proiectului;";
+$campaignText14 = "grup de Facebook";
+$campaignText15 = " activ de tineri care împartasesc experiente, pun întrebari sau socializează;";
+$campaignText16 = "Acest site 😁";
+$campaignText17 = "Creatorii";
 
 //Home -> Impactul
 $impactTitle = "Impactul campaniei de promovare";
 $impactText = "Campania a constat în organizarea a 2 workshopuri la care au participat peste 100 de persoane din clasa a IX-a, a X-a și  a XI-a în care elevii participanți la acest proiect și-au prezentat aplicațiile și au dus la cunonștință  beneficiile proiectului;";
 $impactText1 = "Peste 5 instituții și firme din oraș au participat la popularizarea acestui proiect cu finanțare europeană;";
-$impactText2 = "Pagina de facebook are peste 500 de like-uri.";
+$impactText2 = "Pagina de Facebook are în jur de 800 de like-uri.";
 
 //Home -> Facebook
 $facebookTitle = "Pagina de Facebook";
@@ -104,10 +116,10 @@ $facebookText1 = "În cadrul acestei pagini este și un grup, unde pot intra cei
 
 //Cantemir
 $cantemir = "Colegiul Național \"Dimitrie Cantemir\" ";
-$cantemirtext = "VIZIUNEA ";
-$cantemirtext1 = "Colegiul Național \"Dimitrie Cantemir\" urmărește facilitarea integrării absolvenților în societatea contemporană prin valorificarea potențialului individual și instituțional, asigurarea unui climat de formare și informare sigur, stimulativ și participativ, formarea cetățeniei europene a elevilor și a personalului.";
-$cantemirtext2 = "MISIUNEA ";
-$cantemirtext3 = "Colegiul Național \"Dimitrie Cantemir\" cultivă excelența, valorifică tradiția și promovează inovarea. Împreună, parcurgem pașii spre noi înșine înșine și ne găsim locul într-o lume în continuă schimbare, învățând să devenim oameni care știu să împărtășească succesul cu alți oameni.";
+$cantemirText = "VIZIUNEA ";
+$cantemirText1 = "Colegiul Național \"Dimitrie Cantemir\" urmărește facilitarea integrării absolvenților în societatea contemporană prin valorificarea potențialului individual și instituțional, asigurarea unui climat de formare și informare sigur, stimulativ și participativ, formarea cetățeniei europene a elevilor și a personalului.";
+$cantemirText2 = "MISIUNEA ";
+$cantemirText3 = "Colegiul Național \"Dimitrie Cantemir\" cultivă excelența, valorifică tradiția și promovează inovarea. Împreună, parcurgem pașii spre noi înșine înșine și ne găsim locul într-o lume în continuă schimbare, învățând să devenim oameni care știu să împărtășească succesul cu alți oameni.";
 
 //Team
 $teamText = "Clasa a 10-a E, profil matematică-informatică cu intensiv engleză";

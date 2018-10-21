@@ -82,20 +82,31 @@ $erasmusCNDCText18 = "Details:";
 $erasmusCNDCText19 = "Run the apps from here";
 
 //Home -> Campaign
-$campaignTitle = "Campagne de promotion:";
+$campaignTitle = "Campagne de promotion";
 $campaignText = "Period:";
 $campaignText1 = "Objectives:";
 $campaignText2 = "Promoting the activity of the students, direct beneficiaries of the two forming stages in the field of IT in Great Britain, as part of the \"FUTURE CAREER? - TOUCH IT!\" project, 2016-1-RO01-KA102-024210;";
 $campaignText3 = "Informing the local population about the benefits of Erasmus+ mobility projects in the field of education;";
 $campaignText4 = "Comprehending the importance of partenerships and european-funded programmes for the education of teens and adults.";
 $campaignText5 = "Realisations";
-
+$campaignText6 = "Organizarea a 2";
+$campaignText7 = "workshop-uri";
+$campaignText8 = "unde au fost prezentate aplicatiile participantilor;";
+$campaignText9 = "Un ";
+$campaignText10 = "articol";
+$campaignText11 = " publicat in ziarul Onesti Express;";
+$campaignText12 = "Interviuri";
+$campaignText13 = " cu unii concurenti din cadrul proiectului";
+$campaignText14 = "grup de Facebook";
+$campaignText15 = " activ de tineri care impartasesc experiente, pun intrebari sau socializeaza";
+$campaignText16 = "Acest site 😁";
+$campaignText17 = "Creatorii";
 
 //Home -> Impact
 $impactTitle = "L'impact de la campagne de promotion";
 $impactText = "L'impact de la campagne a consisté en deux ateliers auxquels ont participé plus de 100 étudiants, de 9e, 10e et 11e année, où les plus âgés ont présenté leurs applications et mis en évidence les avantages du projet;";
 $impactText1 = "Plus de 5 institutions et entreprises de la ville ont participé à faire mieux connaître ce projet financé par l'Union Européene;";
-$impactText2 = "Plus de 750 personnes aiment la page Facebook.";
+$impactText2 = "Plus de 780 personnes aiment la page Facebook.";
 
 //Home -> Facebook
 $facebookTitle = "La page Facebook";
@@ -106,10 +117,10 @@ $facebookText1 = "Si vous voulez trouver plusieurs informations des participants
 
 //Cantemir
 $cantemir=" Collège National «Dimitrie Cantemir»";
-$cantemirtext="LA VISION ";
-$cantemirtext1="Le Collège National «Dimitrie Cantemir» vise à facilitation de l'intégration des diplômés dans la société contemporaine par la valorisation du potentiel individuel et institutionnel, l'assurance d'un climat d'apprentissage et d'information sûr, incitatif et participatif, la constitution de citoyenneté européene des élèves et du personnel.";
-$cantemirtext2="LA MISSION";
-$cantemirtext3="Le Collège National «Dimitrie Cantemir» cultive l'excellence, met en valeur la tradition et encourage l'innovation. Ensemble, nous allons vers nous mêmes et trouvons notre place dans un monde en changement, en apprenant à devenir des personnes sachant partager le succès avec les autres.";
+$cantemirText="LA VISION ";
+$cantemirText1="Le Collège National «Dimitrie Cantemir» vise à facilitation de l'intégration des diplômés dans la société contemporaine par la valorisation du potentiel individuel et institutionnel, l'assurance d'un climat d'apprentissage et d'information sûr, incitatif et participatif, la constitution de citoyenneté européene des élèves et du personnel.";
+$cantemirText2="LA MISSION";
+$cantemirText3="Le Collège National «Dimitrie Cantemir» cultive l'excellence, met en valeur la tradition et encourage l'innovation. Ensemble, nous allons vers nous mêmes et trouvons notre place dans un monde en changement, en apprenant à devenir des personnes sachant partager le succès avec les autres.";
 
 //Team
 $teamText = "Seconde E, specialisation: math-info anglais renforcé";
