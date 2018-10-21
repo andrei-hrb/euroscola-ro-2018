@@ -71,13 +71,14 @@ $erasmusCNDCText8 = "20 de elevi ai claselor a XI-a, matematică-informatică en
 $erasmusCNDCText9 = "Activități:";
 $erasmusCNDCText10 = "Organizarea a 2 stagii de pregătire(2017,2018) cu durata a 3 săptămâni fiecare în Portsmouth, Marea Britanie, în cadrul cărora elevii dezvoltă aplicații pentru sistemul de operare Android, sub coordonarea specialiștilor de la Universitatea Portsmouth și de la organizațiile partenere.";
 $erasmusCNDCText11 = "Rezultate:";
-$erasmusCNDCText12 = "9 aplicații pentru sistemul Android create în cele 2 stagii;";
+$erasmusCNDCText12 = "9 aplicații pentru sistemul Android create în cele 2 stagii. Poți încerca o parte din ele aici: ";
 $erasmusCNDCText13 = "20 certificate Europass Mobility obținute de participanți;";
 $erasmusCNDCText14 = "Experiență efectivă de lucru în cadrul unei companii pentru elevii participanți;";
 $erasmusCNDCText15 = "Pregătirea elevilor pentru inserția pe piață muncii după absolvire;";
 $erasmusCNDCText16 = "Facilitarea orientării profesionale pe piață muncii după absolvire;";
 $erasmusCNDCText17 = "Experiență de lucru efectiv într-un mediu multicultural;";
 $erasmusCNDCText18 = "Detali:";
+$erasmusCNDCText19 = "Rulează aplicațiile de aici";
 
 //Home -> Campaign
 $campaignTitle = "Campania de promovare";
@@ -86,6 +87,7 @@ $campaignText1 = "Obiective:";
 $campaignText2 = "Promovarea activităților desfășurate de elevii cantemireni, beneficiari direcți ai celor 2 stagii de formare în domeniul IT din Marea Britanie în cadrul proiectului european \"FUTURE CAREER? - TOUCH IT!\", 2016-1-RO01-KA102-024210;";
 $campaignText3 = "Informarea membrilor comunității oneștene cu privire la beneficiile realizării proiectelor de mobilitate Erasmus+ în domeniul educației și formării;";
 $campaignText4 = "Conștientizarea importanței parteneriatelor și programelor de finanțare europene pentru educația tinerilor și adulților.";
+$campaignText5 = "Realizări:";
 
 //Home -> Impactul
 $impactTitle = "Impactul campaniei de promovare";

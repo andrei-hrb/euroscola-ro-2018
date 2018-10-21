@@ -72,21 +72,23 @@ $erasmusCNDCText8 = "20 11th grade students, Mathematics-Computer science profil
 $erasmusCNDCText9 = "Activities: ";
 $erasmusCNDCText10 = "Organising two preparation stages(2017, 2018), lasting 3 weeks each, in Portsmouth, Great Britain. The studens created and developped Android applications, under the supervision of specialists from the Portsmouth University and the partenered organisations.";
 $erasmusCNDCText11 = "Results:";
-$erasmusCNDCText12 = " Nine apps for the Android operating system during the two stages;";
+$erasmusCNDCText12 = "Nine apps for the Android operating system during the two stages. You can try some of them:";
 $erasmusCNDCText13 = "20 Europass Mobility certificates obtained by the participants;";
 $erasmusCNDCText14 = "Actual work experience inside of a company for the participants;";
 $erasmusCNDCText15 = "Student preparation for insertion on the work market after graduation;";
 $erasmusCNDCText16 = "Helping student chose what they want to do after graduation;";
 $erasmusCNDCText17 = "Work experience in a multicultural environment;";
 $erasmusCNDCText18 = "Details:";
+$erasmusCNDCText19 = "Run the apps from here";
 
 //Home -> Campaign
 $campaignTitle = "Promoting campaign";
-$campaignText = "Period: ";
+$campaignText = "Period:";
 $campaignText1 = "Objectives:";
 $campaignText2 = "Promoting the activity of the students, direct beneficiaries of the two forming stages in the field of IT in Great Britain, as part of the \"FUTURE CAREER? - TOUCH IT!\" project, 2016-1-RO01-KA102-024210;";
 $campaignText3 = "Informing the local population about the benefits of Erasmus+ mobility projects in the field of education;";
 $campaignText4 = "Comprehending the importance of partenerships and european-funded programmes for the education of teens and adults.";
+$campaignText5 = "Realisations:";
 
 //Home -> Impact
 $impactTitle = "Impact";
@@ -95,7 +97,7 @@ $impactText1 = "Over 5 institutions and companies participated in promoting this
 $impactText2 = "Our Facebook page has around 500 likes, and our students are welcome to join our group to find out more about the campaign.";
 
 //Home -> Facebook
-$facebookTitle = "We are on  Facebook!";
+$facebookTitle = "We are on Facebook!";
 $facebookText = "You can contact us on our facebook page, where we post regularly and keep the users posted on our progress. ";
 $facebookText1 = "There is also a group that has been created, for the people who want to find out more from the participants of the project (you will find it associated with our page). ";
 

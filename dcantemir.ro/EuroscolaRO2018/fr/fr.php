@@ -72,21 +72,24 @@ $erasmusCNDCText8 = "20 élèves de 11e année, specialisation math-info anglais
 $erasmusCNDCText9 = "Activités:";
 $erasmusCNDCText10 = "L'organisation de 2 stages de préparation (2017, 2018) d'une durée de 3 semaines chaque à Portsmouth, Royaume-Uni, dans lesquels les élèves développent des applications pour le système d'exploitation Android, sous la coordination de spécialistes de l'Université Portsmouth et des organisations associées.";
 $erasmusCNDCText11 = "Résultats:";
-$erasmusCNDCText12 = "9 applications pour le système d'exploitation Android, crées durant les 2 stages;";
+$erasmusCNDCText12 = "9 applications pour le système d'exploitation Android, crées durant les 2 stages. You can try some of them:";
 $erasmusCNDCText13 = "20 certificats Europass Mobility obtenus par les participants;";
 $erasmusCNDCText14 = "Expérience effective de travail dans une entreprise pour les élèves;";
 $erasmusCNDCText15 = "La préparation des élèves pour l'insertion sur le marché du travail après l'obtention du diplôme;";
 $erasmusCNDCText16 = "La facilitation de l'orientation professionnelle sur le marché du travail après l'obtention du diplôme;";
 $erasmusCNDCText17 = "Expérience professionnelle effective dans un environnement multiculturel.";
 $erasmusCNDCText18 = "Details:";
+$erasmusCNDCText19 = "Run the apps from here";
 
 //Home -> Campaign
 $campaignTitle = "Campagne de promotion:";
-$campaignText = "Period: ";
+$campaignText = "Period:";
 $campaignText1 = "Objectives:";
 $campaignText2 = "Promoting the activity of the students, direct beneficiaries of the two forming stages in the field of IT in Great Britain, as part of the \"FUTURE CAREER? - TOUCH IT!\" project, 2016-1-RO01-KA102-024210;";
 $campaignText3 = "Informing the local population about the benefits of Erasmus+ mobility projects in the field of education;";
 $campaignText4 = "Comprehending the importance of partenerships and european-funded programmes for the education of teens and adults.";
+$campaignText5 = "Realisations";
+
 
 //Home -> Impact
 $impactTitle = "L'impact de la campagne de promotion";
