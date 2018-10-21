@@ -28,7 +28,7 @@ $srGallery = "";
     </div>
 
     <div class="text-center">
-        <a href="../assets/img/team/team.jpg" data-lightbox="<?= $teamText ?>" data-title=" <?= $teamText ?>"><img class="shadow featurette-image img-fluid mx-auto" style="width: 100%; max-width: 1000px;" src="../assets/img/team/team.jpg"></a>
+        <a href="../assets/img/team/team.jpg" data-lightbox="<?= $teamText ?>" data-title=" <?= $teamText ?>"><img class="rounded shadow featurette-image img-fluid mx-auto" style="width: 100%; max-width: 1000px;" src="../assets/img/team/team.jpg"></a>
     </div>
 </div>
 
