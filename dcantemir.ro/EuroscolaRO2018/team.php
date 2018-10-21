@@ -38,8 +38,8 @@ function newPerson($name, $img, $post)
     echo '
         <div class="col-4">
             <img class="rounded people" src="../assets/img/team/' . $img . '.jpg" >  
-            <h6 class="mt-1 people lead">' . $name . '</h6>
-            <p class="mb-3 people lead">' . $post . '</p>
+            <h3 class="mt-1 featurette-heading2">' . $name . '</h3>
+            <p class="mb-3 lead people">' . $post . '</p>
         </div>';
 }
 

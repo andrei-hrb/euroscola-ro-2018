@@ -69,10 +69,6 @@ img.resize {
         width: 100%;
     }
 
-    .people h6 {
-        font-size: 5vh;
-    }
-
     .people img {
         width: 60%;
         height: auto;
@@ -107,13 +103,13 @@ img.resize {
         font-size: 3.5vh;
     }
 
-    .people h6 {
-        font-size: 3vh;
-    }
-
     .people img {
         width: 100%;
         height: auto;
+    }
+
+    .lead {
+        font-size: medium !important;
     }
 
     .people p {
@@ -130,10 +126,6 @@ img.resize {
 
     .contents li {
         font-size: medium;
-    }
-
-    .lead {
-        font-size: medium !important;
     }
 
     .featurette-heading {

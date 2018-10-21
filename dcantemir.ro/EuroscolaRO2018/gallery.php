@@ -27,8 +27,8 @@ function newPhoto6($img, $id)
 {
     echo '
         <div class="col-6">
-            <a href="../assets/img/gallery/' . $img . '.jpg" data-lightbox="' . $id . '" data-title="' . $id . '">
-                <img class="rounded shadow img-fluid my-1 mx-auto d-block" style="max-height: 30rem" src="../assets/img/gallery/' . $img . '.jpg">
+            <a href="../assets/img/gallery/original/' . $img . '.jpg" data-lightbox="' . $id . '" data-title="' . $id . '">
+                <img class="rounded shadow img-fluid my-1 mx-auto d-block" style="max-height: 30rem" src="../assets/img/gallery/original/' . $img . '.jpg">
             </a>
         </div>
     ';
@@ -38,8 +38,8 @@ function newPhoto4($img, $id)
 {
     echo '
         <div class="col-4">
-            <a href="../assets/img/gallery/' . $img . '.jpg" data-lightbox="' . $id . '" data-title="' . $id . '">
-                <img class="rounded shadow my-3 mx-auto d-block gallery" src="../assets/img/gallery/' . $img . '.jpg"> 
+            <a href="../assets/img/gallery/original/' . $img . '.jpg" data-lightbox="' . $id . '" data-title="' . $id . '">
+                <img class="rounded shadow my-3 mx-auto d-block gallery" src="../assets/img/gallery/thumbnail/' . $img . '.jpg"> 
             </a>
         </div>
     ';
@@ -139,23 +139,24 @@ function newPhoto4($img, $id)
             <div id="teamwork" class="mx-4">
                 <h1 class="featurette-heading text-center"><?= $sessions ?></h1>
                 <div class="row">
-                    <?php newPhoto4('team24', $sessions) ?>
                     <?php newPhoto4('team1', $sessions) ?>
-                    <?php newPhoto4('team5', $sessions) ?>
+                    <?php newPhoto4('team2', $sessions) ?>
+                    <?php newPhoto4('team3', $sessions) ?>
                 </div>
                 <div class="row">
                     <?php newPhoto4('team4', $sessions) ?>
-                    <?php newPhoto4('team3', $sessions) ?>
+                    <?php newPhoto4('team5', $sessions) ?>
+                    <?php newPhoto4('team6', $sessions) ?>
+                </div>
+                <div class="row">
                     <?php newPhoto4('team7', $sessions) ?>
-                </div>
-                <div class="row">
                     <?php newPhoto4('team8', $sessions) ?>
-                    <?php newPhoto4('team20', $sessions) ?>
-                    <?php newPhoto4('team21', $sessions) ?>
+                    <?php newPhoto4('team9', $sessions) ?>
                 </div>
                 <div class="row">
-                    <?php newPhoto4('team23', $sessions) ?>
+                    <?php newPhoto4('team10', $sessions) ?>
                     <?php newPhoto4('team11', $sessions) ?>
+                    <?php newPhoto4('team12', $sessions) ?>
                 </div>
             </div>
             <hr class="featurette-divider">
@@ -163,24 +164,24 @@ function newPhoto4($img, $id)
             <div id="workshop1" class="mx-4">
                 <h1 class="featurette-heading text-center"><?= $workshop1 ?></h1>
                 <div class="row">
-                    <?php newPhoto4('workshop1.12', $workshop1) ?>
-                    <?php newPhoto4('workshop1.2', $workshop1) ?>
-                    <?php newPhoto4('workshop1.11', $workshop1) ?>
+                    <?php newPhoto4('wk1-1', $workshop1) ?>
+                    <?php newPhoto4('wk1-2', $workshop1) ?>
+                    <?php newPhoto4('wk1-3', $workshop1) ?>
                 </div>
                 <div class="row">
-                    <?php newPhoto4('workshop1.3', $workshop1) ?>
-                    <?php newPhoto4('workshop1.5', $workshop1) ?>
-                    <?php newPhoto4('workshop1.6', $workshop1) ?>
+                    <?php newPhoto4('wk1-4', $workshop1) ?>
+                    <?php newPhoto4('wk1-5', $workshop1) ?>
+                    <?php newPhoto4('wk1-6', $workshop1) ?>
                 </div>
                 <div class="row">
-                    <?php newPhoto4('workshop1.4', $workshop1) ?>
-                    <?php newPhoto4('workshop1.7', $workshop1) ?>
-                    <?php newPhoto4('workshop1.8', $workshop1) ?>
+                    <?php newPhoto4('wk1-7', $workshop1) ?>
+                    <?php newPhoto4('wk1-8', $workshop1) ?>
+                    <?php newPhoto4('wk1-9', $workshop1) ?>
                 </div>
                 <div class="row">
-                    <?php newPhoto4('workshop1.9', $workshop1) ?>
-                    <?php newPhoto4('workshop1.10', $workshop1) ?>
-                    <?php newPhoto4('workshop1', $workshop1) ?>
+                    <?php newPhoto4('wk1-10', $workshop1) ?>
+                    <?php newPhoto4('wk1-11', $workshop1) ?>
+                    <?php newPhoto4('wk1-12', $workshop1) ?>
                 </div>
             </div>
             <hr class="featurette-divider">
@@ -188,19 +189,19 @@ function newPhoto4($img, $id)
             <div id="workshop2" class="mx-4">
                 <h1 class="featurette-heading text-center"><?= $workshop2 ?></h1>
                 <div class="row">
-                    <?php newPhoto4('workshop2.1', $workshop2) ?>
-                    <?php newPhoto4('workshop2.9', $workshop2) ?>
-                    <?php newPhoto4('workshop2.3', $workshop2) ?>
+                    <?php newPhoto4('wk2-1', $workshop2) ?>
+                    <?php newPhoto4('wk2-2', $workshop2) ?>
+                    <?php newPhoto4('wk2-3', $workshop2) ?>
                 </div>
                 <div class="row">
-                    <?php newPhoto4('workshop2.4', $workshop2) ?>
-                    <?php newPhoto4('workshop2.5', $workshop2) ?>
-                    <?php newPhoto4('workshop2.6', $workshop2) ?>
+                    <?php newPhoto4('wk2-4', $workshop2) ?>
+                    <?php newPhoto4('wk2-5', $workshop2) ?>
+                    <?php newPhoto4('wk2-6', $workshop2) ?>
                 </div>
                 <div class="row">
-                    <?php newPhoto4('workshop2.8', $workshop2) ?>
-                    <?php newPhoto4('workshop2.2', $workshop2) ?>
-                    <?php newPhoto4('workshop2.13', $workshop2) ?>
+                    <?php newPhoto4('wk2-7', $workshop2) ?>
+                    <?php newPhoto4('wk2-8', $workshop2) ?>
+                    <?php newPhoto4('wk2-9', $workshop2) ?>
                 </div>
             </div>
             <hr class="featurette-divider">
@@ -208,39 +209,39 @@ function newPhoto4($img, $id)
             <div id="popularization" class="mx-4">
                 <h1 class="featurette-heading text-center"><?= $popularization ?></h1>
                 <div class="row">
-                    <?php newPhoto4('popularisation21', $popularization) ?>
-                    <?php newPhoto4('popularisation2', $popularization) ?>
-                    <?php newPhoto4('popularisation3', $popularization) ?>
+                    <?php newPhoto4('pz1', $popularization) ?>
+                    <?php newPhoto4('pz2', $popularization) ?>
+                    <?php newPhoto4('pz3', $popularization) ?>
                 </div>
                 <div class="row">
-                    <?php newPhoto4('popularisation4', $popularization) ?>
-                    <?php newPhoto4('popularisation5', $popularization) ?>
-                    <?php newPhoto4('popularisation22', $popularization) ?>
+                    <?php newPhoto4('pz4', $popularization) ?>
+                    <?php newPhoto4('pz5', $popularization) ?>
+                    <?php newPhoto4('pz6', $popularization) ?>
                 </div>
                 <div class="row">
-                    <?php newPhoto4('popularisation7', $popularization) ?>
-                    <?php newPhoto4('popularisation8', $popularization) ?>
-                    <?php newPhoto4('popularisation9', $popularization) ?>
+                    <?php newPhoto4('pz7', $popularization) ?>
+                    <?php newPhoto4('pz8', $popularization) ?>
+                    <?php newPhoto4('pz9', $popularization) ?>
                 </div>
                 <div class="row">
-                    <?php newPhoto4('popularisation10', $popularization) ?>
-                    <?php newPhoto4('popularisation11', $popularization) ?>
-                    <?php newPhoto4('popularisation12', $popularization) ?>
+                    <?php newPhoto4('pz10', $popularization) ?>
+                    <?php newPhoto4('pz11', $popularization) ?>
+                    <?php newPhoto4('pz12', $popularization) ?>
                 </div>
                 <div class="row">
-                    <?php newPhoto4('popularisation13', $popularization) ?>
-                    <?php newPhoto4('popularisation14', $popularization) ?>
-                    <?php newPhoto4('popularisation15', $popularization) ?>
+                    <?php newPhoto4('pz13', $popularization) ?>
+                    <?php newPhoto4('pz14', $popularization) ?>
+                    <?php newPhoto4('pz15', $popularization) ?>
                 </div>
                 <div class="row">
-                    <?php newPhoto4('popularisation16', $popularization) ?>
-                    <?php newPhoto4('popularisation17', $popularization) ?>
-                    <?php newPhoto4('popularisation18', $popularization) ?>
+                    <?php newPhoto4('pz16', $popularization) ?>
+                    <?php newPhoto4('pz17', $popularization) ?>
+                    <?php newPhoto4('pz18', $popularization) ?>
                 </div>
                 <div class="row">
-                    <?php newPhoto4('popularisation19', $popularization) ?>
-                    <?php newPhoto4('popularisation20', $popularization) ?>
-                    <?php newPhoto4('popularisation1', $popularization) ?>
+                    <?php newPhoto4('pz19', $popularization) ?>
+                    <?php newPhoto4('pz20', $popularization) ?>
+                    <?php newPhoto4('pz21', $popularization) ?>
                 </div>
             </div>
         </div>
