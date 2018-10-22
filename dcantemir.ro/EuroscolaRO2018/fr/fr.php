@@ -1,12 +1,12 @@
 <?php
 
 /***********************
- * 
+ *
  * French language file
  *
  * dnt = do not touch
- * 
-***********************/
+ *
+ ***********************/
 
 //Title -> dnt 
 $baseTitle = "- Explore IT with Us";
@@ -18,7 +18,7 @@ $home = "Accueil";
 $about = "À propos de nous";
 $highschool = "Notre collège";
 $team = "Équipe";
-$gallery="Galerie";
+$gallery = "Galerie";
 
 //Navbar -> flags -> dnt
 $frFlag = "selected";
@@ -31,8 +31,8 @@ $roLink = "?lang=ro";
 //Home
 
 //Home -> Introduction
-$introductionTitle="Introduction";
-$introductionText="Ce site a été créé par le collectif de la classe 10e E du Collège National «Dimitrie Cantemir» Onesti, participant à la competition Euroscola 2018, dans laquelle il réalise la campagne «Erasmus+, Explore IT with Us» de promotion du projet de mobilité financé par l'Union Européene «FUTURE CAREER? TOUCH IT!», déroulé au cours de la période 2016-2018 par le National «Dimitrie Cantemir» Onesti.";
+$introductionTitle = "Introduction";
+$introductionText = "Ce site a été créé par le collectif de la classe 10e E du Collège National «Dimitrie Cantemir» Onesti, participant à la competition Euroscola 2018, dans laquelle il réalise la campagne «Erasmus+, Explore IT with Us» de promotion du projet de mobilité financé par l'Union Européene «FUTURE CAREER? TOUCH IT!», déroulé au cours de la période 2016-2018 par le National «Dimitrie Cantemir» Onesti.";
 
 //Home -> Euroscola
 $euroscolaTitle = "Euroscola, c'est quoi?";
@@ -120,11 +120,11 @@ $facebookText1 = "Si vous voulez trouver plusieurs informations des participants
 // End Home
 
 //Cantemir
-$cantemir=" Collège National «Dimitrie Cantemir»";
-$cantemirText="LA VISION ";
-$cantemirText1="Le Collège National «Dimitrie Cantemir» vise à facilitation de l'intégration des diplômés dans la société contemporaine par la valorisation du potentiel individuel et institutionnel, l'assurance d'un climat d'apprentissage et d'information sûr, incitatif et participatif, la constitution de citoyenneté européene des élèves et du personnel.";
-$cantemirText2="LA MISSION";
-$cantemirText3="Le Collège National «Dimitrie Cantemir» cultive l'excellence, met en valeur la tradition et encourage l'innovation. Ensemble, nous allons vers nous mêmes et trouvons notre place dans un monde en changement, en apprenant à devenir des personnes sachant partager le succès avec les autres.";
+$cantemir = " Collège National «Dimitrie Cantemir»";
+$cantemirText = "LA VISION ";
+$cantemirText1 = "Le Collège National «Dimitrie Cantemir» vise à facilitation de l'intégration des diplômés dans la société contemporaine par la valorisation du potentiel individuel et institutionnel, l'assurance d'un climat d'apprentissage et d'information sûr, incitatif et participatif, la constitution de citoyenneté européene des élèves et du personnel.";
+$cantemirText2 = "LA MISSION";
+$cantemirText3 = "Le Collège National «Dimitrie Cantemir» cultive l'excellence, met en valeur la tradition et encourage l'innovation. Ensemble, nous allons vers nous mêmes et trouvons notre place dans un monde en changement, en apprenant à devenir des personnes sachant partager le succès avec les autres.";
 
 //Team
 $teamText = "Seconde E, specialisation: math-info anglais renforcé";
@@ -134,15 +134,15 @@ $posters = "Affiches";
 $interview = "Interview";
 $articles = "Articles";
 $journal = "Journal";
-$popularization="Popularisation";
+$popularization = "Popularisation";
 $video = "Video";
 
 //Gallery
 $contents = "Content";
-$sessions="Travail en équipe";
+$sessions = "Travail en équipe";
 $flayers = "Brochure";
-$workshop1="Workshop #1";
-$workshop2="Workshop #2";
+$workshop1 = "Workshop #1";
+$workshop2 = "Workshop #2";
 $videos = "Videos";
 
 //Footer

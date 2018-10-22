@@ -92,7 +92,7 @@ $srGallery = "";
                 </div>
                 <hr class="featurette-divider">
 
-                <div id=eurasmus" class="featurette">
+                <div id="eurasmus" class="featurette">
                     <div class="row">
                         <div class="col-md-7 order-0">
                             <h2 class="featurette-heading text-center mb-3"><?= $erasmusTitle ?></h2>
@@ -134,7 +134,7 @@ $srGallery = "";
                         </div>
                         <div class="col-md-5 order-1">
                             <a href="../assets/img/home/group1.jpg" data-lightbox="<?= $erasmusCNDCTitle ?>" data-title=" <?= $erasmusCNDCTitle ?>"><img class="rounded shadow img-fluid mx-auto mt-2 mb-4 mt-md-5" src="../assets/img/home/group1.jpg"></a>
-                            <p clas="float-right lead"><?= $ ?></p>
+                            <p class="float-right lead"></p>
                         </div>
                     </div>
                     <h2 class="featurette-heading2 mx-4 mb-1"><?= $erasmusCNDCText18 ?></h2>
