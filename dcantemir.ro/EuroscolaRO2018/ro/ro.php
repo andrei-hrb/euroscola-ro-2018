@@ -29,6 +29,12 @@ $roLink = "#";
 
 //Home
 
+//Home - key-words
+$objectives="Obiective: ";
+$results="Rezultate: ";
+$budget="Buget: ";
+$period="Perioadă: ";
+
 //Home -> Introduction
 $introductionTitle = "Introducere";
 $introductionText = "Acest site a fost creat de colectivul clasei a X-a E a Colegiului Național \"Dimitrie Cantemir\" Oneşti, participant în competiția Euroscola 2018, în cadrul căreia realizează campania ”Erasmus+, Explore It with Us”, de promovare a proiectului de mobilitate cu finanțare europeană, \"FUTURE CAREER? TOUCH IT!\" desfăşurat în perioada 2016-2018 de Colegiului Național \"Dimitrie Cantemir\" Oneşti.";
@@ -39,71 +45,63 @@ $euroscolaText = "Parlamentul European a creat programul Euroscola pentru a info
 
 //Home -> Erasmus
 $erasmusTitle = "Ce este Erasmus+?";
+$erasmusText14="ERASMUS+ este noul program al Uniunii Europene care se adresează următoarelor domenii: educație, formare, tineret și sport pentru perioada 2014-2020 având ca și obiective dezvoltarea competențelor și a capacității de inserție profesională prin oferirea unor oportunități de educație, formare și activități de tineret sau sport.";
 $erasmusText = "Scop: ";
 $erasmusText1 = "Acces la studii, formare și voluntariat în străinătate pentru 4 milioane cetățeni europeni. ";
-$erasmusText2 = "Buget: ";
-$erasmusText3 = "14,7 miliarde EUR (până în 2020) ";
-$erasmusText4 = "Strategii vizate: ";
-$erasmusText5 = "<strong>Europa 2020</strong>, pentru creștere economică, locuri de muncă, echitate socială și incluziune; ";
-$erasmusText6 = "<strong>UE</strong> pentru tineret; ";
-$erasmusText7 = "Cadrul Strategic <strong>ET2020</strong> pentru educație și formare.";
-$erasmusText8 = "Obiective: ";
-$erasmusText9 = "Reducerea șomajului, în special în rândul tinerilor; ";
-$erasmusText10 = "Promovarea învățământului pentru adulți, în special în domeniul noilor competențe și în cel al competențelor cerute pe piață muncii;";
-$erasmusText11 = "Încurajarea participării tinerilor la viață democratică europeană;";
-$erasmusText12 = "Sprijinirea inovării, cooperării și reformei; ";
-$erasmusText13 = "Reducerea abandonului școlar;";
-$erasmusText14 = "Promovarea cooperării și mobilității cu țările partenere ale UE.";
-$erasmusText15 = "Rezultate: ";
-$erasmusText16 = "Acestea pot fi consultate în rapoarte și culegeri statistice, dar și pe Platforma de prezentare a rezultatelor proiectelor Erasmus+, care oferă informații în legătură cu majoritatea inițiativelor finanțate și prezintă bune practici și povești de succes. ";
-$erasmusText17 = "Definiția";
-$erasmusText18 = "Erasmus+ is the newest programme of the European Union that adresses the following: education, growth, youth and sports for the 2014-2020 period. Its objectives are the development of skills and helping you reach the proffesional market by offering you different opportunities in education, sports and youth activities.";
+
+$erasmusText2 = "14,7 miliarde EUR (până în 2020) ";
+$erasmusText3 = "Strategii vizate: ";
+$erasmusText4 = "<strong>Europa 2020</strong>, pentru creștere economică, locuri de muncă, echitate socială și incluziune; ";
+$erasmusText5 = "<strong>UE</strong> pentru tineret; ";
+$erasmusText6 = "Cadrul Strategic <strong>ET2020</strong> pentru educație și formare.";
+
+$erasmusText7 = "Reducerea șomajului, în special în rândul tinerilor; ";
+$erasmusText8 = "Promovarea învățământului pentru adulți, în special în domeniul noilor competențe și în cel al competențelor cerute pe piață muncii;";
+$erasmusText9 = "Încurajarea participării tinerilor la viață democratică europeană;";
+$erasmusText10 = "Sprijinirea inovării, cooperării și reformei; ";
+$erasmusText11 = "Reducerea abandonului școlar;";
+$erasmusText12 = "Promovarea cooperării și mobilității cu țările partenere ale UE.";
+
+$erasmusText13 = "Acestea pot fi consultate în rapoarte și culegeri statistice, dar și pe Platforma de prezentare a rezultatelor proiectelor Erasmus+, care oferă informații în legătură cu majoritatea inițiativelor finanțate și prezintă bune practici și povești de succes. ";
+$erasmusText14 = "Erasmus+ is the newest programme of the European Union that adresses the following: education, growth, youth and sports for the 2014-2020 period. Its objectives are the development of skills and helping you reach the proffesional market by offering you different opportunities in education, sports and youth activities.";
+
 
 //Home -> Erasmus CNDC
 $erasmusCNDCTitle = "Erasmus+ in Colegiul Național \"Dimitrie Cantemir\" Oneşti";
-$erasmusCNDCText = "Obiective:";
-$erasmusCNDCText1 = "Dezvoltarea de parteneriate transaționale cu firme IT;";
-$erasmusCNDCText2 = "Dezvoltarea cunoștințelor și aptitudinilor elevilor și formarea competențelor specifice unui specialist cu calificare medie în domeniul IT; ";
-$erasmusCNDCText3 = "Formarea și dezvoltarea deprinderilor de muncă în echipa;";
-$erasmusCNDCText4 = "Dezvoltarea adaptabilității, creativității, spiritului inovativ și a gândirii critice prin contactul cu un nou mediu social, cultural, lingvistic și profesional;";
-$erasmusCNDCText5 = "Perioadă: ";
-$erasmusCNDCText6 = "Buget: ";
-$erasmusCNDCText7 = "Beneficiar:";
-$erasmusCNDCText8 = "20 de elevi ai claselor a XI-a, matematică-informatică engleză intensiv";
-$erasmusCNDCText9 = "Activități:";
-$erasmusCNDCText10 = "Organizarea a 2 stagii de pregătire(2017,2018) cu durata a 3 săptămâni fiecare în Portsmouth, Marea Britanie, în cadrul cărora elevii dezvoltă aplicații pentru sistemul de operare Android, sub coordonarea specialiștilor de la Universitatea Portsmouth și de la organizațiile partenere.";
-$erasmusCNDCText11 = "Rezultate:";
-$erasmusCNDCText12 = "9 aplicații pentru sistemul Android create în cele 2 stagii. Poți încerca o parte din ele aici: ";
-$erasmusCNDCText13 = "20 certificate Europass Mobility obținute de participanți;";
-$erasmusCNDCText14 = "Experiență efectivă de lucru în cadrul unei companii pentru elevii participanți;";
-$erasmusCNDCText15 = "Pregătirea elevilor pentru inserția pe piață muncii după absolvire;";
-$erasmusCNDCText16 = "Facilitarea orientării profesionale pe piață muncii după absolvire;";
-$erasmusCNDCText17 = "Experiență de lucru efectiv într-un mediu multicultural;";
-$erasmusCNDCText18 = "Detali:";
-$erasmusCNDCText19 = "Rulează aplicațiile de aici";
-$erasmusCNDCText20 = "Key Action:";
-$erasmusCNDCText21 = "Sponsori:";
+$erasmusCNDCText = "Dezvoltarea de parteneriate transaționale cu firme IT;";
+$erasmusCNDCText1 = "Dezvoltarea cunoștințelor și aptitudinilor elevilor și formarea competențelor specifice unui specialist cu calificare medie în domeniul IT; ";
+$erasmusCNDCText2 = "Formarea și dezvoltarea deprinderilor de muncă în echipa;";
+$erasmusCNDCText3 = "Dezvoltarea adaptabilității, creativității, spiritului inovativ și a gândirii critice prin contactul cu un nou mediu social, cultural, lingvistic și profesional;";
+$erasmusCNDCText4 = "Beneficiari: 20 de elevi ai claselor a XI-a, matematică-informatică engleză intensiv";
+$erasmusCNDCText5 = "Activități:";
+$erasmusCNDCText6 = "Organizarea a 2 stagii de pregătire(2017,2018) cu durata a 3 săptămâni fiecare în Portsmouth, Marea Britanie, în cadrul cărora elevii dezvoltă aplicații pentru sistemul de operare Android, sub coordonarea specialiștilor de la Universitatea Portsmouth și de la organizațiile partenere.";
+$erasmusCNDCText7 = "All participating students gained real  valuable work experience in an IT company in a multicultural environment, which facilitated or will facilitate their choice of the most suitable career paths after graduating from college and their integration in the labour market after graduation. All participating students received their Europass Mobility and they created 9 Android apps and 5 sites: ";
+$erasmusCNDCText8="Training programme 1 - 2017:";
+$erasmusCNDCText9="Training programme 2 - 2018:";
+$erasmusCNDCText10 = "Detalii: ";
+$erasmusCNDCText11 = "Rulează aplicațiile de aici";
+$erasmusCNDCText12 = "Key Action:";
+$erasmusCNDCText13 = "Parteneri:";
+$erasmusCNDCText14="Grupul din 2017";
+$erasmusCNDCText15="Grupul din 2018";
 
 //Home -> Campaign
 $campaignTitle = "Campania de promovare";
-$campaignText = "Perioada de desfășurare a campaniei: ";
-$campaignText1 = "Obiective:";
-$campaignText2 = "Promovarea activităților desfășurate de elevii cantemireni, beneficiari direcți ai celor 2 stagii de formare în domeniul IT din Marea Britanie în cadrul proiectului european \"FUTURE CAREER? - TOUCH IT!\", 2016-1-RO01-KA102-024210;";
-$campaignText3 = "Informarea membrilor comunității oneștene cu privire la beneficiile realizării proiectelor de mobilitate Erasmus+ în domeniul educației și formării;";
-$campaignText4 = "Conștientizarea importanței parteneriatelor și programelor de finanțare europene pentru educația tinerilor și adulților.";
-$campaignText5 = "Realizări";
-$campaignText6 = "Organizarea a 2";
-$campaignText7 = "workshop-uri";
-$campaignText8 = "unde au fost prezentate aplicațiile participanților;";
-$campaignText9 = "Un ";
-$campaignText10 = "articol";
-$campaignText11 = " publicat in ziarul Onești Express;";
-$campaignText12 = "Interviuri";
-$campaignText13 = " cu unii participanților din cadrul proiectului;";
-$campaignText14 = "grup de Facebook";
-$campaignText15 = " activ de tineri care împartasesc experiente, pun întrebari sau socializează;";
-$campaignText16 = "Acest site 😁";
-$campaignText17 = "Creatorii";
+$campaignText = "Promovarea activităților desfășurate de elevii cantemireni, beneficiari direcți ai celor 2 stagii de formare în domeniul IT din Marea Britanie în cadrul proiectului european \"FUTURE CAREER? - TOUCH IT!\", 2016-1-RO01-KA102-024210;";
+$campaignText1 = "Informarea membrilor comunității oneștene cu privire la beneficiile realizării proiectelor de mobilitate Erasmus+ în domeniul educației și formării;";
+$campaignText2 = "Conștientizarea importanței parteneriatelor și programelor de finanțare europene pentru educația tinerilor și adulților.";
+$campaignText3 = "Organizarea a 2";
+$campaignText4 = "workshop-uri";
+$campaignText5 = "unde au fost prezentate aplicațiile participanților;";
+$campaignText6 = "Un ";
+$campaignText7 = "articol";
+$campaignText8 = " publicat in ziarul Onești Express;";
+$campaignText9 = "Interviuri";
+$campaignText10 = " cu unii participanților din cadrul proiectului;";
+$campaignText11 = "grup de Facebook";
+$campaignText12 = " activ de tineri care împartasesc experiente, pun întrebari sau socializează;";
+$campaignText13 = "Acest site 😁";
+$campaignText174 = "Creatorii";
 
 //Home -> Impactul
 $impactTitle = "Impactul campaniei de promovare";

@@ -30,6 +30,12 @@ $roLink = "?lang=ro";
 
 //Home
 
+//Home - key-words
+$objectives="Objectives: ";
+$results="Results: ";
+$budget="Budget: ";
+$period="Period: ";
+
 //Home -> Introduction
 $introductionTitle = "Introduction";
 $introductionText = "This site was created by a group of 10th grade students from \"Dimitrie Cantemir\" National College that participates in the Euroscola 2018 competition. They are running the \"Erasmus+, Explore It with Us\" campaign, to promote the European-funded project \"FUTURE CAREER? TOUCH IT!\", that lasted between 2016 and 2018 inside \"Dimitrie Cantemir\" National College Onesti.";
@@ -42,69 +48,57 @@ $euroscolaText = "The European Parliament created the Euroscola programme to inf
 $erasmusTitle = "What is Erasmus+?";
 $erasmusText = "Purpose: ";
 $erasmusText1 = "Acces to education, development and volunteering programs from abroad for 4 million European citizens. ";
-$erasmusText2 = "Budget: ";
-$erasmusText3 = "14,7 billion EUR (until 2020) ";
-$erasmusText4 = "Targeted strategies: ";
-$erasmusText5 = "<strong>Europe 2020</strong>, for economic growth, jobs, social equality and integration; ";
-$erasmusText6 = "<strong>EU</strong> for the young; ";
-$erasmusText7 = "<strong>ET 2020</strong> Strategic framework for education and training.";
-$erasmusText8 = "Objectives: ";
-$erasmusText9 = "Minimising unemployment rate, especially among the young; ";
-$erasmusText10 = "Promoting adult education, especially in the domain of new competences required on the market;";
-$erasmusText11 = "Encouraging the young to participate in the European democratic life;";
-$erasmusText12 = "Supporting innovation, cooperation and reform; ";
-$erasmusText13 = "Minimising school drop-out;";
-$erasmusText14 = " Promoting cooperation and mobility with EU member states.";
-$erasmusText15 = "Results: ";
-$erasmusText16 = "They can be consulted in raports and statistics, as well as on te presenting platform of the Erasmus+ projects, offering information regarding the majority of funded initiatives and presents practics and successful stories.";
-$erasmusText17 = "Definition";
-$erasmusText18 = "Erasmus+ is the newest programme of the European Union that adresses the following: education, growth, youth and sports for the 2014-2020 period. Its objectives are the development of skills and helping you reach the proffesional market by offering you different opportunities in education, sports and youth activities.";
+$erasmusText2 = "14,7 billion EUR (until 2020) ";
+$erasmusText3 = "Targeted strategies: ";
+$erasmusText4 = "<strong>Europe 2020</strong>, for economic growth, jobs, social equality and integration; ";
+$erasmusText5 = "<strong>EU</strong> for the young; ";
+$erasmusText6 = "<strong>ET 2020</strong> Strategic framework for education and training.";
+$erasmusText7 = "Minimising unemployment rate, especially among the young; ";
+$erasmusText8 = "Promoting adult education, especially in the domain of new competences required on the market;";
+$erasmusText9 = "Encouraging the young to participate in the European democratic life;";
+$erasmusText10 = "Supporting innovation, cooperation and reform; ";
+$erasmusText11 = "Minimising school drop-out;";
+$erasmusText12 = " Promoting cooperation and mobility with EU member states.";
+$erasmusText13 = "They can be consulted in raports and statistics, as well as on te presenting platform of the Erasmus+ projects, offering information regarding the majority of funded initiatives and presents practics and successful stories.";
+$erasmusText14 = "Erasmus+ is the newest programme of the European Union that adresses the following: education, growth, youth and sports for the 2014-2020 period. Its objectives are the development of skills and helping you reach the proffesional market by offering you different opportunities in education, sports and youth activities.";
+
 
 //Home -> Erasmus CNDC
 $erasmusCNDCTitle = "Erasmus+ inside the \"Dimitrie Cantemir\" National College, Onesti";
-$erasmusCNDCText = "Objectives: ";
-$erasmusCNDCText1 = "The development of transitional partenerships with IT firms;";
-$erasmusCNDCText2 = "Student development in knowledge and skills and forming the specific traits of a specialist with medium qualification in the field of IT; ";
-$erasmusCNDCText3 = "Improving team work and ethics;";
-$erasmusCNDCText4 = "Improving the capacity to adapt, creativity, the spirit of inovation and critical thinking through contact with a new social, cultural and proffesional environment.";
-$erasmusCNDCText5 = "Period:";
-$erasmusCNDCText6 = "Budget:";
-$erasmusCNDCText7 = "Beneficiaries:";
-$erasmusCNDCText8 = "20 11th grade students, Mathematics-Computer science profile, intensive English.";
-$erasmusCNDCText9 = "Activities: ";
-$erasmusCNDCText10 = "Organising two preparation stages(2017, 2018), lasting 3 weeks each, in Portsmouth, Great Britain. The studens created and developped Android applications, under the supervision of specialists from the Portsmouth University and the partenered organisations.";
-$erasmusCNDCText11 = "Results:";
-$erasmusCNDCText12 = "Nine apps for the Android operating system during the two stages. You can try some of them:";
-$erasmusCNDCText13 = "20 Europass Mobility certificates obtained by the participants;";
-$erasmusCNDCText14 = "Actual work experience inside of a company for the participants;";
-$erasmusCNDCText15 = "Student preparation for insertion on the work market after graduation;";
-$erasmusCNDCText16 = "Helping student chose what they want to do after graduation;";
-$erasmusCNDCText17 = "Work experience in a multicultural environment;";
-$erasmusCNDCText18 = "Details:";
-$erasmusCNDCText19 = "Run the apps from here";
-$erasmusCNDCText20 = "Key Action:";
-$erasmusCNDCText21 = "Sponsors:";
+$erasmusCNDCText = "Developing transnational partnerships with IT firms;";
+$erasmusCNDCText1 = "Developing students’ knowledge, skills and IT competencies to meet the standards for a „skilled” employee; ";
+$erasmusCNDCText2 = "Improving students’ team work spirit and skills;";
+$erasmusCNDCText3 = "Improving students’ adaptability, creativity, resourcefulness and critical thinking by facilitating interaction within a new social, cultural and proffesional environment.";
+$erasmusCNDCText4 = "Beneficiaries: 20 11th grade students, Mathematics-Computer science profile, intensive English.";
+$erasmusCNDCText5 = "Main activities: ";
+$erasmusCNDCText6 = "Participation in a 3-week training programme in Portsmouth, Great Britain (10 students per session in 2017 and 2018, respectively). The students created and developed Android applications under the supervision of specialists from the University of Portsmouth and the partner organisations, Training Vision and Infonet Media.";
+$erasmusCNDCText7 = "All participating students gained real  valuable work experience in an IT company in a multicultural environment, which facilitated or will facilitate their choice of the most suitable career paths after graduating from college and their integration in the labour market after graduation. All participating students received their Europass Mobility and they created 9 Android apps and 5 sites:";
+$erasmusCNDCText8="Training programme 1 - 2017:";
+$erasmusCNDCText9="Training programme 2 - 2018:";
+$erasmusCNDCText10 = "Details:";
+$erasmusCNDCText11 = "Run the apps from here";
+$erasmusCNDCText12 = "Key Action:";
+$erasmusCNDCText13 = "Parteners:";
+$erasmusCNDCText14="The group of 2017";
+$erasmusCNDCText15="The group of 2018";
 
 //Home -> Campaign
 $campaignTitle = "Promoting campaign";
-$campaignText = "Period:";
-$campaignText1 = "Objectives:";
-$campaignText2 = "Promoting the activity of the students, direct beneficiaries of the two forming stages in the field of IT in Great Britain, as part of the \"FUTURE CAREER? - TOUCH IT!\" project, 2016-1-RO01-KA102-024210;";
-$campaignText3 = "Informing the local population about the benefits of Erasmus+ mobility projects in the field of education;";
-$campaignText4 = "Comprehending the importance of partenerships and european-funded programmes for the education of teens and adults.";
-$campaignText5 = "Realisations";
-$campaignText6 = "Organizarea a 2";
-$campaignText7 = "workshop-uri";
-$campaignText8 = "unde au fost prezentate aplicatiile participantilor;";
-$campaignText9 = "Un ";
-$campaignText10 = "articol";
-$campaignText11 = " publicat in ziarul Onesti Express;";
-$campaignText12 = "Interviuri";
-$campaignText13 = " cu unii concurenti din cadrul proiectului";
-$campaignText14 = "grup de Facebook";
-$campaignText15 = " activ de tineri care impartasesc experiente, pun intrebari sau socializeaza";
-$campaignText16 = "Acest site 😁";
-$campaignText17 = "Creatorii";
+$campaignText = "Promoting the activity of the students, direct beneficiaries of the two forming stages in the field of IT in Great Britain, as part of the \"FUTURE CAREER? - TOUCH IT!\" project, 2016-1-RO01-KA102-024210;";
+$campaignText1 = "Informing the local population about the benefits of Erasmus+ mobility projects in the field of education;";
+$campaignText2 = "Comprehending the importance of partenerships and european-funded programmes for the education of teens and adults.";
+$campaignText3 = "Organizarea a 2";
+$campaignText4 = "workshop-uri";
+$campaignText5 = "unde au fost prezentate aplicatiile participantilor;";
+$campaignText6 = "Un ";
+$campaignText7 = "articol";
+$campaignText8 = " publicat in ziarul Onesti Express;";
+$campaignText9 = "Interviuri";
+$campaignText10 = " cu unii concurenti din cadrul proiectului";
+$campaignText11 = "grup de Facebook";
+$campaignText12 = " activ de tineri care impartasesc experiente, pun intrebari sau socializeaza";
+$campaignText13 = "Acest site 😁";
+$campaignText14 = "Creators";
 
 //Home -> Impact
 $impactTitle = "Impact";
