@@ -44,18 +44,20 @@ $erasmusText1 = "Acces la studii, formare și voluntariat în străinătate pent
 $erasmusText2 = "Buget: ";
 $erasmusText3 = "14,7 miliarde EUR (până în 2020) ";
 $erasmusText4 = "Strategii vizate: ";
-$erasmusText5 = "Europa 2020, pentru creștere economică, locuri de muncă, echitate socială și incluziune; ";
-$erasmusText6 = "UE pentru tineret; ";
-$erasmusText7 = " Cadrul Strategic ET2020 pentru educație și formare.";
-$erasmusText8 = " Obiective: ";
+$erasmusText5 = "<strong>Europa 2020</strong>, pentru creștere economică, locuri de muncă, echitate socială și incluziune; ";
+$erasmusText6 = "<strong>UE</strong> pentru tineret; ";
+$erasmusText7 = "Cadrul Strategic <strong>ET2020</strong> pentru educație și formare.";
+$erasmusText8 = "Obiective: ";
 $erasmusText9 = "Reducerea șomajului, în special în rândul tinerilor; ";
 $erasmusText10 = "Promovarea învățământului pentru adulți, în special în domeniul noilor competențe și în cel al competențelor cerute pe piață muncii;";
 $erasmusText11 = "Încurajarea participării tinerilor la viață democratică europeană;";
 $erasmusText12 = "Sprijinirea inovării, cooperării și reformei; ";
 $erasmusText13 = "Reducerea abandonului școlar;";
-$erasmusText14 = " Promovarea cooperării și mobilității cu țările partenere ale UE.";
+$erasmusText14 = "Promovarea cooperării și mobilității cu țările partenere ale UE.";
 $erasmusText15 = "Rezultate: ";
 $erasmusText16 = "Acestea pot fi consultate în rapoarte și culegeri statistice, dar și pe Platforma de prezentare a rezultatelor proiectelor Erasmus+, care oferă informații în legătură cu majoritatea inițiativelor finanțate și prezintă bune practici și povești de succes. ";
+$erasmusText17 = "Definiția";
+$erasmusText18 = "Erasmus+ is the newest programme of the European Union that adresses the following: education, growth, youth and sports for the 2014-2020 period. Its objectives are the development of skills and helping you reach the proffesional market by offering you different opportunities in education, sports and youth activities.";
 
 //Home -> Erasmus CNDC
 $erasmusCNDCTitle = "Erasmus+ in Colegiul Național \"Dimitrie Cantemir\" Oneşti";
@@ -79,6 +81,8 @@ $erasmusCNDCText16 = "Facilitarea orientării profesionale pe piață muncii dup
 $erasmusCNDCText17 = "Experiență de lucru efectiv într-un mediu multicultural;";
 $erasmusCNDCText18 = "Detali:";
 $erasmusCNDCText19 = "Rulează aplicațiile de aici";
+$erasmusCNDCText20 = "Key Action:";
+$erasmusCNDCText21 = "Sponsori:";
 
 //Home -> Campaign
 $campaignTitle = "Campania de promovare";

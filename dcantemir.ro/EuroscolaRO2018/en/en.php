@@ -45,9 +45,9 @@ $erasmusText1 = "Acces to education, development and volunteering programs from 
 $erasmusText2 = "Budget: ";
 $erasmusText3 = "14,7 billion EUR (until 2020) ";
 $erasmusText4 = "Targeted strategies: ";
-$erasmusText5 = "Europe 2020, for economic growth, jobs, social equality and integration; ";
-$erasmusText6 = "EU for the young; ";
-$erasmusText7 = "ET 2020 Strategic framework for education and training.";
+$erasmusText5 = "<strong>Europe 2020</strong>, for economic growth, jobs, social equality and integration; ";
+$erasmusText6 = "<strong>EU</strong> for the young; ";
+$erasmusText7 = "<strong>ET 2020</strong> Strategic framework for education and training.";
 $erasmusText8 = "Objectives: ";
 $erasmusText9 = "Minimising unemployment rate, especially among the young; ";
 $erasmusText10 = "Promoting adult education, especially in the domain of new competences required on the market;";
@@ -57,6 +57,8 @@ $erasmusText13 = "Minimising school drop-out;";
 $erasmusText14 = " Promoting cooperation and mobility with EU member states.";
 $erasmusText15 = "Results: ";
 $erasmusText16 = "They can be consulted in raports and statistics, as well as on te presenting platform of the Erasmus+ projects, offering information regarding the majority of funded initiatives and presents practics and successful stories.";
+$erasmusText17 = "Definition";
+$erasmusText18 = "Erasmus+ is the newest programme of the European Union that adresses the following: education, growth, youth and sports for the 2014-2020 period. Its objectives are the development of skills and helping you reach the proffesional market by offering you different opportunities in education, sports and youth activities.";
 
 //Home -> Erasmus CNDC
 $erasmusCNDCTitle = "Erasmus+ inside the \"Dimitrie Cantemir\" National College, Onesti";
@@ -80,6 +82,8 @@ $erasmusCNDCText16 = "Helping student chose what they want to do after graduatio
 $erasmusCNDCText17 = "Work experience in a multicultural environment;";
 $erasmusCNDCText18 = "Details:";
 $erasmusCNDCText19 = "Run the apps from here";
+$erasmusCNDCText20 = "Key Action:";
+$erasmusCNDCText21 = "Sponsors:";
 
 //Home -> Campaign
 $campaignTitle = "Promoting campaign";

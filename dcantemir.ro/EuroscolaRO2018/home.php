@@ -96,19 +96,21 @@ $srGallery = "";
                     <div class="row">
                         <div class="col-md-7 order-0">
                             <h2 class="featurette-heading text-center mb-3"><?= $erasmusTitle ?></h2>
-                            <h2 class="mx-4 mb-1 featurette-heading2"><?= $erasmusText ?></h2>
-                            <p class="lead ind"><?= $erasmusText1 ?></p>
-                            <h2 class="mx-4 mb-1 featurette-heading2"><?= $erasmusText4 ?></h2>
-                            <ul class="lead">
-                                <li><?= $erasmusText5 ?></li>
-                                <li><?= $erasmusText6 ?></li>
-                                <li><?= $erasmusText7 ?></li>
-                            </ul>
+                            <h2 class="mx-4 mb-1 featurette-heading2"><?= $erasmusText17 ?></h2>
+                            <p class="lead ind"><?= $erasmusText18 ?></p>
                         </div>
                         <div class="col-md-5 order-1 mx-auto text-center float-right">
                             <img class="img-fluid mx-auto mt-2 mb-4 mt-md-5" src="../assets/img/home/erasmus.jpg" style="width:70%">
                         </div>
                     </div>
+                    <h2 class="mx-4 mb-1 featurette-heading2"><?= $erasmusText ?></h2>
+                    <p class="lead ind"><?= $erasmusText1 ?></p>
+                    <h2 class="mx-4 mb-1 featurette-heading2"><?= $erasmusText4 ?></h2>
+                    <ul class="lead">
+                        <li><?= $erasmusText5 ?></li>
+                        <li><?= $erasmusText6 ?></li>
+                        <li><?= $erasmusText7 ?></li>
+                    </ul>
                     <h2 class="mx-4 mb-1 featurette-heading2"><?= $erasmusText8 ?></h2>
                     <ul class=" mb-5">
                         <li class="lead"><?= $erasmusText9 ?></li>
@@ -127,16 +129,25 @@ $srGallery = "";
                     <div class="row">
                         <div class="col-md-7 order-0">
                             <h2 class="featurette-heading text-center mb-3"><?= $erasmusCNDCTitle ?></h2>
-                            <h2 class="featurette-heading2 mx-4 mb-1"> <?= $erasmusCNDCText18 ?></h2>
-                            <ul class="lead">
-                                <li><?= $erasmusCNDCText5 ?> 01/10/2016 - 30/09/2018</li>
-                                <li><?= $erasmusCNDCText6 ?> 63248€</li>
-                            </ul>
+                            <h2 class="featurette-heading2 mx-4 mb-1">FUTURE CAREER? TOUCH IT!</h2>
+                            <h2 class="featurette-heading2 mx-4 mb-1 text-center" style="font-size: large">2016-1-RO01-KA102-024210</h2>
                         </div>
                         <div class="col-md-5 order-1">
                             <a href="../assets/img/home/group1.jpg" data-lightbox="<?= $erasmusCNDCTitle ?>" data-title=" <?= $erasmusCNDCTitle ?>"><img class="rounded shadow img-fluid mx-auto mt-2 mb-4 mt-md-5" src="../assets/img/home/group1.jpg"></a>
+                            <p clas="float-right lead"><?= $ ?></p>
                         </div>
                     </div>
+                    <h2 class="featurette-heading2 mx-4 mb-1"><?= $erasmusCNDCText18 ?></h2>
+                    <ul class="lead">
+                        <li><?= $erasmusCNDCText20 ?> KA 1</li>
+                        <li><?= $erasmusCNDCText5 ?> 01/10/2016 - 30/09/2018</li>
+                        <li><?= $erasmusCNDCText6 ?> 63248€</li>
+                        <li><?= $erasmusCNDCText21 ?></li>
+                        <ul class="centered-text" style="list-style: none;">
+                            <li><a href="https://infonetmedia.co.uk/" target="_blank"><img src="../assets/img/home/infonet.jpg" style="width: 50%" class="shadow rounded img-fluid mx-auto mt-2 mb-1 mt-md-3"></a></li>
+                            <li><a href="http://www.etnmanagement.eu/trainingvision/" target="_blank"><img src="../assets/img/home/training.jpg" style="width: 50%" class="shadow rounded img-fluid mx-auto mt-1 mb-4 mt-md-2"></a></li>
+                        </ul>
+                    </ul>
                     <h2 class="featurette-heading2 mx-4 mb-1"> <?= $erasmusCNDCText ?></h2>
                     <ul class="lead">
                         <li><?= $erasmusCNDCText1 ?></li>
@@ -150,7 +161,7 @@ $srGallery = "";
                     <p class="lead ind"><?= $erasmusCNDCText10 ?></p>
                     <h2 class="featurette-heading2 mx-4 mb-1"> <?= $erasmusCNDCText11 ?></h2>
                     <ul class="lead">
-                        <li><?= $erasmusCNDCText12 ?> <a href="http://appinventor.mit.edu/explore/">(<?= $erasmusCNDCText19 ?>)</a>
+                        <li><?= $erasmusCNDCText12 ?> <a href="http://appinventor.mit.edu/explore/" target="_blank">(<?= $erasmusCNDCText19 ?>)</a>
                             <ul>
                                 <li><a href="../assets/apps/hello1.aia" download>Fata 1 + fata 2</a></li>
                                 <li><a href="../assets/apps/hello2.aia" download>Fata 3 + fata 4</a></li>
@@ -191,7 +202,7 @@ $srGallery = "";
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZLsD074vK4Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                             </div>
                         </div>
-                        <li><?= $campaignText9 ?><a href="http://www.onestiexpres.ro/un-pas-inainte-pentru-deschiderea-europeana.html" target="_blank" rel="noopener noreferrer"><?= $campaignText10 ?></a><?= $campaignText11?></li>
+                        <li><?= $campaignText9 ?><a href="http://www.onestiexpres.ro/un-pas-inainte-pentru-deschiderea-europeana.html" target="_blank" rel="noopener noreferrer"><?= $campaignText10 ?></a><?= $campaignText11 ?></li>
                         <li><a data-toggle="collapse" href="#int" role="button" aria-expanded="false" aria-controls="int"><?= $campaignText12 ?></a><?= $campaignText13 ?></li>
                         <div class="collapse" id="int">
                             <div class="video shadow m-3">
@@ -202,8 +213,6 @@ $srGallery = "";
                         <li><a href="../assets/img/home/creators.jpg" data-lightbox="<?= $campaignText17 ?>" data-title="<?= $campaignText17 ?>"><?= $campaignText16 ?></a></li>
                     </ul>
                 </div>
-
-
             </div>
             <hr class="featurette-divider">
 
@@ -232,9 +241,8 @@ $srGallery = "";
                     <?php include("assets/misc/3rd party parts/facebook.php"); ?>
                 </div>
             </div>
+        </main>
     </div>
-    </main>
-</div>
 </div>
 <?php include("assets/misc/footer/footer.php"); ?>
 <?php include("assets/misc/html/scripts.php"); ?>

@@ -45,9 +45,9 @@ $erasmusText1 = "Accès aux études, à la formation et au volontariat à l'étr
 $erasmusText2 = "Budget: ";
 $erasmusText3 = "14,7 milliards d'euros (jusqu'à 2020)  ";
 $erasmusText4 = "Stratégies ciblées:  ";
-$erasmusText5 = "Europe 2020, pour la croissance économique, l'emploi, l'équité sociale et l'inclusion;";
-$erasmusText6 = "Politique européenne de la jeunesse;  ";
-$erasmusText7 = "Cadre stratégique ET2020 pour éducation et  formation. ";
+$erasmusText5 = "<strong>Europe 2020</strong>, pour la croissance économique, l'emploi, l'équité sociale et l'inclusion;";
+$erasmusText6 = "Politique <strong>européenne</strong> de la jeunesse;  ";
+$erasmusText7 = "Cadre stratégique <strong>ET2020</strong> pour éducation et  formation. ";
 $erasmusText8 = " Objectifs: ";
 $erasmusText9 = " Réduire le chômage, en particulier chez les jeunes;  ";
 $erasmusText10 = "Promouvoir l'éducation des adultes, en particulier dans le domaine des nouvelles aptitudes et compétences requises sur le marché du travail;";
@@ -57,6 +57,8 @@ $erasmusText13 = "Réduire le décrochage scolaire; ";
 $erasmusText14 = " Promouvoir la coopération et la mobilité avec les pays partenaires de l'UE.";
 $erasmusText15 = "Résultats:  ";
 $erasmusText16 = "Celles-ci peuvent être consultées dans des rapports statistiques, mais également sur la plate-forme de résultats du projet Erasmus +, qui fournit des informations sur les initiatives les plus financées et présente les bonnes pratiques et les réussites. ";
+$erasmusText17 = "Definiția";
+$erasmusText18 = "Erasmus+ is the newest programme of the European Union that adresses the following: education, growth, youth and sports for the 2014-2020 period. Its objectives are the development of skills and helping you reach the proffesional market by offering you different opportunities in education, sports and youth activities.";
 
 //Home -> Erasmus CNDC
 $erasmusCNDCTitle = "Erasmus à CNDC";
@@ -80,6 +82,8 @@ $erasmusCNDCText16 = "La facilitation de l'orientation professionnelle sur le ma
 $erasmusCNDCText17 = "Expérience professionnelle effective dans un environnement multiculturel.";
 $erasmusCNDCText18 = "Details:";
 $erasmusCNDCText19 = "Run the apps from here";
+$erasmusCNDCText20 = "Key Action:";
+$erasmusCNDCText21 = "Sponsori:";
 
 //Home -> Campaign
 $campaignTitle = "Campagne de promotion:";
