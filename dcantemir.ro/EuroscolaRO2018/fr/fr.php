@@ -88,24 +88,41 @@ $campaignTitle = "Campagne de promotion:";
 $campaignText = "Promouvoir les activités des étudiants de Cantemir, les bénéficiaires directs des deux cours de formation en informatique au Royaume-Uni dans le cadre du projet européen «FUTURE CAREER?- TOUCH IT!» 2016-1-RO01-KA102-024210;";
 $campaignText1 = "Informer les membres de la communauté des avantages de la mise en œuvre de projets de mobilité Erasmus + dans le domaine de l'éducation et de la formation;";
 $campaignText2 = "Compréhension de l'importance des partenariats et programmes de financement européen pour l'éducation des jeunes et des adultes.";
-$campaignText3 = "Organizarea a 2";
-$campaignText4 = "workshop-uri";
-$campaignText5 = "unde au fost prezentate aplicatiile participantilor;";
+$campaignText3 = "L’organisation";
+$campaignText4 = "workshops";
+$campaignText5 = "où les applications des participants ont étées présentées;";
 $campaignText6 = "Un ";
-$campaignText7 = "articol";
-$campaignText8 = " publicat in ziarul Onesti Express;";
-$campaignText9 = "Interviuri";
-$campaignText10 = " cu unii concurenti din cadrul proiectului";
-$campaignText11 = "grup de Facebook";
-$campaignText12 = " activ de tineri care impartasesc experiente, pun intrebari sau socializeaza";
-$campaignText13 = "Acest site 😁";
-$campaignText14 = "Creatorii";
+$campaignText7 = "article";
+$campaignText8 = " publié dans le journal Onesti Express;";
+$campaignText9 = "Interviews";
+$campaignText10 = " avec quelques concurrents au sein du projet;";
+$campaignText11 = " groupe Facebook ";
+$campaignText12 = " actif de jeunes qui partagent des expériences, posent des questions et socialisent";
+$campaignText13 = "Ce site 😁";
+$campaignText14 = "Créateurs";
 
 //Home -> Impact
 $impactTitle = "L'impact de la campagne de promotion";
 $impactText = "L'impact de la campagne a consisté en deux ateliers auxquels ont participé plus de 100 étudiants, de 9e, 10e et 11e année, où les plus âgés ont présenté leurs applications et mis en évidence les avantages du projet;";
 $impactText1 = "Plus de 5 institutions et entreprises de la ville ont participé à faire mieux connaître ce projet financé par l'Union Européene;";
 $impactText2 = "Plus de 780 personnes aiment la page Facebook.";
+$impactText2 = "Pagina de Facebook are în jur de 800 de like-uri.";
+$impactText3="În urma interpretării chestionarelor de feedback aplicate participanţilor la cele 2 ateliere de lucru se constată următoarele:";
+$impactText4="88%, respectiv 75% dintre participanţi s-au simţit veseli şi optimişti la finalul activităţii.";
+$impactText5="86%, respectiv 88% dintre participanţi consideră că în următorii 2 ani ar fi necesare alte proiecte de acest
+tip la nivelul colegiului.";
+$impactText6="aşteptările elevilor de la un astfel de proiect sunt: pregătirea pentru carieră (24%, respectiv 22%),
+dezvoltarea competenţelor IT (24%, respectiv 20%), cunoaşterea unei noi culturi (15%, respectiv 16%), experinţa
+într-un mediu multicultural (15%, respectiv 12%), lucrul în echipă (12%, respectiv 23%), obţinerea Europass
+Mobility pentru CV (10%, respectiv 7%).";
+$impactText7="85%, respectiv 61% dintre participanţi se simt în mare şi foarte mare măsură cetăţeni europeni.";
+$impactText8="95%, respectiv 90% dintre participanţi consideră că tinerii au nevoie în mare şi foarte mare măsură să
+participe la proiecte cu finanţare europeană.";
+$impactText9="Descarcare diagrame (format zip)";
+$impactText10="Date statistice privind impactul în mediul virtual la data de 22.10.2018:";
+$impactText11="pagina Facebook a campaniei a avut 2043 vizualizări, a însumat 875 aprecieri şi distribuiri;";
+$impactText12="grupul Facebook are un total de 73 membri, a însumat 178 aprecieri şi comentarii şi a avut 7973 vizualizări;";
+$impactText13="aprecierile postărilor relevante pentru proiect de pe paginile membrilor echipei de proiect însumează peste 500 aprecieri.";
 
 //Home -> Facebook
 $facebookTitle = "La page Facebook";

@@ -107,9 +107,9 @@ function newPhoto4($img, $id)
             <div id="videos" class="mx-5">
                 <h1 class="featurette-heading text-center"><?= $videos ?></h1>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 mt-3 mt-md-1">
                         <div class="video shadow">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZLsD074vK4Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/0wj030QrMwU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="col-md-4 mt-3 mt-md-1">
@@ -117,13 +117,70 @@ function newPhoto4($img, $id)
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/gEpOoZSzh8k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                     </div>
-                    <div class="col-md-4 mt-3 mt-md-1">
+                    <div class="col-md-4">
                         <div class="video shadow">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/iV5VKdcQOJE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZLsD074vK4Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="video shadow">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xDNbLWAAAu8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-3 mt-md-1">
+                        <div class="video shadow">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/4MgRlJNXOeQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-3 mt-md-1">
+                        <div class="video shadow">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Iq9i9TM_rk4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="video shadow">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/9D8lR3XQ0L4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-3 mt-md-1">
+                        <div class="video shadow">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/-a7k62bQ_WY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-3 mt-md-1">
+                        <div class="video shadow">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/FIsQtFnaAjM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="video shadow">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mu7gdDPHxl8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-3 mt-md-1">
+                        <div class="video shadow">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/1fGfkDQOGxA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-3 mt-md-1">
+                        <div class="video shadow">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/5KTqcDKPHHU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="video shadow">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/4JW8_7T2KIw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
             <hr class="featurette-divider">
 
             <div id="audio" class="mx-5">

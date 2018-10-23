@@ -1,4 +1,5 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
 <meta property="og:title" content="<?= $baseTitle ?>">
 <meta property="og:image" content="https://i.imgur.com/VIfOuyT.jpg">
 <meta property="og:image:type" content="image/jpeg">
