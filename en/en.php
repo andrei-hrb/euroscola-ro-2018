@@ -105,16 +105,16 @@ $impactText = "The impact of the campaign consisted of the two workshops in whic
 $impactText1 = "Over 5 institutions and companies participated in promoting this european-funded project.";
 $impactText2 = "Our Facebook page has around 800 likes, and our students are welcome to join our group to find out more about the campaign.";
 $impactText3 = "After the interpretation of the feedback questionnaires given to the participants of the 2 workshops, we have this data:";
-$impactText4 = "88%, respectively 75% of the participants felt happy and optimistic at the end of the activity;";
-$impactText5 = "86%, respectively 88% of the participants consider that project of this kind are needed, in the next 2 years;";
-$impactText6 = "the expectations of the participants are: preparing for their future career(24%, respectively 22%), developing their IT knowledge (24%, respectively 20%), discovering of a new culture (15%, respectively 16%), increasing their experience in an multicultural environment (15%, respectively 12%), developing teamwork (12%, respectively 23%), obtaining an Europass Mobility certificate for their resumes (10%, respectively 7%);";
-$impactText7 = "85%, respectively 61% of the participants fell that they are EU citizens;";
-$impactText8 = "95%, respectively 90% of the participants consider that the young people need to participate in European funded activities.";
+$impactText4 = "88%, respectively 75% of the participants felt happy and optimistic at the end of the activity";
+$impactText5 = "86%, respectively 88% of the participants consider that in the following 2 years such projects are necessary for the students and teachers at our college";
+$impactText6 = "Students’ expectations from such a project are: preparing for a career (24%, respectively 22%), developing IT skills (24%, respectively 20%), learning about a new culture (15%, respectively 16%), gaining experience in a multicultural environment (15%, respectively 12%), teamwork (12%, respectively 23%), obtaining Europass Mobility for their resumes (10%, respectively 7%)";
+$impactText7 = "85%, respectively 61% of the participants feel and strongly feel that they are European citizens";
+$impactText8 = "95%, respectively 90% of the participants consider and strongly consider that teens need to participate in European projects";
 $impactText9 = "Download the graphs (zip format)";
 $impactText10 = "Stats about the online impact in 22.10.2018:";
-$impactText11 = "the facebook paged had 2043 views, and had 875 likes;";
-$impactText12 = "the Facebook group had 73 members in total, 178 likes and comments;";
-$impactText13 = "the project related posts shared by its members summed over 500 likes.";
+$impactText11 = "The campaign Facebook page was viewed by 2043 people, getting 875 likes and shares;";
+$impactText12 = "The Facebook group has a total of 73 members, 178 likes and comments;";
+$impactText13 = "The number of likes and shares of the campaign materials posted on the team members’ personal pages reach a total of over 500.";
 
 //Home -> Facebook
 $facebookTitle = "We are on Facebook!";
