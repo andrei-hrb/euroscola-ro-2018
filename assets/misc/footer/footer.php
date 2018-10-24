@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5 mx-3 mt-3 mr-auto order-0">
-                <a href="#"><img class="logo" src="../assets/img/ui stuff/logo.png"></a>
+                <a href="#top"><img class="logo" src="../assets/img/ui stuff/logo.png"></a>
                 <p class="text-white foot foot-text mt-3"><?= $footText ?></p>
             </div>
             <div class="col-md-5 mx-3 mt-3 mr-auto order-1">

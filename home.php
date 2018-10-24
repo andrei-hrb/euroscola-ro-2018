@@ -87,7 +87,7 @@ $srGallery = "";
                         <p class="lead ind mb-2"><?= $euroscolaText ?></p>
                     </div>
                     <div class="align-self-center col-md-5 order-1 mx-auto text-center">
-                        <img class="img-fluid mt-2 mb-4 mt-md-5" src="../assets/img/home/euroscola.jpg" style="width:70%">
+                        <img class="img-fluid mt-2 mb-1 mt-md-5 my-auto" src="../assets/img/home/euroscola.jpg" style="width:70%">
                     </div>
                 </div>
                 <hr class="featurette-divider">
@@ -143,10 +143,10 @@ $srGallery = "";
                         <h2 class="featurette-heading2 mx-4 mb-1 "><?= $erasmusCNDCText10 ?></h2>
                         <div class="container">
                             <ul class="lead">
-                                <li><?= $erasmusCNDCText12 ?> KA 1</li>
-                                <li><?= $period ?> 01/10/2016 - 30/09/2018</li>
-                                <li><?= $budget ?> 63248€</li>
-                                <li><?= $erasmusCNDCText4 ?></li>
+                                <li><?= $erasmusCNDCText12 ?> KA 1;</li>
+                                <li><?= $period ?> 01/10/2016 - 30/09/2018;</li>
+                                <li><?= $budget ?> 63248€;</li>
+                                <li><?= $erasmusCNDCText4 ?>;</li>
                                 <li><?= $erasmusCNDCText13 ?></li>
                             </ul>
                         </div>
@@ -169,12 +169,18 @@ $srGallery = "";
                                 <li><?= $erasmusCNDCText3 ?></li>
                                 <li>
                                     <a data-toggle="collapse" href="#group" role="button" aria-expanded="false" aria-controls="group"><?= $erasmusCNDCText4 ?></a>
-                                    <div class="collapse" id="group">
-                                        <a href="../assets/img/home/group2.jpg" data-lightbox="<?= $erasmusCNDCText14 ?>" data-title=" <?= $erasmusCNDCText14 ?>"><img class="rounded shadow img-fluid mx-auto mt-2 mb-4 d-block" src="../assets/img/home/group2.jpg"></a>
-                                        <a href="../assets/img/home/group1.jpg" data-lightbox="<?= $erasmusCNDCText15 ?>" data-title=" <?= $erasmusCNDCText15 ?>"><img class="rounded shadow img-fluid mx-auto mt-2 mb-4 d-block" src="../assets/img/home/group1.jpg" style="width: 50%;"></a>
-                                    </div>
                                 </li>
                             </ul>
+                            <div class="collapse" id="group">
+                                <div class="row">
+                                    <div class="col-md-6 order-0">
+                                        <a href="../assets/img/home/group2.jpg" data-lightbox="<?= $erasmusCNDCText14 ?>" data-title=" <?= $erasmusCNDCText14 ?>"><img class="rounded shadow mx-auto mt-2 mb-4 d-block" src="../assets/img/home/group2.jpg" style="width: 15rem; height: 10rem;"></a>
+                                    </div>
+                                    <div class="col-md-6 order-1">
+                                        <a href="../assets/img/home/group1.jpg" data-lightbox="<?= $erasmusCNDCText15 ?>" data-title=" <?= $erasmusCNDCText15 ?>"><img class="rounded shadow mx-auto mt-2 mb-4 d-block" src="../assets/img/home/group1.jpg" style="width: 15rem; height: 10rem;"></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         <h2 class="featurette-heading2 mx-4 mb-1"> <?= $erasmusCNDCText5 ?></h2>
@@ -187,7 +193,7 @@ $srGallery = "";
                                 <li>Auto Message – Rareş Agachi, Bogdan Ciolpan;</li>
                                 <li>Know Your Location – Felix Ifrim, Vlad Manole, Andrei Mîrţ;</li>
                                 <li>Shopping Organiser – Bianca-Maria Panţâru, Teodora-Elena Zgăvîrdici;</li>
-                                <li>Phone-Reply Assistant – Flavian Porfir, Darius Sandu, Călin Rogoza.</li>
+                                <li>Phone-Reply Assistant – Flavian Porfir, Darius Sandu, Călin-Andrei Rogoza.</li>
                             </ul>
                         </div>
                         <h2 class="featurette-heading2 mx-4 mb-1"> <?= $erasmusCNDCText9 ?></h2>
@@ -213,7 +219,7 @@ $srGallery = "";
                     <div class="row">
                         <div class="col-md-7 order-0">
                             <h2 class="featurette-heading text-center mb-3"><?= $campaignTitle ?></h2>
-                            <h2 class="mx-4 mb-1 featurette-heading2"> <?= $period ?>03/10/2018-17/10/2018</h2>
+                            <h2 class="mx-4 mb-1 featurette-heading2"> <?= $period ?> 03/10/2018-17/10/2018</h2>
                             <h2 class="mx-4 mb-1 featurette-heading2"> <?= $objectives ?></h2>
                             <div class="container">
                                 <ul class="lead">
@@ -248,7 +254,6 @@ $srGallery = "";
                         </ul>
                     </div>
                 </div>
-
                 <hr class="featurette-divider">
 
                 <div id="impact" class="featurette">
@@ -268,44 +273,43 @@ $srGallery = "";
                             <a href="../assets/img/home/group.jpg" data-lightbox="<?= $impactTitle ?>" data-title=" <?= $impactTitle ?>"><img class="shadow img-fluid mx-auto mt-2 mb-4 mt-md-5" src="../assets/img/home/group.jpg" style="width:100%"></a>
                         </div>
                     </div>
-
-                    <div class="container">
-                        <ul class="lead">
-                            <div class="container">
-                                <ul class="lead">
-                                    <li> <?= $impactText4 ?> </li>
-                                    <li> <?= $impactText5 ?> </li>
-                                    <li> <?= $impactText6 ?> </li>
-                                    <li> <?= $impactText7 ?> </li>
-                                    <li> <?= $impactText8 ?> </li>
-                                    <li><a href="../assets/apps/chestionare.zip" download> <?= $impactText9 ?></a></li>
-                                </ul>
-                            </div>
-                            <li> <?= $impactText10 ?>
+                    <div class="row">
+                        <div class="container">
+                            <ul class="lead">
                                 <div class="container">
+                                    <ul>
+                                        <li> <?= $impactText4 ?> </li>
+                                        <li> <?= $impactText5 ?> </li>
+                                        <li> <?= $impactText6 ?> </li>
+                                        <li> <?= $impactText7 ?> </li>
+                                        <li> <?= $impactText8 ?> </li>
+                                        <li><a href="../assets/downloadable/chestionare.zip" download> <?= $impactText9 ?></a></li>
+                                    </ul>
+                                </div>
+                                <div class="container">
+                                    <li> <?= $impactText10 ?> </li>
                                     <ul class="lead">
                                         <li> <?= $impactText11 ?> </li>
                                         <li> <?= $impactText12 ?> </li>
                                         <li> <?= $impactText13 ?> </li>
                                     </ul>
                                 </div>
-                            </li>
-                        </ul>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <hr class="featurette-divider">
+                    <hr class="featurette-divider">
 
-                <div id="facebook" class="row featurette">
-                    <div class="col-md-7 order-0">
-                        <h2 class="featurette-heading text-center mb-3"><?= $facebookTitle ?></h2>
-                        <p class="lead ind"><?= $facebookText ?></p>
-                        <p class="lead ind"><?= $facebookText1 ?></p>
-                    </div>
-                    <div class="col-md-5 order-1 m-auto text-center">
-                        <?php include("assets/misc/3rd party parts/facebook.php"); ?>
+                    <div id="facebook" class="row featurette">
+                        <div class="col-md-7 order-0">
+                            <h2 class="featurette-heading text-center mb-3"><?= $facebookTitle ?></h2>
+                            <p class="lead ind"><?= $facebookText ?></p>
+                            <p class="lead ind"><?= $facebookText1 ?></p>
+                        </div>
+                        <div class="col-md-5 order-1 m-auto text-center">
+                            <?php include("assets/misc/3rd party parts/facebook.php"); ?>
+                        </div>
                     </div>
                 </div>
-            </div>
         </main>
     </div>
 </div>

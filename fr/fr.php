@@ -31,10 +31,10 @@ $roLink = "?lang=ro";
 //Home
 
 //Home - key-words
-$objectives="Objectifs:  ";
-$results="Résultats: ";
-$budget="Budget: ";
-$period="Période: ";
+$objectives = "Objectifs:";
+$results = "Résultats:";
+$budget = "Budget:";
+$period = "Période:";
 
 //Home -> Introduction
 $introductionTitle = "Introduction";
@@ -46,14 +46,14 @@ $euroscolaText = "Le Parlement Européen a créé le programme Euroscola pour in
 
 //Home -> Erasmus
 $erasmusTitle = "Erasmus+, c'est quoi?";
-$erasmusText = "But: ";
-$erasmusText1 = "Accès aux études, à la formation et au volontariat à l'étranger pour 4 millions de citoyens européens. ";
-$erasmusText2 = "14,7 milliards d'euros (jusqu'à 2020)  ";
-$erasmusText3 = "Stratégies ciblées:  ";
+$erasmusText = "But:";
+$erasmusText1 = "Accès aux études, à la formation et au volontariat à l'étranger pour 4 millions de citoyens européens.";
+$erasmusText2 = "14,7 milliards d'euros (jusqu'à 2020)";
+$erasmusText3 = "Stratégies ciblées:";
 $erasmusText4 = "<strong>Europe 2020</strong>, pour la croissance économique, l'emploi, l'équité sociale et l'inclusion;";
-$erasmusText5 = "Politique <strong>européenne</strong> de la jeunesse;  ";
-$erasmusText6 = "Cadre stratégique <strong>ET2020</strong> pour éducation et  formation. ";
-$erasmusText7 = " Réduire le chômage, en particulier chez les jeunes;  ";
+$erasmusText5 = "Politique <strong>européenne</strong> de la jeunesse;";
+$erasmusText6 = "Cadre stratégique <strong>ET2020</strong> pour éducation et formation.";
+$erasmusText7 = " Réduire le chômage, en particulier chez les jeunes;";
 $erasmusText8 = "Promouvoir l'éducation des adultes, en particulier dans le domaine des nouvelles aptitudes et compétences requises sur le marché du travail;";
 $erasmusText9 = " Encourager la participation des jeunes à la vie démocratique européenne;";
 $erasmusText10 = "Soutenir l'innovation, la coopération et la réforme; ";
@@ -73,18 +73,18 @@ $erasmusCNDCText4 = "Bénéfeciaires: 20 élèves de 11e année, specialisation 
 $erasmusCNDCText5 = "Activités:";
 $erasmusCNDCText6 = "L'organisation de 2 stages de préparation (2017, 2018) d'une durée de 3 semaines chaque à Portsmouth, Royaume-Uni, dans lesquels les élèves développent des applications pour le système d'exploitation Android, sous la coordination de spécialistes de l'Université Portsmouth et des organisations associées.";
 
-$erasmusCNDCText7 = "All participating students gained real  valuable work experience in an IT company in a multicultural environment, which facilitated or will facilitate their choice of the most suitable career paths after graduating from college and their integration in the labour market after graduation. All participating students received their Europass Mobility and they created 9 Android apps and 5 sites:";
-$erasmusCNDCText8="Training programme 1 - 2017:";
-$erasmusCNDCText9="Training programme 2 - 2018:";
+$erasmusCNDCText7 = "Tous les étudiants participants ont acquis une réelle expérience de travail dans une entreprise IT dans un environnement multiculturel, qui leur a permi de choisir plus facilement une carrière suitable après leur sortie du collège et leur integration dans le marché du travail. Tous les étudiants participants ont reçu leur Europass Mobility et ont créé neuf applications Android et cinq sites.";
+$erasmusCNDCText8 = "Training programme 1 - 2017:";
+$erasmusCNDCText9 = "Training programme 2 - 2018:";
 $erasmusCNDCText10 = "Details:";
 $erasmusCNDCText11 = "Run the apps from here";
 $erasmusCNDCText12 = "Key Action:";
-$erasmusCNDCText13 = "Sponsori:";
-$erasmusCNDCText14="The group of 2016";
-$erasmusCNDCText15="The group of 2017";
+$erasmusCNDCText13 = "Sponsors:";
+$erasmusCNDCText14 = "The group of 2016";
+$erasmusCNDCText15 = "The group of 2017";
 
 //Home -> Campaign
-$campaignTitle = "Campagne de promotion:";
+$campaignTitle = "Campagne de promotion";
 $campaignText = "Promouvoir les activités des étudiants de Cantemir, les bénéficiaires directs des deux cours de formation en informatique au Royaume-Uni dans le cadre du projet européen «FUTURE CAREER?- TOUCH IT!» 2016-1-RO01-KA102-024210;";
 $campaignText1 = "Informer les membres de la communauté des avantages de la mise en œuvre de projets de mobilité Erasmus + dans le domaine de l'éducation et de la formation;";
 $campaignText2 = "Compréhension de l'importance des partenariats et programmes de financement européen pour l'éducation des jeunes et des adultes.";
@@ -95,7 +95,7 @@ $campaignText6 = "Un ";
 $campaignText7 = "article";
 $campaignText8 = " publié dans le journal Onesti Express;";
 $campaignText9 = "Interviews";
-$campaignText10 = " avec quelques concurrents au sein du projet;";
+$campaignText10 = " avec quelques concurrents au sein du projet";
 $campaignText11 = " groupe Facebook ";
 $campaignText12 = " actif de jeunes qui partagent des expériences, posent des questions et socialisent";
 $campaignText13 = "Ce site 😁";
@@ -106,23 +106,17 @@ $impactTitle = "L'impact de la campagne de promotion";
 $impactText = "L'impact de la campagne a consisté en deux ateliers auxquels ont participé plus de 100 étudiants, de 9e, 10e et 11e année, où les plus âgés ont présenté leurs applications et mis en évidence les avantages du projet;";
 $impactText1 = "Plus de 5 institutions et entreprises de la ville ont participé à faire mieux connaître ce projet financé par l'Union Européene;";
 $impactText2 = "Plus de 780 personnes aiment la page Facebook.";
-$impactText2 = "Pagina de Facebook are în jur de 800 de like-uri.";
-$impactText3="În urma interpretării chestionarelor de feedback aplicate participanţilor la cele 2 ateliere de lucru se constată următoarele:";
-$impactText4="88%, respectiv 75% dintre participanţi s-au simţit veseli şi optimişti la finalul activităţii.";
-$impactText5="86%, respectiv 88% dintre participanţi consideră că în următorii 2 ani ar fi necesare alte proiecte de acest
-tip la nivelul colegiului.";
-$impactText6="aşteptările elevilor de la un astfel de proiect sunt: pregătirea pentru carieră (24%, respectiv 22%),
-dezvoltarea competenţelor IT (24%, respectiv 20%), cunoaşterea unei noi culturi (15%, respectiv 16%), experinţa
-într-un mediu multicultural (15%, respectiv 12%), lucrul în echipă (12%, respectiv 23%), obţinerea Europass
-Mobility pentru CV (10%, respectiv 7%).";
-$impactText7="85%, respectiv 61% dintre participanţi se simt în mare şi foarte mare măsură cetăţeni europeni.";
-$impactText8="95%, respectiv 90% dintre participanţi consideră că tinerii au nevoie în mare şi foarte mare măsură să
-participe la proiecte cu finanţare europeană.";
-$impactText9="Descarcare diagrame (format zip)";
-$impactText10="Date statistice privind impactul în mediul virtual la data de 22.10.2018:";
-$impactText11="pagina Facebook a campaniei a avut 2043 vizualizări, a însumat 875 aprecieri şi distribuiri;";
-$impactText12="grupul Facebook are un total de 73 membri, a însumat 178 aprecieri şi comentarii şi a avut 7973 vizualizări;";
-$impactText13="aprecierile postărilor relevante pentru proiect de pe paginile membrilor echipei de proiect însumează peste 500 aprecieri.";
+$impactText3 = "Après l'interprétation des questionnaires d'évaluation appliquées aux participants des deux ateliers on constate:";
+$impactText4 = "88%, respectivement 75% des participants se sont sentis joyeux et optimistes à la fin de l'activité.";
+$impactText5 = "86%, respectivement 88% des participants pensent que dans les prochaines deux ans des autres projets de cette nature au niveau du collège seraient nécessaires.";
+$impactText6 = "es attentes des étudiants participants a un tel projet sont: la préparation pour une future carrière (24%, respectivement 22%), le développement des compétences informatiques (24%, respectivement 20%), la connaissance d'une nouvelle culture (15%, respectivement 16%), l'expérience dans un environnement multiculturel (15%, respectivement 12%), le travail en équipe (12%, respectivement 23%) l'enrichissement de son CV par Europass Mobility (10%, respectivement 7%).";
+$impactText7 = "85%, respectivement 61% des participants se sentent bien appartenir à la citoyenneté européenne";
+$impactText8 = "95%, respectivement 90% des participants considèrent que les jeunes ont besoin dans leur majorité de participer aux projets au financement européen.";
+$impactText9 = "Téléchargement des graphiques (format zip)";
+$impactText10 = "Données statistiques en visant l'impact dans l'environnement virtuel à la date de 22.10.2018: ";
+$impactText11 = "la page Facebook de la campagne a eu 2043 vues, 875 personnes en ont aimé et ont distribué les articles;";
+$impactText12 = "e groupe Facebook un total de 73 membres, 178 personnes en ont aimé;";
+$impactText13 = "les appréciations des publications pertinentes pour le projet sur les pages des membres de l'équipe sont plus de 500.";
 
 //Home -> Facebook
 $facebookTitle = "La page Facebook";
@@ -159,11 +153,11 @@ $videos = "Videos";
 
 //Footer
 $footText = "Site créé pour le Concours national EUROSCOLA, la neuvième édition (2018-2019) dans le cadre du matériel de promotion d'Erasmus+";
-$footText1 = "Build with ❤️ by ";
-$footText2 = "and";
-$footText3 = "Check this project on ";
-$street = "Street:";
-$phone = "Phone";
-$secretary = "- secretary:";
-$director = " - director:";
-$accountancy = " - accountancy:";
+$footText1 = "Créé avec ❤️ par ";
+$footText2 = "et";
+$footText3 = "Regarde ce projet à";
+$street = "Rue:";
+$phone = "Téléphone";
+$secretary = " - secrétariat:";
+$director = " - directeur:";
+$accountancy = " - comptabilité:";

@@ -126,7 +126,7 @@ function newPhoto4($img, $id)
                 <div class="row mt-4">
                     <div class="col-md-4">
                         <div class="video shadow">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xDNbLWAAAu8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/TsTEDzrpE7U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="col-md-4 mt-3 mt-md-1">
@@ -208,10 +208,9 @@ function newPhoto4($img, $id)
                 <div class="row">
                     <?php newPhoto4('team7', $sessions) ?>
                     <?php newPhoto4('team8', $sessions) ?>
-                    <?php newPhoto4('team9', $sessions) ?>
+                    <?php newPhoto4('team10', $sessions) ?>
                 </div>
                 <div class="row">
-                    <?php newPhoto4('team10', $sessions) ?>
                     <?php newPhoto4('team11', $sessions) ?>
                     <?php newPhoto4('team12', $sessions) ?>
                 </div>
