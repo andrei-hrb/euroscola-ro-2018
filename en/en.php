@@ -137,7 +137,7 @@ $web = "Web";
 $posters = "Posters";
 $interview = "Interview";
 $articles = "Articles";
-$popularization = "Popularization";
+$popularization = "Make it popular";
 $video = "Video";
 
 //Gallery
@@ -150,7 +150,7 @@ $workshop2 = "Workshop #2";
 
 //Footer
 $footText = "Site created for the Euroscola National Contest, 11th edition (2018-2019), as a part of the advertising material of the Erasmus+ project";
-$footText1 = "Build with ❤️ by ";
+$footText1 = "Built with ❤️ by ";
 $footText2 = "and";
 $footText3 = "Check this project on ";
 $street = "Street:";
